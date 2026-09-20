@@ -1,0 +1,72 @@
+/*-- scss:defaults --*/
+
+// =============================================================================
+//  L2IB — THEME SOMBRE
+//
+//  Miroir de styles.scss. Les teintes de marque sont eclaircies : un bleu
+//  fonce sur fond sombre devient illisible.
+// =============================================================================
+
+$l2ib-brand:       #7aa9e0;   // version claire du bleu de marque
+$l2ib-brand-dark:  #9cc0ec;   // survol : on eclaircit encore
+$l2ib-accent:      #2dd4bf;
+$l2ib-ink:         #e6ecf4;   // texte clair
+
+// --- Variables Bootstrap -----------------------------------------------------
+$primary:       $l2ib-brand;
+$body-color:    $l2ib-ink;
+$link-color:    $l2ib-brand;
+$body-bg:       #0e1620;
+$border-color:  rgba(230, 236, 244, 0.13);
+
+$navbar-bg:     rgba(14, 22, 32, 0.72);
+$navbar-fg:     $l2ib-ink;
+
+$border-radius: 11px;
+$headings-font-weight: 600;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
+/*-- scss:rules --*/
+
+:root {
+  // Typographie
+  --l2ib-font-sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --l2ib-font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  // Marque
+  --l2ib-brand:        #{$l2ib-brand};
+  --l2ib-brand-dark:   #{$l2ib-brand-dark};
+  --l2ib-brand-rgb:    122, 169, 224;
+  --l2ib-accent:       #{$l2ib-accent};
+  --l2ib-accent-rgb:   45, 212, 191;
+
+  // Texte et surfaces
+  --l2ib-ink:            #{$l2ib-ink};
+  --l2ib-muted:          #96a3b4;
+  --l2ib-surface:        #0e1620;
+  --l2ib-surface-2:      #182333;
+  --l2ib-surface-raised: #141e2b;
+  --l2ib-border:         rgba(230, 236, 244, 0.12);
+  --l2ib-border-strong:  rgba(230, 236, 244, 0.26);
+  --l2ib-nav-bg:         rgba(14, 22, 32, 0.72);
+
+  // Pied de page
+  --l2ib-footer-bg:   #0a1119;
+  --l2ib-footer-ink:  #96a3b4;
+
+  // Encadre "outil de recherche"
+  --l2ib-warn-bg:     rgba(217, 159, 64, 0.1);
+  --l2ib-warn-border: rgba(217, 159, 64, 0.34);
+  --l2ib-warn-ink:    #e8c48a;
+
+  // Encadre "a editer"
+  --l2ib-todo-bg:     rgba(214, 105, 105, 0.1);
+  --l2ib-todo-border: rgba(214, 105, 105, 0.36);
+  --l2ib-todo-ink:    #e8a3a3;
+}
+
+// Sur fond sombre, le voile colore doit etre plus discret.
+body::before { opacity: 0.55; }
+
+@import "design";

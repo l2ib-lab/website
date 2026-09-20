@@ -1,125 +1,69 @@
 /*-- scss:defaults --*/
 
-// ---- L2IB palette ----------------------------------------------------------
-// Edit these three and the whole site follows.
-$l2ib-primary:   #1a4f6e;   // deep clinical blue
-$l2ib-accent:    #d97706;   // warm amber, used sparingly
-$l2ib-ink:       #1f2933;
+// =============================================================================
+//  L2IB — THEME CLAIR
+//
+//  Les 4 couleurs de marque sont ci-dessous. Changez-les et tout le site suit.
+//  Pensez a repercuter dans styles-dark.scss pour le mode sombre.
+// =============================================================================
 
-$primary:        $l2ib-primary;
-$body-color:     $l2ib-ink;
-$link-color:     $l2ib-primary;
-$navbar-bg:      $l2ib-primary;
-$navbar-fg:      #ffffff;
-$footer-bg:      #f5f7f9;
+$l2ib-brand:       #2d4f7c;   // bleu encre, couleur principale
+$l2ib-brand-dark:  #1f3a5c;   // survol des boutons pleins
+$l2ib-accent:      #0d9488;   // teal, reserve aux accents (intitules, filets)
+$l2ib-ink:         #16202e;   // texte
 
-$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
-$headings-font-weight:   600;
-$toc-color:              $l2ib-primary;
+// --- Variables Bootstrap pilotees par ce qui precede -------------------------
+$primary:       $l2ib-brand;
+$body-color:    $l2ib-ink;
+$link-color:    $l2ib-brand;
+$body-bg:       #ffffff;
+$border-color:  rgba(22, 32, 46, 0.1);
+
+$navbar-bg:     rgba(255, 255, 255, 0.72);
+$navbar-fg:     $l2ib-ink;
+
+$border-radius: 11px;
+$headings-font-weight: 600;
+
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
 /*-- scss:rules --*/
 
-h1, h2, h3 { letter-spacing: -0.01em; }
+:root {
+  // Typographie
+  --l2ib-font-sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --l2ib-font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
 
-h2 {
-  border-bottom: 2px solid rgba($l2ib-primary, 0.15);
-  padding-bottom: 0.3rem;
-  margin-top: 2.5rem;
+  // Marque
+  --l2ib-brand:        #{$l2ib-brand};
+  --l2ib-brand-dark:   #{$l2ib-brand-dark};
+  --l2ib-brand-rgb:    45, 79, 124;
+  --l2ib-accent:       #{$l2ib-accent};
+  --l2ib-accent-rgb:   13, 148, 136;
+
+  // Texte et surfaces
+  --l2ib-ink:            #{$l2ib-ink};
+  --l2ib-muted:          #5b6879;
+  --l2ib-surface:        #ffffff;
+  --l2ib-surface-2:      #f4f6f9;
+  --l2ib-surface-raised: #ffffff;
+  --l2ib-border:         rgba(22, 32, 46, 0.11);
+  --l2ib-border-strong:  rgba(22, 32, 46, 0.22);
+  --l2ib-nav-bg:         rgba(255, 255, 255, 0.72);
+
+  // Pied de page
+  --l2ib-footer-bg:   #f4f6f9;
+  --l2ib-footer-ink:  #5b6879;
+
+  // Encadre "outil de recherche"
+  --l2ib-warn-bg:     #fffaf0;
+  --l2ib-warn-border: #f2d9a8;
+  --l2ib-warn-ink:    #7a5314;
+
+  // Encadre "a editer" (disparait quand vous supprimez les blocs .todo)
+  --l2ib-todo-bg:     #fdf3f3;
+  --l2ib-todo-border: #e8b4b4;
+  --l2ib-todo-ink:    #8c3a3a;
 }
 
-// ---- Hero (home page) ------------------------------------------------------
-.hero {
-  background: linear-gradient(135deg, $l2ib-primary 0%, darken($l2ib-primary, 12%) 100%);
-  color: #fff;
-  padding: 3.5rem 2.5rem;
-  border-radius: 10px;
-  margin-bottom: 2.5rem;
-
-  h1, h2, p { color: #fff; }
-  h1 { margin-top: 0; font-size: 2.6rem; border: none; }
-  .hero-sub { font-size: 1.25rem; opacity: 0.92; margin-bottom: 0; }
-  a { color: #fff; text-decoration: underline; }
-}
-
-// ---- App / tool cards ------------------------------------------------------
-.app-card {
-  border: 1px solid #dfe4e8;
-  border-left: 5px solid $l2ib-accent;
-  border-radius: 8px;
-  padding: 1.5rem 1.75rem;
-  margin-bottom: 2rem;
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-
-  h3 { margin-top: 0; }
-
-  .app-tagline  { font-size: 1.05rem; color: #52606d; margin-bottom: 0.75rem; }
-  .app-meta     { font-size: 0.88rem; color: #616e7c; margin-bottom: 1rem; }
-  .app-meta code { background: #eef2f5; padding: 0.1rem 0.35rem; border-radius: 3px; }
-}
-
-.btn-app {
-  display: inline-block;
-  padding: 0.45rem 1.1rem;
-  margin: 0.2rem 0.4rem 0.2rem 0;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 0.92rem;
-  text-decoration: none !important;
-  border: 1px solid $l2ib-primary;
-  color: $l2ib-primary;
-  background: #fff;
-
-  &:hover { background: $l2ib-primary; color: #fff; }
-
-  &.btn-launch {
-    background: $l2ib-primary;
-    color: #fff;
-    &:hover { background: darken($l2ib-primary, 10%); }
-  }
-}
-
-// ---- Clinical disclaimer ---------------------------------------------------
-.disclaimer {
-  background: #fff8ed;
-  border: 1px solid #f5d9a8;
-  border-radius: 6px;
-  padding: 0.85rem 1.1rem;
-  font-size: 0.88rem;
-  color: #7a4f12;
-  margin-top: 1rem;
-}
-
-// ---- Team grid -------------------------------------------------------------
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
-  gap: 1.75rem;
-  margin: 2rem 0;
-}
-
-.team-member {
-  text-align: center;
-
-  img {
-    width: 130px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 0.65rem;
-    background: #e4e7eb;
-  }
-  .name { font-weight: 600; display: block; }
-  .role { font-size: 0.85rem; color: #616e7c; display: block; }
-}
-
-// ---- Misc ------------------------------------------------------------------
-.todo {
-  background: #fdecea;
-  border-left: 4px solid #d64545;
-  padding: 0.6rem 1rem;
-  font-size: 0.85rem;
-  margin: 1rem 0;
-}
-
-#refs .csl-entry { margin-bottom: 0.9rem; }
+@import "design";

@@ -1,0 +1,387 @@
+// =============================================================================
+//  L2IB — regles de design partagees (mode clair ET mode sombre)
+//
+//  Ce fichier ne contient AUCUNE couleur en dur : tout passe par les variables
+//  CSS --l2ib-* definies dans styles.scss (clair) et styles-dark.scss (sombre).
+//  Pour rehabiller le site, modifiez ces deux fichiers, jamais celui-ci.
+// =============================================================================
+
+// ---- Base -------------------------------------------------------------------
+
+body {
+  font-family: var(--l2ib-font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--l2ib-ink);
+  background: var(--l2ib-surface);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// Voile colore tres doux en haut de page : profondeur sans image de fond.
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto 0;
+  height: 70vh;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(55rem 28rem at 12% -8%, rgba(var(--l2ib-brand-rgb), 0.16), transparent 62%),
+    radial-gradient(38rem 22rem at 88% -4%, rgba(var(--l2ib-accent-rgb), 0.13), transparent 58%);
+}
+
+// ---- Typographie ------------------------------------------------------------
+
+h1, h2, h3, h4,
+.quarto-title h1.title {
+  font-family: var(--l2ib-font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--l2ib-ink);
+  border: none;          // supprime le trait sous les h2, tres date
+  padding-bottom: 0;
+}
+
+h1, .quarto-title h1.title { font-size: clamp(2.1rem, 1.3rem + 2.6vw, 3.1rem); }
+h2 { font-size: clamp(1.55rem, 1.1rem + 1.5vw, 2.1rem); margin-top: 3.5rem; margin-bottom: 1rem; }
+h3 { font-size: 1.3rem; margin-top: 2.25rem; }
+
+p { max-width: 68ch; }
+
+a {
+  color: var(--l2ib-brand);
+  text-decoration-color: rgba(var(--l2ib-brand-rgb), 0.35);
+  text-underline-offset: 0.18em;
+  transition: text-decoration-color 0.15s ease, color 0.15s ease;
+
+  &:hover { text-decoration-color: currentColor; }
+}
+
+strong { font-weight: 600; }
+
+.quarto-title-block {
+  margin-bottom: 2.5rem;
+
+  .subtitle {
+    font-family: var(--l2ib-font-sans);
+    font-size: 1.15rem;
+    font-weight: 400;
+    color: var(--l2ib-muted);
+    margin-top: 0.6rem;
+    letter-spacing: 0;
+  }
+}
+
+// ---- Barre de navigation ----------------------------------------------------
+
+.navbar {
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  background: var(--l2ib-nav-bg) !important;
+  border-bottom: 1px solid var(--l2ib-border);
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+
+  .navbar-brand {
+    font-family: var(--l2ib-font-serif);
+    font-weight: 700;
+    font-size: 1.35rem;
+    letter-spacing: -0.02em;
+    color: var(--l2ib-ink);
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--l2ib-muted);
+    padding: 0.4rem 0.85rem;
+    border-radius: 7px;
+    transition: color 0.15s ease, background 0.15s ease;
+
+    &:hover { color: var(--l2ib-ink); background: var(--l2ib-surface-2); }
+    &.active { color: var(--l2ib-brand); background: rgba(var(--l2ib-brand-rgb), 0.09); }
+  }
+
+  .quarto-navbar-tools a { color: var(--l2ib-muted); }
+  .quarto-navbar-tools a:hover { color: var(--l2ib-brand); }
+}
+
+// ---- Hero (accueil) ---------------------------------------------------------
+
+.hero {
+  padding: 4.5rem 0 3.5rem;
+
+  .eyebrow {
+    display: inline-block;
+    font-size: 0.775rem;
+    font-weight: 600;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--l2ib-accent);
+    margin-bottom: 1.1rem;
+  }
+
+  h1 {
+    font-size: clamp(2.4rem, 1.4rem + 3.6vw, 4rem);
+    line-height: 1.06;
+    max-width: 16ch;
+    margin: 0 0 1.4rem;
+  }
+
+  .hero-sub {
+    font-size: clamp(1.1rem, 1rem + 0.45vw, 1.3rem);
+    line-height: 1.6;
+    color: var(--l2ib-muted);
+    max-width: 54ch;
+    margin-bottom: 2rem;
+  }
+}
+
+// ---- Boutons ----------------------------------------------------------------
+
+.btn-app {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1.25rem;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  border-radius: 9px;
+  font-size: 0.93rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: 1px solid var(--l2ib-border-strong);
+  color: var(--l2ib-ink);
+  background: var(--l2ib-surface);
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    border-color: var(--l2ib-brand);
+    color: var(--l2ib-brand);
+  }
+
+  &.btn-launch {
+    background: var(--l2ib-brand);
+    border-color: var(--l2ib-brand);
+    color: #fff;
+
+    &:hover { background: var(--l2ib-brand-dark); border-color: var(--l2ib-brand-dark); color: #fff; }
+  }
+}
+
+// ---- Cartes -----------------------------------------------------------------
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 1rem;
+}
+
+.feature-card {
+  border: 1px solid var(--l2ib-border);
+  border-radius: 14px;
+  padding: 1.6rem 1.5rem;
+  background: var(--l2ib-surface-raised);
+  transition: transform 0.18s ease, border-color 0.18s ease;
+
+  &:hover { transform: translateY(-3px); border-color: var(--l2ib-border-strong); }
+
+  h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    font-family: var(--l2ib-font-sans);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  p { margin: 0; font-size: 0.95rem; color: var(--l2ib-muted); max-width: none; }
+}
+
+// Carte d'application Shiny
+.app-card {
+  position: relative;
+  border: 1px solid var(--l2ib-border);
+  border-radius: 16px;
+  padding: 2rem 2rem 1.75rem;
+  margin-bottom: 2rem;
+  background: var(--l2ib-surface-raised);
+  overflow: hidden;
+  transition: border-color 0.18s ease;
+
+  &:hover { border-color: var(--l2ib-border-strong); }
+
+  // Filet d'accent en haut de carte, remplace la grosse bordure laterale
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--l2ib-brand), var(--l2ib-accent));
+  }
+
+  h3 {
+    margin-top: 0.25rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.02em;
+  }
+
+  .app-tagline {
+    font-size: 1.05rem;
+    color: var(--l2ib-muted);
+    margin-bottom: 1rem;
+    max-width: 60ch;
+  }
+
+  .app-meta {
+    font-size: 0.85rem;
+    color: var(--l2ib-muted);
+    margin-bottom: 1.25rem;
+    line-height: 2;
+
+    code {
+      background: var(--l2ib-surface-2);
+      color: var(--l2ib-ink);
+      padding: 0.12rem 0.4rem;
+      border-radius: 5px;
+      font-size: 0.88em;
+    }
+  }
+}
+
+// ---- Encadres ---------------------------------------------------------------
+
+.disclaimer {
+  background: var(--l2ib-warn-bg);
+  border: 1px solid var(--l2ib-warn-border);
+  border-radius: 11px;
+  padding: 0.95rem 1.2rem;
+  font-size: 0.89rem;
+  line-height: 1.6;
+  color: var(--l2ib-warn-ink);
+  margin-top: 1.25rem;
+}
+
+.todo {
+  background: var(--l2ib-todo-bg);
+  border: 1px dashed var(--l2ib-todo-border);
+  border-radius: 11px;
+  padding: 0.85rem 1.15rem;
+  font-size: 0.87rem;
+  color: var(--l2ib-todo-ink);
+  margin: 1.5rem 0;
+
+  p:last-child { margin-bottom: 0; }
+}
+
+.callout { border-radius: 12px !important; }
+
+// ---- Grille equipe ----------------------------------------------------------
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
+  gap: 2rem 1.5rem;
+  margin: 2rem 0 1rem;
+}
+
+.team-member {
+  text-align: center;
+
+  img {
+    width: 100%;
+    max-width: 135px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 16px;         // carre arrondi plutot que cercle
+    margin-bottom: 0.75rem;
+    background: var(--l2ib-surface-2);
+    transition: transform 0.18s ease;
+  }
+
+  &:hover img { transform: translateY(-3px); }
+
+  .name { display: block; font-weight: 600; font-size: 0.97rem; letter-spacing: -0.01em; }
+  .role { display: block; font-size: 0.85rem; color: var(--l2ib-muted); margin-top: 0.1rem; }
+}
+
+// ---- Sommaire lateral -------------------------------------------------------
+
+#TOC, .sidebar.toc-left {
+  .sidebar-title {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--l2ib-muted);
+  }
+
+  a {
+    font-size: 0.88rem;
+    color: var(--l2ib-muted);
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    padding-left: 0.7rem;
+    transition: color 0.15s ease, border-color 0.15s ease;
+
+    &:hover { color: var(--l2ib-ink); }
+    &.active { color: var(--l2ib-brand); border-left-color: var(--l2ib-brand); font-weight: 500; }
+  }
+}
+
+// ---- Pied de page -----------------------------------------------------------
+
+.nav-footer {
+  background: var(--l2ib-footer-bg);
+  border-top: 1px solid var(--l2ib-border);
+  color: var(--l2ib-footer-ink);
+  font-size: 0.88rem;
+  padding: 2.5rem 0;
+  margin-top: 5rem;
+
+  a {
+    color: var(--l2ib-footer-ink);
+    text-decoration: none;
+
+    &:hover { color: var(--l2ib-brand); }
+  }
+}
+
+// ---- Divers -----------------------------------------------------------------
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--l2ib-border);
+  margin: 3rem 0;
+  opacity: 1;
+}
+
+table { font-size: 0.93rem; }
+
+pre, code { font-size: 0.88em; }
+
+div.sourceCode {
+  border: 1px solid var(--l2ib-border);
+  border-radius: 11px;
+}
+
+#refs .csl-entry {
+  margin-bottom: 1rem;
+  padding-left: 1.6rem;
+  text-indent: -1.6rem;
+  font-size: 0.95rem;
+}
+
+// Respecte les utilisateurs sensibles au mouvement
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+  .btn-app:hover, .feature-card:hover, .team-member:hover img { transform: none; }
+}
+
+@media (max-width: 767px) {
+  .hero { padding: 2.5rem 0 2rem; }
+  .app-card { padding: 1.5rem 1.25rem; }
+  body::before { height: 40vh; }
+}

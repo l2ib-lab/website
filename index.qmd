@@ -5,17 +5,25 @@ toc: false
 ---
 
 ::: {.hero}
+::: {.eyebrow}
+CIRI · Inserm U1111 · Lyon
+:::
+
 # Leukemia & Lymphoma Immune Biology
 
 ::: {.hero-sub}
 We study how the immune system shapes — and is reshaped by — leukemia and
 lymphoma, and we turn that biology into tools clinicians can actually use.
 :::
+
+[Explore our tools](tools/index.qmd){.btn-app .btn-launch}
+[Meet the team](team.qmd){.btn-app}
 :::
 
 ::: {.todo}
 **À éditer** — remplacez tout le texte de cette page par le vôtre. Les blocs
-`.todo` (en rouge) marquent le contenu à personnaliser ; supprimez-les ensuite.
+`.todo` (encadrés pointillés) marquent le contenu à personnaliser ;
+supprimez-les ensuite.
 :::
 
 ## About the team
@@ -35,22 +43,21 @@ the clinical hematology departments of the Hospices Civils de Lyon.
 
 ## What we do
 
-::: {.grid}
+::: {.feature-grid}
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-card}
 ### Immune biology
 Mechanisms of immune escape and T-cell dysfunction in lymphoid malignancies.
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-card}
 ### Translational cohorts
 Large multicentric patient cohorts linking biology to clinical outcome.
 :::
 
-::: {.g-col-12 .g-col-md-4}
+::: {.feature-card}
 ### Open tools
-Models and applications released openly for the community —
-see [Tools & Apps](tools/index.qmd).
+Models and applications released openly for the community.
 :::
 
 :::
@@ -64,8 +71,8 @@ see [Tools & Apps](tools/index.qmd).
 
 ## Contact
 
-**L2IB — CIRI**
-Faculté de Médecine Lyon Sud Charles Mérieux
+**L2IB — CIRI**\
+Faculté de Médecine Lyon Sud Charles Mérieux\
 165 Chemin du Petit Revoyet, 69600 Oullins-Pierre-Bénite, France
 
 [contact@l2ib.fr](mailto:contact@l2ib.fr) · [Team page at CIRI](https://ciri.ens-lyon.fr/teams/lib) · [GitHub](https://github.com/l2ib-lab)
