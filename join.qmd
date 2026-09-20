@@ -1,0 +1,52 @@
+---
+title: "Join us"
+subtitle: "Open positions, PhD and internship opportunities"
+---
+
+We host **M1/M2 interns, PhD students and post-doctoral fellows** working at the
+interface of immunology, hematology and computational biology.
+
+## Current openings
+
+::: {.todo}
+**À éditer** — listez ici les postes ouverts. Si rien n'est ouvert, dites-le
+explicitement (voir la section suivante) : une page vide fait croire que le site
+est abandonné.
+:::
+
+::: {.callout-note}
+## No formal opening at the moment
+We nevertheless consider strong spontaneous applications year-round, in
+particular for fellowship-funded post-doctoral projects
+(EMBO, Marie Skłodowska-Curie, Fondation ARC, Ligue contre le Cancer).
+:::
+
+## What we offer
+
+- A translational environment with direct access to patient cohorts and
+  biobanked material through the Hospices Civils de Lyon.
+- Training in both wet-lab immunology and computational methods — many of our
+  projects are genuinely hybrid.
+- An open-science policy: code and tools are released publicly
+  (see [Tools & Apps](tools/index.qmd)).
+
+## How to apply
+
+Send a single PDF to [contact@l2ib.fr](mailto:contact@l2ib.fr) containing:
+
+1. A **one-page motivation letter** stating which of our
+   [research axes](research.qmd) interests you and why.
+2. Your **CV**, including your degree marks/rankings.
+3. The **names and emails of two referees**.
+
+Please put `[Application – M2 / PhD / Post-doc]` in the subject line. We answer
+every application, usually within two weeks.
+
+## Practical information
+
+The team is located at the **Faculté de Médecine Lyon Sud**, Oullins-Pierre-Bénite,
+~20 min from Lyon city centre (métro B + bus, or tram T1/T2 + bus).
+
+Non-French-speaking candidates are welcome — the working language of the team is
+English for science, and we help with administrative procedures, visas and
+housing.

@@ -1,0 +1,6 @@
+<!-- Avatar placeholder. Remplacez par une photo carrée (~400x400 px, .jpg). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Photo à venir">
+  <rect width="400" height="400" fill="#e4e7eb"/>
+  <circle cx="200" cy="158" r="62" fill="#c3cad1"/>
+  <path d="M200 238c-66 0-119 42-119 94v68h238v-68c0-52-53-94-119-94z" fill="#c3cad1"/>
+</svg>

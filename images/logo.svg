@@ -1,0 +1,12 @@
+<!-- Logo placeholder L2IB — remplacez ce fichier par votre logo définitif.
+     Gardez le nom images/logo.svg (ou .png) pour ne rien avoir à changer ailleurs. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-label="L2IB">
+  <circle cx="44" cy="48" r="30" fill="none" stroke="#1a4f6e" stroke-width="4"/>
+  <circle cx="44" cy="48" r="13" fill="#1a4f6e"/>
+  <circle cx="62" cy="31" r="5"  fill="#d97706"/>
+  <circle cx="27" cy="63" r="4"  fill="#d97706"/>
+  <text x="92" y="46" font-family="Helvetica,Arial,sans-serif" font-size="34"
+        font-weight="700" fill="#1a4f6e">L2IB</text>
+  <text x="93" y="68" font-family="Helvetica,Arial,sans-serif" font-size="12.5"
+        fill="#52606d">Leukemia &amp; Lymphoma Immune Biology</text>
+</svg>

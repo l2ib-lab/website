@@ -1,0 +1,19 @@
+# Quarto
+/_site/
+/.quarto/
+*_files/
+*_cache/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+renv/library/
+renv/staging/
+
+# OS
+.DS_Store
+Thumbs.db
+
+**/*.quarto_ipynb

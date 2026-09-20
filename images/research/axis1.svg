@@ -1,0 +1,6 @@
+<!-- Figure placeholder. Remplacez par votre schéma (.png, .svg ou .jpg). -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-label="Figure à venir">
+  <rect width="800" height="340" fill="#f2f5f7" stroke="#d3dae0" stroke-width="2" rx="8"/>
+  <text x="400" y="176" font-family="Helvetica,Arial,sans-serif" font-size="19"
+        fill="#8b97a3" text-anchor="middle">Figure — axe de recherche 1</text>
+</svg>

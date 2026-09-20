@@ -1,0 +1,125 @@
+---
+title: "Mentions légales"
+subtitle: "Conformément aux articles 6-III et 19 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique (LCEN)"
+lang: fr
+toc: true
+---
+
+::: {.todo}
+**À compléter avant mise en ligne** — les champs entre crochets `[…]` doivent
+être remplis. Faites relire cette page par le service juridique ou la direction
+de la communication de votre tutelle : c'est une obligation légale et c'est
+elle qui engage la responsabilité de l'éditeur.
+:::
+
+## Éditeur du site
+
+**Équipe L2IB — Leukemia and Lymphoma Immune Biology**
+CIRI — Centre International de Recherche en Infectiologie
+Inserm U1111 · CNRS UMR5308 · ENS de Lyon · Université Claude Bernard Lyon 1
+
+Faculté de Médecine Lyon Sud Charles Mérieux
+165 Chemin du Petit Revoyet
+69600 Oullins-Pierre-Bénite, France
+
+Courriel : [contact@l2ib.fr](mailto:contact@l2ib.fr)
+
+## Directeur de la publication
+
+`[Nom, Prénom]`, `[qualité — ex. responsable d'équipe]`
+Courriel : `[adresse]`
+
+## Responsable de la rédaction
+
+`[Nom, Prénom]` — Courriel : `[adresse]`
+
+## Hébergeur
+
+Le site est hébergé par :
+
+**GitHub, Inc.**
+88 Colin P. Kelly Jr. Street
+San Francisco, CA 94107
+États-Unis
+[https://github.com](https://github.com)
+
+Les applications interactives mises à disposition depuis la rubrique
+[Tools & Apps](tools/index.qmd) sont hébergées par **Posit, PBC**
+(Boston, MA, États-Unis) via le service Posit Connect Cloud.
+
+## Propriété intellectuelle
+
+Sauf mention contraire, les contenus textuels et iconographiques de ce site sont
+la propriété de leurs auteurs et de leurs tutelles. Ils sont mis à disposition
+sous licence [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr),
+sous réserve de citation de la source.
+
+Les codes sources des applications et des outils développés par l'équipe sont
+distribués sous licence libre ; la licence applicable est précisée dans chaque
+dépôt sur [github.com/l2ib-lab](https://github.com/l2ib-lab).
+
+Les publications scientifiques référencées restent soumises aux conditions de
+leurs éditeurs respectifs.
+
+## Données personnelles (RGPD)
+
+Ce site est un site d'information institutionnel. Il **ne dépose aucun cookie de
+mesure d'audience ni de cookie publicitaire** et ne collecte aucune donnée
+personnelle à l'insu de l'utilisateur.
+
+::: {.todo}
+Si vous ajoutez un outil de mesure d'audience, privilégiez une solution **sans
+cookie** (Plausible, ou Matomo configuré en mode exempté) afin de rester
+dispensé de bannière de consentement au sens des lignes directrices de la CNIL.
+Mettez alors ce paragraphe à jour.
+:::
+
+Les messages envoyés à l'adresse de contact sont traités aux seules fins de
+répondre à votre demande et ne font l'objet d'aucune cession à des tiers.
+
+Conformément au Règlement (UE) 2016/679 (RGPD) et à la loi « Informatique et
+Libertés », vous disposez d'un droit d'accès, de rectification, d'effacement,
+de limitation et d'opposition sur les données vous concernant. Ces droits
+s'exercent auprès du délégué à la protection des données de la tutelle
+concernée :
+
+- Inserm — DPO : `[dpo@inserm.fr]`
+- CNRS — DPO : `[dpo@cnrs.fr]`
+- Université Claude Bernard Lyon 1 — DPO : `[dpo@univ-lyon1.fr]`
+- ENS de Lyon — DPO : `[dpo@ens-lyon.fr]`
+
+Vous pouvez également introduire une réclamation auprès de la
+[CNIL](https://www.cnil.fr).
+
+## Applications interactives et données de santé
+
+Les applications accessibles depuis la rubrique [Tools & Apps](tools/index.qmd)
+sont des **outils de recherche**. Elles :
+
+- ne constituent pas des dispositifs médicaux au sens du règlement (UE) 2017/745 ;
+- ne se substituent en aucun cas au jugement clinique d'un professionnel de santé ;
+- ne conservent ni n'archivent les valeurs saisies par l'utilisateur au terme de
+  la session de calcul ;
+- ne doivent **pas** être utilisées pour transmettre des données directement
+  identifiantes concernant un patient.
+
+::: {.todo}
+Vérifiez ce paragraphe app par app. S'il existe une journalisation côté
+hébergeur (logs serveur), mentionnez-la explicitement, ainsi que sa durée de
+conservation et la localisation des serveurs.
+:::
+
+## Accessibilité
+
+Ce site vise une conformité au Référentiel général d'amélioration de
+l'accessibilité (RGAA). Pour signaler une difficulté d'accès à un contenu,
+écrivez à [contact@l2ib.fr](mailto:contact@l2ib.fr).
+
+## Liens hypertextes
+
+L'équipe L2IB ne saurait être tenue responsable du contenu des sites tiers vers
+lesquels ce site propose des liens.
+
+---
+
+*Dernière mise à jour : `[date]`*

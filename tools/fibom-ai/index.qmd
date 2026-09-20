@@ -1,0 +1,33 @@
+---
+pagetitle: "FIBOM-AI — redirecting"
+description: "Machine-learning prediction of grade 2-3 bone marrow fibrosis from a complete blood count."
+toc: false
+search: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://alcazerv.shinyapps.io/FIBOM-AI/">
+        <link rel="canonical" href="https://www.l2ib.fr/tools/fibom-ai/">
+---
+
+<!--
+  ####################  SEUL FICHIER À MODIFIER POUR CHANGER D'HÉBERGEUR  ####################
+  Cette page est l'URL stable et citable de FIBOM-AI :
+      https://www.l2ib.fr/tools/fibom-ai/
+  Elle ne fait que rediriger vers l'app réellement hébergée.
+
+  Quand vous migrerez de shinyapps.io vers Posit Connect Cloud, remplacez
+  l'URL aux DEUX endroits ci-dessous (la balise meta ci-dessus et le lien
+  ci-dessous) et rien d'autre ne casse : ni les liens des publications,
+  ni ceux des autres pages du site.
+  ###########################################################################################
+-->
+
+# Redirecting to FIBOM-AI…
+
+If you are not redirected automatically, open the application here:
+
+[▶ Launch FIBOM-AI](https://alcazerv.shinyapps.io/FIBOM-AI/){.btn-app .btn-launch}
+
+[Back to Tools & Apps](../index.qmd)

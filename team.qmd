@@ -1,0 +1,76 @@
+---
+title: "Team"
+subtitle: "The people behind L2IB"
+---
+
+::: {.todo}
+**À éditer** — remplacez les membres ci-dessous. Déposez les photos dans
+`images/team/` (carré, ~400×400 px, format `.jpg`). Si vous n'avez pas encore
+de photo, laissez `images/team/placeholder.svg`, le cercle restera gris.
+:::
+
+## Team leaders
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Laurent Genestier]{.name}
+[Team co-leader · DR]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Emmanuel Bachy]{.name}
+[Team co-leader · PU-PH]{.role}
+:::
+
+:::
+
+## Permanent staff
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Vincent Alcazer]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Prénom Nom]{.name}
+[CR / IR / IE / TE]{.role}
+:::
+
+:::
+
+## PhD students & post-docs
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Prénom Nom]{.name}
+[PhD student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Prénom Nom]{.name}
+[Post-doctoral fellow]{.role}
+:::
+
+:::
+
+## Alumni
+
+::: {.todo}
+Une simple liste suffit : *Nom (années) — poste actuel*. Les alumni sont le
+meilleur argument d'une page « Join us ».
+:::
+
+---
+
+The official team roster is also maintained on the
+[CIRI website](https://ciri.ens-lyon.fr/teams/lib).

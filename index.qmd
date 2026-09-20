@@ -1,0 +1,71 @@
+---
+title: ""
+pagetitle: "Leukemia and Lymphoma Immune Biology"
+toc: false
+---
+
+::: {.hero}
+# Leukemia & Lymphoma Immune Biology
+
+::: {.hero-sub}
+We study how the immune system shapes — and is reshaped by — leukemia and
+lymphoma, and we turn that biology into tools clinicians can actually use.
+:::
+:::
+
+::: {.todo}
+**À éditer** — remplacez tout le texte de cette page par le vôtre. Les blocs
+`.todo` (en rouge) marquent le contenu à personnaliser ; supprimez-les ensuite.
+:::
+
+## About the team
+
+L2IB is a research team of the [CIRI — Centre International de Recherche en
+Infectiologie](https://ciri.ens-lyon.fr/teams/lib) in Lyon, France
+(Inserm U1111 · CNRS UMR5308 · ENS de Lyon · Université Claude Bernard Lyon 1),
+co-led by **L. Genestier** and **E. Bachy**.
+
+Our work sits at the interface of fundamental immunology, hematology and
+computational biology. We combine primary patient samples, functional
+immunology and machine learning on large clinical cohorts to understand
+lymphomagenesis and to improve how patients are diagnosed and stratified.
+
+The team is based at the Lyon Sud campus and works in close collaboration with
+the clinical hematology departments of the Hospices Civils de Lyon.
+
+## What we do
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+### Immune biology
+Mechanisms of immune escape and T-cell dysfunction in lymphoid malignancies.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Translational cohorts
+Large multicentric patient cohorts linking biology to clinical outcome.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+### Open tools
+Models and applications released openly for the community —
+see [Tools & Apps](tools/index.qmd).
+:::
+
+:::
+
+## Highlights
+
+- **[FIBOM-AI](tools/fibom-ai/index.qmd)** — a machine-learning tool predicting
+  grade 2–3 bone marrow fibrosis from a routine complete blood count, trained on
+  nearly 2,000 patients across French university hospitals.
+- *(ajoutez ici vos publications marquantes, prix, financements obtenus)*
+
+## Contact
+
+**L2IB — CIRI**
+Faculté de Médecine Lyon Sud Charles Mérieux
+165 Chemin du Petit Revoyet, 69600 Oullins-Pierre-Bénite, France
+
+[contact@l2ib.fr](mailto:contact@l2ib.fr) · [Team page at CIRI](https://ciri.ens-lyon.fr/teams/lib) · [GitHub](https://github.com/l2ib-lab)

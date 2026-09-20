@@ -1,0 +1,40 @@
+---
+title: "Publications"
+subtitle: "Peer-reviewed articles from the L2IB team"
+nocite: |
+  @*
+---
+
+::: {.callout-tip collapse="true"}
+## Comment mettre cette page à jour (30 secondes)
+
+Cette liste est **générée automatiquement** depuis `references.bib`.
+Vous n'écrivez jamais de bibliographie à la main.
+
+1. Dans Zotero, sélectionnez la collection « Publications L2IB ».
+2. Clic droit → *Export Collection…* → format **BibTeX** → cochez
+   *Export Notes* : non.
+3. Enregistrez en écrasant `references.bib` à la racine du site.
+4. `git commit` + `git push` → la page se régénère seule.
+
+Le style de citation est défini par `csl:` dans `_quarto.yml`
+(actuellement Vancouver). Pour en changer, prenez un fichier sur
+[zotero.org/styles](https://www.zotero.org/styles).
+:::
+
+Voir aussi les profils
+[ORCID](https://orcid.org/) ·
+[Google Scholar](https://scholar.google.com/) ·
+[HAL](https://hal.science/) *(à compléter)*.
+
+## Selected publications
+
+::: {.todo}
+Vous pouvez mettre en avant 3 à 5 articles ici, à la main, avant la liste
+complète générée ci-dessous. C'est ce que lisent les recruteurs et les jurys.
+:::
+
+## All publications
+
+::: {#refs}
+:::

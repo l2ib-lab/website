@@ -1,0 +1,13 @@
+# Normalise les fins de ligne en LF dans le depot.
+# Evite notamment un CNAME en CRLF, que GitHub Pages peut refuser.
+* text=auto eol=lf
+
+# Fichiers binaires : ne jamais toucher.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary

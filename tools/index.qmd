@@ -1,0 +1,110 @@
+---
+title: "Tools & Apps"
+subtitle: "Open web applications from the L2IB team"
+---
+
+All our applications are **free, open-source and require no registration**.
+Source code lives on [github.com/l2ib-lab](https://github.com/l2ib-lab).
+
+::: {.callout-note}
+## Stable links
+Each app has a permanent L2IB address of the form
+`https://www.l2ib.fr/tools/<app-name>/`.
+**Cite that address in papers**, never the hosting provider's URL — it lets us
+change host without breaking published links.
+:::
+
+---
+
+::: {.app-card}
+### FIBOM-AI
+
+::: {.app-tagline}
+Machine-learning prediction of grade 2–3 bone marrow fibrosis from a routine
+complete blood count.
+:::
+
+::: {.app-meta}
+**Model** XGBoost · **Training cohort** ~2,000 patients, French university
+hospitals · **AUC** 0.96 (training) · **Inputs** 27 CBC variables + age ·
+**Requires** `R >= 4.1.0` for local use
+:::
+
+FIBOM-AI estimates the probability of significant (grade 2–3) bone marrow
+fibrosis using only a complete blood count and the patient's age — data already
+available for every patient, with no additional test. The app reports both a
+general prediction and a stricter "confident" prediction based on clinical
+cutoffs.
+
+[▶ Launch the app](fibom-ai/index.qmd){.btn-app .btn-launch}
+[Source code](https://github.com/VincentAlcazer/FIBOM-AI){.btn-app}
+[Publication](#){.btn-app}
+[Cite](#citing-fibom-ai){.btn-app}
+
+::: {.disclaimer}
+**Research tool.** FIBOM-AI is intended for research and educational purposes.
+It does not constitute a medical device and must not be used as a substitute for
+clinical judgement, a bone marrow biopsy, or the advice of a qualified
+practitioner. No data entered in the application is stored by the L2IB team.
+:::
+
+#### Citing FIBOM-AI {#citing-fibom-ai}
+
+```bibtex
+@article{alcazer_fibomai,
+  author  = {Alcazer, Vincent and others},
+  title   = {FIBOM-AI: machine learning prediction of bone marrow fibrosis
+             from complete blood count},
+  journal = {TODO},
+  year    = {TODO},
+  doi     = {TODO},
+  url     = {https://www.l2ib.fr/tools/fibom-ai/}
+}
+```
+:::
+
+---
+
+::: {.todo}
+**Gabarit pour une nouvelle app** — copiez le bloc ci-dessous, décommentez-le,
+et créez le dossier `tools/<nom-app>/index.qmd` (copiez celui de FIBOM-AI et
+changez l'URL cible).
+:::
+
+```markdown
+::: {.app-card}
+### NOM DE L'APP
+
+::: {.app-tagline}
+Une phrase : ce que l'app fait, pour qui.
+:::
+
+::: {.app-meta}
+**Model** ... · **Cohort** ... · **Performance** ... · **Inputs** ...
+:::
+
+Deux ou trois phrases de description.
+
+[▶ Launch the app](nom-app/index.qmd){.btn-app .btn-launch}
+[Source code](https://github.com/l2ib-lab/nom-app){.btn-app}
+[Publication](#){.btn-app}
+
+::: {.disclaimer}
+**Research tool.** ...
+:::
+:::
+```
+
+## Hosting
+
+Our applications are [Shiny](https://shiny.posit.co) apps written in R and
+deployed on [Posit Connect Cloud](https://connect.posit.cloud) directly from
+their GitHub repositories. Every push to `main` redeploys the app.
+
+To run any of them locally:
+
+```r
+install.packages("remotes")
+remotes::install_github("l2ib-lab/<repo>")
+# then follow the run_app() instruction in the repo README
+```

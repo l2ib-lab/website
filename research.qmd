@@ -1,0 +1,61 @@
+---
+title: "Research"
+subtitle: "Our main lines of investigation"
+---
+
+::: {.todo}
+**À éditer** — les trois axes ci-dessous sont des gabarits. Remplacez les titres,
+les textes et les figures par vos axes réels. Gardez la structure :
+*question → approche → retombée*, c'est ce que lisent les candidats et les
+financeurs.
+:::
+
+## Axis 1 — Immune escape in lymphoid malignancies
+
+**The question.** How do lymphoma and leukemia cells evade immune surveillance,
+and which of those mechanisms are reversible?
+
+**Our approach.** Functional immunology on primary patient samples, combined
+with single-cell profiling of the tumor microenvironment.
+
+**Why it matters.** Identifying reversible escape mechanisms nominates targets
+for immunotherapy combinations.
+
+*(Ajoutez ici une figure : `![](images/research/axis1.svg)`)*
+
+## Axis 2 — Translational cohorts and biomarkers
+
+**The question.** Which biological features, measurable in routine care, predict
+outcome and treatment response?
+
+**Our approach.** Multicentric clinical cohorts linked to biobanked material,
+analysed with modern statistical and machine-learning methods.
+
+**Why it matters.** Biomarkers that rely on tests already performed everywhere
+can reach patients immediately — the design principle behind
+[FIBOM-AI](tools/fibom-ai/index.qmd).
+
+## Axis 3 — Computational hematology and open tools
+
+**The question.** Can models trained on large hematology datasets replace or
+triage invasive diagnostic procedures?
+
+**Our approach.** Interpretable ML on routine biology, rigorous external
+validation, and release as free, open web applications.
+
+**Why it matters.** A model that stays in a paper changes nothing. We ship ours
+as tools — see [Tools & Apps](tools/index.qmd).
+
+## Funding and partners
+
+::: {.todo}
+Listez ici vos financements (ANR, INCa, Ligue contre le Cancer, Fondation ARC,
+LabEx Ecofect, Inserm, HCL…) et vos partenaires. Les tutelles demandent
+régulièrement cette page.
+:::
+
+## Collaborations
+
+::: {.todo}
+Équipes partenaires, consortiums, réseaux (LYSA, FILO, GFM…).
+:::
