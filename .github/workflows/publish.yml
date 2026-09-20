@@ -40,6 +40,11 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          # Active GitHub Pages sur le depot s'il ne l'est pas deja, et
+          # bascule la source sur "GitHub Actions". Evite d'avoir a le faire
+          # a la main dans Settings -> Pages.
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
