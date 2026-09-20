@@ -3,57 +3,65 @@
 // =============================================================================
 //  L2IB — THEME CLAIR
 //
-//  Les 4 couleurs de marque sont ci-dessous. Changez-les et tout le site suit.
+//  Palette alignee sur quarto.org (couleurs de marque Posit).
+//  Les 5 valeurs ci-dessous pilotent tout le site.
 //  Pensez a repercuter dans styles-dark.scss pour le mode sombre.
 // =============================================================================
 
-$l2ib-brand:       #2d4f7c;   // bleu encre, couleur principale
-$l2ib-brand-dark:  #1f3a5c;   // survol des boutons pleins
-$l2ib-accent:      #0d9488;   // teal, reserve aux accents (intitules, filets)
-$l2ib-ink:         #16202e;   // texte
+$l2ib-brand:       #447099;   // bleu Posit : boutons, liens, elements actifs
+$l2ib-brand-dark:  #365a7c;   // survol des boutons pleins
+$l2ib-heading:     #39729e;   // couleur des titres
+$l2ib-banner:      #1c2f3d;   // fond du bandeau de titre
+$l2ib-ink:         #343a40;   // texte courant
 
 // --- Variables Bootstrap pilotees par ce qui precede -------------------------
 $primary:       $l2ib-brand;
 $body-color:    $l2ib-ink;
 $link-color:    $l2ib-brand;
 $body-bg:       #ffffff;
-$border-color:  rgba(22, 32, 46, 0.1);
+$border-color:  rgba(52, 58, 64, 0.13);
 
-$navbar-bg:     rgba(255, 255, 255, 0.72);
-$navbar-fg:     $l2ib-ink;
+$navbar-bg:     #f8f9fa;
+$navbar-fg:     #545555;
 
-$border-radius: 11px;
+$border-radius: 8px;
 $headings-font-weight: 600;
 
-$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$font-family-sans-serif: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
 /*-- scss:rules --*/
 
 :root {
-  // Typographie
-  --l2ib-font-sans:  "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --l2ib-font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  // Typographie — identique a quarto.org
+  --l2ib-font-sans: "Source Sans 3", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
   // Marque
-  --l2ib-brand:        #{$l2ib-brand};
-  --l2ib-brand-dark:   #{$l2ib-brand-dark};
-  --l2ib-brand-rgb:    45, 79, 124;
-  --l2ib-accent:       #{$l2ib-accent};
-  --l2ib-accent-rgb:   13, 148, 136;
+  --l2ib-brand:       #{$l2ib-brand};
+  --l2ib-brand-dark:  #{$l2ib-brand-dark};
+  --l2ib-brand-rgb:   68, 112, 153;
+  --l2ib-heading:     #{$l2ib-heading};
+  --l2ib-accent:      #{$l2ib-brand};
+  --l2ib-accent-rgb:  68, 112, 153;
+
+  // Bandeau de titre
+  --l2ib-banner-bg:     #{$l2ib-banner};
+  --l2ib-banner-ink:    #b9d2ee;          // titre, bleu clair
+  --l2ib-banner-body:   #e9eef4;          // texte courant sur le bandeau
+  --l2ib-banner-muted:  #9fb3c4;          // sous-titre
 
   // Texte et surfaces
   --l2ib-ink:            #{$l2ib-ink};
-  --l2ib-muted:          #5b6879;
+  --l2ib-muted:          #5f6b76;
   --l2ib-surface:        #ffffff;
-  --l2ib-surface-2:      #f4f6f9;
+  --l2ib-surface-2:      #f4f6f8;
   --l2ib-surface-raised: #ffffff;
-  --l2ib-border:         rgba(22, 32, 46, 0.11);
-  --l2ib-border-strong:  rgba(22, 32, 46, 0.22);
-  --l2ib-nav-bg:         rgba(255, 255, 255, 0.72);
+  --l2ib-border:         rgba(52, 58, 64, 0.13);
+  --l2ib-border-strong:  rgba(52, 58, 64, 0.26);
+  --l2ib-nav-bg:         rgba(248, 249, 250, 0.88);
 
   // Pied de page
-  --l2ib-footer-bg:   #f4f6f9;
-  --l2ib-footer-ink:  #5b6879;
+  --l2ib-footer-bg:   #f8f9fa;
+  --l2ib-footer-ink:  #5f6b76;
 
   // Encadre "outil de recherche"
   --l2ib-warn-bg:     #fffaf0;
