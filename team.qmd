@@ -1,17 +1,20 @@
 ---
 title: "Team"
-subtitle: "43 people, 25 full-time equivalents"
+subtitle: "43 people, 25 full-time equivalents, across five research axes"
 ---
 
-L2IB brings together basic researchers, clinician-scientists and engineers
-across Inserm, CNRS, Université Claude Bernard Lyon 1, the ENS de Lyon and the
-Hospices Civils de Lyon. Women represent **63 % of the team** and 43 % of its
-permanent staff.
+L2IB brings together basic researchers, clinician-scientists and engineers from
+Inserm, CNRS, Université Claude Bernard Lyon 1, the ENS de Lyon and the Hospices
+Civils de Lyon. Women represent **63 % of the team** and 43 % of its permanent
+staff.
+
+Members are listed below under the axis they contribute to. Several people
+contribute to two axes and therefore appear twice; **axis leads are marked**.
 
 ::: {.todo}
-**À compléter** — les photos sont à déposer dans `images/team/` (carré, ~400×400 px).
-Vérifiez aussi les grades et les rattachements, qui datent du dossier HCERES
-arrêté au 31/12/2024.
+**À compléter** — déposez les photos dans `images/team/` (carré, ~400×400 px, `.jpg`),
+puis remplacez `placeholder.svg` par le nom du fichier. Grades et rattachements
+proviennent de l'organigramme HCERES arrêté au 31/12/2024.
 :::
 
 ## Team leaders
@@ -32,9 +35,23 @@ arrêté au 31/12/2024.
 
 :::
 
-## Researchers and clinician-scientists
+---
+
+## Axis 1 — Epigenetics and T-cell lymphoma
 
 ::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Laurent Genestier]{.name}
+[DR2 Inserm · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Emmanuel Bachy]{.name}
+[PU-PH · Axis lead]{.role}
+:::
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
@@ -44,50 +61,14 @@ arrêté au 31/12/2024.
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Lucille Baseggio]{.name}
-[PH, HCL]{.role}
+[Alexandra Schrader]{.name}
+[Post-doc]{.role}
 :::
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Estelle Bourbon]{.name}
-[CCA]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Evelyne Callet-Bauchu]{.name}
-[MCU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Hervé Ghesquières]{.name}
-[PU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Carine Halfon-Domenech]{.name}
-[PU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Sandrine Hayette]{.name}
-[CR, HCL]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Maël Heiblig]{.name}
-[MCU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Sarah Huet]{.name}
-[MCU-PH]{.role}
+[Fabrice Chatonnet]{.name}
+[Post-doc]{.role}
 :::
 
 ::: {.team-member}
@@ -98,110 +79,14 @@ arrêté au 31/12/2024.
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Lionel Karlin]{.name}
-[PH, HCL]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Ludovic Lhermitte]{.name}
-[MCU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Jean-Pierre Rouault]{.name}
-[CRHC CNRS]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Pierre Sujobert]{.name}
-[PU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Melania Tesio]{.name}
-[CRCN Inserm]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Alexandra Traverse-Glehen]{.name}
-[PU-PH]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Vincent Alcazer]{.name}
-[CCA]{.role}
-:::
-
-:::
-
-## Post-doctoral fellows
-
-::: {.team-grid}
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Fabrice Chatonnet]{.name}
-[Post-doc]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Laetitia Largeaud]{.name}
-[Post-doc]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Thomas Schott]{.name}
-[Post-doc]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Alexandra Schrader]{.name}
-[Post-doc]{.role}
-:::
-
-:::
-
-## Engineers and technical staff
-
-::: {.team-grid}
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Emilie Bardel]{.name}
-[IE Inserm]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Nathalie Bissay]{.name}
-[AI IRCCS]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Sarah Blanc]{.name}
-[TR, HCL]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
 [Amel Chebel]{.name}
 [IE UCBL]{.role}
 :::
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Jonathan Lefebvre]{.name}
-[TR IRCCS]{.role}
+[Emilie Bardel]{.name}
+[IE Inserm]{.role}
 :::
 
 ::: {.team-member}
@@ -218,6 +103,174 @@ arrêté au 31/12/2024.
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
+[Jonathan Lefebvre]{.name}
+[TR IRCCS]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Marie Donzel]{.name}
+[PhD student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Leelou Picard]{.name}
+[M2 student]{.role}
+:::
+
+:::
+
+## Axis 2 — Environment and genomic alterations in B-cell lymphoma
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Pierre Sujobert]{.name}
+[PU-PH · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Jean-Pierre Rouault]{.name}
+[CRHC CNRS · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Alexandra Traverse-Glehen]{.name}
+[PU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sarah Huet]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Evelyne Callet-Bauchu]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Lucille Baseggio]{.name}
+[PH, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Lionel Karlin]{.name}
+[PH, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sandrine Hayette]{.name}
+[CR, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Aurélie Verney]{.name}
+[IE UCBL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Axel Conchon]{.name}
+[PhD student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Hedi Somai]{.name}
+[M2 student]{.role}
+:::
+
+:::
+
+## Axis 3 — Metabolism and microenvironment in B-cell leukaemia
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Carine Halfon-Domenech]{.name}
+[PU-PH · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Melania Tesio]{.name}
+[CRCN Inserm · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Ludovic Lhermitte]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Thomas Schott]{.name}
+[Post-doc]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sarah Blanc]{.name}
+[TR, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Erivan Demanou]{.name}
+[PhD student]{.role}
+:::
+
+:::
+
+## Axis 4 — Inflammation in myeloid malignancies and VEXAS syndrome
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Melania Tesio]{.name}
+[CRCN Inserm · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Pierre Sujobert]{.name}
+[PU-PH · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Maël Heiblig]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Vincent Alcazer]{.name}
+[CCA]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Laetitia Largeaud]{.name}
+[Post-doc]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
 [Marie Teixeira]{.name}
 [IR Inserm]{.role}
 :::
@@ -230,51 +283,9 @@ arrêté au 31/12/2024.
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Aurélie Verney]{.name}
-[IE UCBL]{.role}
-:::
-
-:::
-
-## PhD students
-
-::: {.team-grid}
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Axel Conchon]{.name}
-[PhD student]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Erivan Demanou]{.name}
-[PhD student]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Marie Donzel]{.name}
-[PhD student]{.role}
-:::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
 [Xinyue Fang]{.name}
 [PhD student]{.role}
 :::
-
-::: {.team-member}
-![](images/team/placeholder.svg)
-[Aurore Martin]{.name}
-[PhD student]{.role}
-:::
-
-:::
-
-## Master students
-
-::: {.team-grid}
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
@@ -288,9 +299,81 @@ arrêté au 31/12/2024.
 [M2 student]{.role}
 :::
 
+:::
+
+## Axis 5 — Immunotherapeutic intervention and CAR-T cells
+
+::: {.team-grid}
+
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Leelou Picard]{.name}
+[Emmanuel Bachy]{.name}
+[PU-PH · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Hervé Ghesquières]{.name}
+[PU-PH · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Estelle Bourbon]{.name}
+[CCA]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Nathalie Bissay]{.name}
+[AI IRCCS]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Aurore Martin]{.name}
+[PhD student]{.role}
+:::
+
+:::
+
+## Transversal axis — Omics, bioinformatics and AI
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[David Armisen]{.name}
+[CR IRCCS · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Fabrice Chatonnet]{.name}
+[Post-doc]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Vincent Alcazer]{.name}
+[CCA]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Edith Julia]{.name}
+[CCA]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Mohamed Chour]{.name}
+[M2 student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Svetlana Le Ralle]{.name}
 [M2 student]{.role}
 :::
 
@@ -318,22 +401,20 @@ arrêté au 31/12/2024.
 
 ## Composition
 
-| Category | Headcount |
-|---|---|
-| Professors and equivalent | 5 |
-| Associate professors and equivalent | 3 |
-| Research directors and equivalent | 1 |
-| Research scientists and equivalent | 4 |
-| Research support staff | 9 |
-| Hospital practitioners | 3 |
-| **Permanent staff** | **25** |
-| Non-permanent researchers and lecturers | 8 |
-| Non-permanent support staff | 7 |
-| PhD students | 3 |
-| **Non-permanent staff** | **18** |
-| **Total** | **43** |
+**43 people, 25 full-time equivalents.**
 
-*Headcount as of 31 December 2024 (HCERES evaluation record).*
+| Statutory position | Count |
+|---|---|
+| DR2 Inserm · CRHC CNRS · CRCN Inserm | 1 · 1 · 1 |
+| CR HCL · CR IRCCS | 1 · 1 |
+| PU-PH / MCU-PH | 9 |
+| PH | 2 |
+| CCA | 3 |
+| ITA / BIATSS (1 IR, 5 IE, 2 AI, 2 TR, 1 AJT) | 11 |
+| Post-doctoral fellows | 4 |
+| PhD students | 5 |
+
+*Source: HCERES evaluation record, headcount as of 31 December 2024.*
 
 The official roster is also maintained on the
 [CIRI website](https://ciri.ens-lyon.fr/teams/lib).

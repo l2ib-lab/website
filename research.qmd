@@ -53,7 +53,7 @@ comparison to human primary samples.
 and back to the clinic, which is how an exposure signal becomes an actionable
 therapeutic hypothesis.
 
-## Axis 3 — Metabolism and microenvironment in paediatric B-ALL
+## Axis 3 — Metabolism and microenvironment in B-cell leukaemia
 
 **The question.** Paediatric B-ALL often originates in pre-leukaemic clones
 arising during fetal life. What turns them into overt leukaemia, and what keeps
