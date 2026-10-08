@@ -464,96 +464,53 @@ main.content:has(.hero) {
   margin-top: 0;
 }
 
-// ---- Accueil : logos a gauche, titre centre --------------------------------
+// ---- Accueil : titre centre ------------------------------------------------
 
 .hero {
-  // Largeur de la colonne de logos. Une colonne fantome de meme largeur est
-  // posee a droite (::after) : sans elle, le titre serait decale vers la
-  // droite de la moitie de cette largeur.
-  --l2ib-logo-col: 150px;
+  h1, .hero-sub, .eyebrow, p { margin-left: auto; margin-right: auto; }
 
-  // Gouttieres elargies par rapport au reste du site, pour decaler les logos
-  // vers la gauche sans deplacer le centre.
-  padding-left: max(1.5rem, calc(50vw - 620px));
-  padding-right: max(1.5rem, calc(50vw - 620px));
-}
-
-.hero-inner {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-
-  &::after {
-    content: "";
-    flex: 0 0 var(--l2ib-logo-col);
-  }
-}
-
-.hero-body {
-  flex: 1 1 auto;
-  min-width: 0;
   text-align: center;
 
-  h1 { max-width: 22ch; margin-left: auto; margin-right: auto; }
-
-  .hero-sub { max-width: 58ch; margin-left: auto; margin-right: auto; }
+  h1 { max-width: 22ch; }
+  .hero-sub { max-width: 58ch; }
 }
 
-// Pandoc enveloppe les images consecutives dans un seul <p> : la colonne doit
-// etre posee sur le conteneur ET sur ce paragraphe.
-.hero .hero-logos,
-.hero .hero-logos p {
+// ---- Bandeau des tutelles, sous le bandeau de titre ------------------------
+//  Les logos sont poses directement sur le fond de page, sans pastille : ils
+//  sont dessines pour un fond clair. C'est aussi pourquoi ils ne peuvent pas
+//  vivre dans le bandeau navy, ou le logo Inserm (noir sur transparent)
+//  disparaitrait.
+//
+//  En theme sombre, --l2ib-logo-band fournit une bande claire unique : sans
+//  elle, les memes logos deviendraient illisibles sur le fond quasi noir.
+
+.partner-logos,
+.partner-logos p {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 2.5rem;
   margin: 0;
   max-width: none;
 }
 
-.hero .hero-logos {
-  flex: 0 0 var(--l2ib-logo-col);
-  width: var(--l2ib-logo-col);
+.partner-logos {
+  margin: -1rem auto 3.25rem;
+  padding: 1.1rem 1.5rem;
+  background: var(--l2ib-logo-band);
+  border-radius: 10px;
 
-  // Hauteur plafonnee plutot que fixee : les quatre logos ont des rapports
-  // tres differents (Inserm 5:1, CIRI et HCL carres), une hauteur imposee
-  // les rendrait disparates.
   img {
-    max-width: 100%;
-    max-height: 54px;
+    max-height: 46px;
     width: auto;
     height: auto;
-    background: #fff;
-    border-radius: 6px;
-    padding: 5px 8px;
   }
 }
 
-// Sous 860px, les logos repassent en rangee au-dessus du titre : une colonne
-// laterale y mangerait toute la largeur utile.
-@media (max-width: 860px) {
-  .hero-inner {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1.75rem;
+@media (max-width: 575px) {
+  .partner-logos,
+  .partner-logos p { gap: 1rem 1.5rem; }
 
-    &::after { display: none; }
-  }
-
-  .hero .hero-logos,
-  .hero .hero-logos p {
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 0.75rem;
-  }
-
-  .hero .hero-logos {
-    flex: 0 0 auto;
-    width: auto;
-
-    img { max-height: 40px; }
-  }
+  .partner-logos img { max-height: 34px; }
 }

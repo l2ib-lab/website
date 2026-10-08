@@ -58,6 +58,10 @@ $font-family-sans-serif: "Source Sans 3", "Source Sans Pro", -apple-system, Blin
   --l2ib-border-strong:  rgba(248, 248, 248, 0.3);
   --l2ib-nav-bg:         rgba(32, 32, 34, 0.9);
 
+  // En theme sombre, une bande claire unique est indispensable : les logos
+  // des tutelles sont dessines pour un fond blanc et disparaitraient sinon.
+  --l2ib-logo-band:      #ffffff;
+
   // Pied de page
   --l2ib-footer-bg:   #1c1c1e;
   --l2ib-footer-ink:  #a8adb3;

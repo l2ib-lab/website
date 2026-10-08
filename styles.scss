@@ -59,6 +59,10 @@ $font-family-sans-serif: "Source Sans 3", "Source Sans Pro", -apple-system, Blin
   --l2ib-border-strong:  rgba(52, 58, 64, 0.26);
   --l2ib-nav-bg:         rgba(248, 249, 250, 0.88);
 
+  // Fond de la rangee de logos des tutelles. Aucun en theme clair : les logos
+  // reposent directement sur la page, comme demande.
+  --l2ib-logo-band:      transparent;
+
   // Pied de page
   --l2ib-footer-bg:   #f8f9fa;
   --l2ib-footer-ink:  #5f6b76;
