@@ -8,10 +8,10 @@ toc: false
 ::: {.hero-inner}
 
 ::: {.hero-logos}
-![CIRI](images/logos/ciri.svg)
-![Inserm](images/logos/inserm.svg)
-![Université Claude Bernard Lyon 1](images/logos/ucbl.svg)
-![Hospices Civils de Lyon](images/logos/hcl.svg)
+![CIRI](images/logos/ciri.png)
+![Inserm](images/logos/inserm.png)
+![Université Claude Bernard Lyon 1](images/logos/ucbl.png)
+![Hospices Civils de Lyon](images/logos/hcl.png)
 :::
 
 ::: {.hero-body}
@@ -33,12 +33,6 @@ turn that biology into tools clinicians can actually use.
 
 :::
 :::
-:::
-
-::: {.todo}
-**Logos à remplacer** — les quatre fichiers de `images/logos/` sont des
-placeholders. Récupérez les versions officielles auprès de la communication de
-chaque tutelle et écrasez-les en gardant les mêmes noms de fichier.
 :::
 
 ## About the team

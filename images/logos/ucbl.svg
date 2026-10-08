@@ -1,7 +1,0 @@
-<!-- PLACEHOLDER — remplacez ce fichier par le logo officiel Universite Lyon 1 (SVG ou PNG).
-     Gardez le nom images/logos/ucbl.svg pour ne rien avoir a changer ailleurs. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" aria-label="Universite Lyon 1">
-  <rect width="200" height="60" rx="6" fill="#ffffff" stroke="#d3dae0"/>
-  <text x="100" y="35" font-family="Helvetica,Arial,sans-serif" font-size="15"
-        font-weight="700" fill="#1c2f3d" text-anchor="middle">Universite Lyon 1</text>
-</svg>

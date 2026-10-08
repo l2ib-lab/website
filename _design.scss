@@ -464,52 +464,96 @@ main.content:has(.hero) {
   margin-top: 0;
 }
 
-// ---- Accueil : logos en colonne a gauche du titre --------------------------
+// ---- Accueil : logos a gauche, titre centre --------------------------------
+
+.hero {
+  // Largeur de la colonne de logos. Une colonne fantome de meme largeur est
+  // posee a droite (::after) : sans elle, le titre serait decale vers la
+  // droite de la moitie de cette largeur.
+  --l2ib-logo-col: 150px;
+
+  // Gouttieres elargies par rapport au reste du site, pour decaler les logos
+  // vers la gauche sans deplacer le centre.
+  padding-left: max(1.5rem, calc(50vw - 620px));
+  padding-right: max(1.5rem, calc(50vw - 620px));
+}
 
 .hero-inner {
   display: flex;
-  align-items: flex-start;
-  gap: 2.75rem;
+  align-items: center;
+  gap: 2rem;
+
+  &::after {
+    content: "";
+    flex: 0 0 var(--l2ib-logo-col);
+  }
 }
 
 .hero-body {
   flex: 1 1 auto;
   min-width: 0;
-}
+  text-align: center;
 
-.hero .hero-logos {
-  flex: 0 0 auto;
-  padding-top: 0.4rem;
-  margin-bottom: 0;
+  h1 { max-width: 22ch; margin-left: auto; margin-right: auto; }
+
+  .hero-sub { max-width: 58ch; margin-left: auto; margin-right: auto; }
 }
 
 // Pandoc enveloppe les images consecutives dans un seul <p> : la colonne doit
-// donc etre posee sur le conteneur ET sur ce paragraphe.
+// etre posee sur le conteneur ET sur ce paragraphe.
 .hero .hero-logos,
 .hero .hero-logos p {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   align-items: flex-start;
-  gap: 0.8rem;
+  gap: 1rem;
   margin: 0;
   max-width: none;
-
-  img { height: 52px; }
 }
 
-// En dessous de 860px, les logos repassent en rangee au-dessus du titre :
-// une colonne laterale y mangerait toute la largeur utile.
+.hero .hero-logos {
+  flex: 0 0 var(--l2ib-logo-col);
+  width: var(--l2ib-logo-col);
+
+  // Hauteur plafonnee plutot que fixee : les quatre logos ont des rapports
+  // tres differents (Inserm 5:1, CIRI et HCL carres), une hauteur imposee
+  // les rendrait disparates.
+  img {
+    max-width: 100%;
+    max-height: 54px;
+    width: auto;
+    height: auto;
+    background: #fff;
+    border-radius: 6px;
+    padding: 5px 8px;
+  }
+}
+
+// Sous 860px, les logos repassent en rangee au-dessus du titre : une colonne
+// laterale y mangerait toute la largeur utile.
 @media (max-width: 860px) {
-  .hero-inner { flex-direction: column; gap: 1.75rem; }
+  .hero-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.75rem;
+
+    &::after { display: none; }
+  }
 
   .hero .hero-logos,
   .hero .hero-logos p {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 0;
+    justify-content: center;
+    gap: 0.75rem;
+  }
 
-    img { height: 38px; }
+  .hero .hero-logos {
+    flex: 0 0 auto;
+    width: auto;
+
+    img { max-height: 40px; }
   }
 }
