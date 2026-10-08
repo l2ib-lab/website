@@ -6,7 +6,7 @@ project:
 
 website:
   title: "L2IB"
-  description: "Leukemia and Lymphoma Immune Biology — CIRI, Lyon"
+  description: "Lymphoma and Leukemia Immune Biology — CIRI, Lyon"
   site-url: "https://www.l2ib-lab.fr"
   repo-url: https://github.com/l2ib-lab/website
   favicon: images/favicon.svg
@@ -40,7 +40,7 @@ website:
   page-footer:
     border: true
     left: |
-      **L2IB** — Leukemia and Lymphoma Immune Biology<br>
+      **L2IB** — Lymphoma and Leukemia Immune Biology<br>
       CIRI, Centre International de Recherche en Infectiologie<br>
       Inserm U1111 · CNRS UMR5308 · ENS de Lyon · UCBL1
     center:

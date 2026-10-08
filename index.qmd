@@ -1,6 +1,6 @@
 ---
 title: ""
-pagetitle: "Leukemia and Lymphoma Immune Biology"
+pagetitle: "Lymphoma and Leukemia Immune Biology"
 toc: false
 ---
 
@@ -9,7 +9,7 @@ toc: false
 CIRI · Inserm U1111 · Lyon
 :::
 
-# Leukemia & Lymphoma Immune Biology
+# Lymphoma & Leukemia Immune Biology
 
 ::: {.hero-sub}
 We study how lymphoid and myeloid malignancies escape the immune system, and we

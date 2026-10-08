@@ -1,6 +1,6 @@
 # www.l2ib-lab.fr — site de l'équipe L2IB
 
-Site vitrine de l'équipe **L2IB (Leukemia and Lymphoma Immune Biology)**, CIRI, Lyon.
+Site vitrine de l'équipe **L2IB (Lymphoma and Leukemia Immune Biology)**, CIRI, Lyon.
 Construit avec [Quarto](https://quarto.org), publié automatiquement sur GitHub Pages.
 
 ---
