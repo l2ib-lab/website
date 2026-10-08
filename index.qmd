@@ -12,18 +12,13 @@ CIRI · Inserm U1111 · Lyon
 # Leukemia & Lymphoma Immune Biology
 
 ::: {.hero-sub}
-We study how the immune system shapes — and is reshaped by — leukemia and
-lymphoma, and we turn that biology into tools clinicians can actually use.
+We study how lymphoid and myeloid malignancies escape the immune system, and we
+turn that biology into tools clinicians can actually use.
 :::
 
-[Explore our tools](tools/index.qmd){.btn-app .btn-launch}
-[Meet the team](team.qmd){.btn-app}
-:::
-
-::: {.todo}
-**À éditer** — remplacez tout le texte de cette page par le vôtre. Les blocs
-`.todo` (encadrés pointillés) marquent le contenu à personnaliser ;
-supprimez-les ensuite.
+[Our research](research.qmd){.btn-app .btn-launch}
+[Open tools](tools/index.qmd){.btn-app}
+[Join us](join.qmd){.btn-app}
 :::
 
 ## About the team
@@ -31,48 +26,84 @@ supprimez-les ensuite.
 L2IB is a research team of the [CIRI — Centre International de Recherche en
 Infectiologie](https://ciri.ens-lyon.fr/teams/lib) in Lyon, France
 (Inserm U1111 · CNRS UMR5308 · ENS de Lyon · Université Claude Bernard Lyon 1),
-co-led by **L. Genestier** and **E. Bachy**.
+co-led by **Laurent Genestier** and **Emmanuel Bachy**.
 
-Our work sits at the interface of fundamental immunology, hematology and
-computational biology. We combine primary patient samples, functional
-immunology and machine learning on large clinical cohorts to understand
-lymphomagenesis and to improve how patients are diagnosed and stratified.
+Forty-three people — **25 full-time equivalents** — work at the interface of
+fundamental immunology, haematology and computational biology. We combine
+primary patient samples, functional immunology, mouse models and machine
+learning on large clinical cohorts to understand lymphomagenesis and to improve
+how patients are diagnosed, stratified and treated.
 
-The team is based at the Lyon Sud campus and works in close collaboration with
-the clinical hematology departments of the Hospices Civils de Lyon.
+The team is based on the Lyon Sud campus and works in close collaboration with
+the clinical haematology and pathology departments of the Hospices Civils de
+Lyon.
 
 ## What we do
 
 ::: {.feature-grid}
 
 ::: {.feature-card}
-### Immune biology
-Mechanisms of immune escape and T-cell dysfunction in lymphoid malignancies.
+### Epigenetics
+Chromatin alterations in T-cell lymphoma, and ATAC-seq protocols that work on
+routine FFPE material.
 :::
 
 ::: {.feature-card}
-### Translational cohorts
-Large multicentric patient cohorts linking biology to clinical outcome.
+### Environment & genomics
+BTG1 mutations, MCL1 sensitivity, and how glyphosate exposure shapes lymphoma
+risk and chemoresistance.
 :::
 
 ::: {.feature-card}
-### Open tools
-Models and applications released openly for the community.
+### Microenvironment
+Metabolism and the bone marrow niche in paediatric B-ALL, from pre-leukaemic
+clones to relapse.
+:::
+
+::: {.feature-card}
+### Inflammation
+The IL-1 axis in myeloid malignancies, and the first PDX model of VEXAS
+syndrome.
+:::
+
+::: {.feature-card}
+### Cell therapy
+Determinants of CAR-T efficacy and toxicity, and anti-CD4 CAR-T cells for T-cell
+malignancies.
+:::
+
+::: {.feature-card}
+### Omics & AI
+A transversal computational programme feeding every axis — and the source of our
+[open tools](tools/index.qmd).
 :::
 
 :::
+
+## In numbers
+
+| | |
+|---|---|
+| People · full-time equivalents | **43** · **25** |
+| Publications, 2019–2024 | **480+**, of which **127** in journals with IF > 10 |
+| Grants raised, 2019–2023 | **5.1 M€** across 68 grants, coordinator in 61 |
+| Secured for 2024–2028 | **1.47 M€** |
+| Licensed patents | **1** |
 
 ## Highlights
 
 - **[FIBOM-AI](tools/fibom-ai/index.qmd)** — a machine-learning tool predicting
   grade 2–3 bone marrow fibrosis from a routine complete blood count, trained on
   nearly 2,000 patients across French university hospitals.
-- *(ajoutez ici vos publications marquantes, prix, financements obtenus)*
+- ***BTG1* mutations sensitise lymphomas to MCL1 inhibitors** — Delage et al.,
+  *Blood*, 2023, protected by patent WO2023057484A1.
+- **First PDX model of VEXAS syndrome**, with and without associated MDS.
+- Member of the **CALYM Carnot Institute**.
 
 ## Contact
 
 **L2IB — CIRI**\
 Faculté de Médecine Lyon Sud Charles Mérieux\
-165 Chemin du Petit Revoyet, 69600 Oullins-Pierre-Bénite, France
+165 Chemin du Grand Revoyet, 69310 Pierre-Bénite, France
 
 [contact@l2ib.fr](mailto:contact@l2ib.fr) · [Team page at CIRI](https://ciri.ens-lyon.fr/teams/lib) · [GitHub](https://github.com/l2ib-lab)

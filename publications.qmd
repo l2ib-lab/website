@@ -1,40 +1,549 @@
 ---
 title: "Publications"
-subtitle: "Peer-reviewed articles from the L2IB team"
-nocite: |
-  @*
+subtitle: "Articles published in journals with an impact factor above 10"
+toc: true
+toc-depth: 2
 ---
 
-::: {.callout-tip collapse="true"}
-## Comment mettre cette page à jour (30 secondes)
+Selected publications from the team in journals with an impact factor above
+**10**, over the **2019–2024** evaluation period.
 
-Cette liste est **générée automatiquement** depuis `references.bib`.
-Vous n'écrivez jamais de bibliographie à la main.
+Across that period the team produced more than **480 references** in all
+journals, including 25 original research articles and 61 clinical articles as
+first or last authors.
 
-1. Dans Zotero, sélectionnez la collection « Publications L2IB ».
-2. Clic droit → *Export Collection…* → format **BibTeX** → cochez
-   *Export Notes* : non.
-3. Enregistrez en écrasant `references.bib` à la racine du site.
-4. `git commit` + `git push` → la page se régénère seule.
+::: {.callout-note collapse="true"}
+## How this list is built
 
-Le style de citation est défini par `csl:` dans `_quarto.yml`
-(actuellement Vancouver). Pour en changer, prenez un fichier sur
-[zotero.org/styles](https://www.zotero.org/styles).
+It is generated from the team's HCERES bibliographic record. That record has no
+impact-factor column, so the filter is applied to the journal name using a
+lookup table based on recent JCR values.
+
+The threshold is a single number: **IF > 20** would reduce the list to about
+thirty references, **IF > 5** would push it beyond three hundred.
+
+A few journals sit just below the cut and are therefore absent:
+*Haematologica* (8.2), *HemaSphere* (7.6), *Blood Advances* (7.4),
+*eClinicalMedicine* (9.6), *PNAS* (9.4).
 :::
 
-Voir aussi les profils
-[ORCID](https://orcid.org/) ·
-[Google Scholar](https://scholar.google.com/) ·
-[HAL](https://hal.science/) *(à compléter)*.
+## 2024
 
-## Selected publications
+- **Glofitamab plus gemcitabine and oxaliplatin (GemOx) versus rituximab-GemOx for relapsed or refractory diffuse large B-cell lymphoma (STARGLO): a global phase 3, randomised, open-label trial**  
+  Abramson JS, Ku M, Hertzberg M, Huang HQ, Fox CP, Zhang HL, Yoon DH, Kim WS, et al.  
+  *Lancet* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Glofitamab%20plus%20gemcitabine%20and%20oxaliplatin%20(GemOx)%20versus%20rituximab-GemOx%20for%20relapsed%20or%20refractory%20diffuse%20large%20B-cell%20lymphoma%20(STARGLO)%3A%20a%20global%20phase%203%2C%20randomised%2C%20open-label%20trial)
 
-::: {.todo}
-Vous pouvez mettre en avant 3 à 5 articles ici, à la main, avant la liste
-complète générée ci-dessous. C'est ce que lisent les recruteurs et les jurys.
-:::
+- **Lisocabtagene maraleucel in follicular lymphoma: the phase 2 TRANSCEND FL study**  
+  Morschhauser F, Dahiya S, Palomba ML, Garcia-Sancho AM, Reguera-Ortega JL, Kuruvilla J, Jager U, Cartron G, et al.  
+  *Nature Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Lisocabtagene%20maraleucel%20in%20follicular%20lymphoma%3A%20the%20phase%202%20TRANSCEND%20FL%20study)
 
-## All publications
+- **Safety and efficacy of odronextamab in patients with relapsed or refractory follicular lymphoma**  
+  Kim TM, Taszner M, Novelli S, Cho SG, Villasboas JC, Merli M, Jimenez-Ubieto A, Tessoulin B, et al.  
+  *Annals of Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Safety%20and%20efficacy%20of%20odronextamab%20in%20patients%20with%20relapsed%20or%20refractory%20follicular%20lymphoma)
 
-::: {#refs}
-:::
+- **Metabolic tumor volume predicts outcome in patients with advanced stage follicular lymphoma from the RELEVANCE trial**  
+  Cottereau AS, Rebaud L, Trotman J, Feugier P, Nastoupil LJ, Bachy E, Flinn IW, Haioun C, et al.  
+  *Annals of Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Metabolic%20tumor%20volume%20predicts%20outcome%20in%20patients%20with%20advanced%20stage%20follicular%20lymphoma%20from%20the%20RELEVANCE%20trial)
+
+- **Distinct Hodgkin lymphoma subtypes defined by noninvasive genomic profiling**  
+  Alig SK, Esfahani MS, Garofalo A, Li MY, Rossi C, Flerlage T, Flerlage JE, Adams R, et al.  
+  *Nature* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Distinct%20Hodgkin%20lymphoma%20subtypes%20defined%20by%20noninvasive%20genomic%20profiling)
+
+- **Romidepsin Plus Cyclophosphamide, Doxorubicin, Vincristine, and Prednisone Versus Cyclophosphamide, Doxorubicin, Vincristine, and Prednisone in Patients With Previously Untreated Peripheral T-Cell Lymphoma: Final Analysis of the Ro-CHOP Trial**  
+  Camus V, Thieblemont C, Gaulard P, Cheminant M, Casasnovas RO, Ysebaert L, Damaj GL, Guidez S, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Romidepsin%20Plus%20Cyclophosphamide%2C%20Doxorubicin%2C%20Vincristine%2C%20and%20Prednisone%20Versus%20Cyclophosphamide%2C%20Doxorubicin%2C%20Vincristine%2C%20and%20Prednisone%20in%20Patients%20With%20Previously%20Untreated%20Peripheral%20T-Cell%20Lymphoma%3A%20Final%20Analysis%20of%20the%20Ro-CHOP%20Trial)
+
+- **Significance of Measurable Residual Disease in Adult Philadelphia Chromosome-Positive ALL: A GRAAPH-2014 Study**  
+  Kim R, Chalandon Y, Rousselot P, Cayuela JM, Huguet F, Balsat M, Passet M, Chevallier P, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Significance%20of%20Measurable%20Residual%20Disease%20in%20Adult%20Philadelphia%20Chromosome-Positive%20ALL%3A%20A%20GRAAPH-2014%20Study)
+
+- **Valemetostat for patients with relapsed or refractory peripheral T-cell lymphoma (VALENTINE-PTCL01): a multicentre, open-label, single-arm, phase 2 study**  
+  Zinzani PL, Izutsu K, Mehta-Shah N, Barta SK, Ishitsuka K, Cordoba R, Kusumoto S, Bachy E, et al.  
+  *Lancet Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Valemetostat%20for%20patients%20with%20relapsed%20or%20refractory%20peripheral%20T-cell%20lymphoma%20(VALENTINE-PTCL01)%3A%20a%20multicentre%2C%20open-label%2C%20single-arm%2C%20phase%202%20study)
+
+- **Ziftomenib in relapsed or refractory acute myeloid leukaemia (KOMET-001): a multicentre, open-label, multi-cohort, phase 1 trial**  
+  Wang ES, Issas GC, Erba HP, Altman JK, Montesinos P, Debotton S, Walter RB, Pettit K, et al.  
+  *Lancet Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Ziftomenib%20in%20relapsed%20or%20refractory%20acute%20myeloid%20leukaemia%20(KOMET-001)%3A%20a%20multicentre%2C%20open-label%2C%20multi-cohort%2C%20phase%201%20trial)
+
+- **Novel prognostic scoring systems for severe CRS and ICANS after anti-CD19 CAR T cells in large B-cell lymphoma**  
+  Sesques P, Kirkwood AA, Kwon M, Rejeski K, Jain MD, Di Blasi R, Brisou G, Gros FX, et al.  
+  *Journal of Hematology & Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Novel%20prognostic%20scoring%20systems%20for%20severe%20CRS%20and%20ICANS%20after%20anti-CD19%20CAR%20T%20cells%20in%20large%20B-cell%20lymphoma)
+
+- **Development and validation of the post-CAR prognostic index for large B-cell lymphoma patients after CAR-T progression in third or later line treatment**  
+  Iacoboni G, Navarro V, Sesques P, Rejeski K, Bastos-Oreiro M, Serpenti F, Lopez AAM, Iraola-Truchuelo J, et al.  
+  *Journal of Hematology & Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Development%20and%20validation%20of%20the%20post-CAR%20prognostic%20index%20for%20large%20B-cell%20lymphoma%20patients%20after%20CAR-T%20progression%20in%20third%20or%20later%20line%20treatment)
+
+- **Oral azacitidine compared with standard therapy in patients with relapsed or refractory follicular helperT-cell lymphoma (ORACLE): an open-label randomised, phase 3 study**  
+  Dupuis J, Bachy E, Morschhauser F, Cartron G, Fukuhara N, Daguindau N, Casasnovas RO, Snauwaert S, et al.  
+  *Lancet Haematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Oral%20azacitidine%20compared%20with%20standard%20therapy%20in%20patients%20with%20relapsed%20or%20refractory%20follicular%20helperT-cell%20lymphoma%20(ORACLE)%3A%20an%20open-label%20randomised%2C%20phase%203%20study)
+
+- **Evaluation of a machine-learning model based on laboratory parameters for the prediction of acute leukaemia subtypes: a multicentre model development and validation study in France**  
+  Alcazer V, Le Meur G, Roccon M, Barriere S, Le Calvez B, Badaoui B, Spaeth A, Kosmider O, et al.  
+  *Lancet Digital Health* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Evaluation%20of%20a%20machine-learning%20model%20based%20on%20laboratory%20parameters%20for%20the%20prediction%20of%20acute%20leukaemia%20subtypes%3A%20a%20multicentre%20model%20development%20and%20validation%20study%20in%20France)
+
+- **Serious infections in patients with VEXAS syndrome: data from the French VEXAS registry**  
+  de Valence B, Delaune M, Nguyen Y, Jachiet V, Heiblig M, Jean A, Tuczkiewicz SR, Henneton P, et al.  
+  *Annals of the Rheumatic Diseases* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Serious%20infections%20in%20patients%20with%20VEXAS%20syndrome%3A%20data%20from%20the%20French%20VEXAS%20registry)
+
+- **Inactivation of cytidine triphosphate synthase 1 prevents fatal auto-immunity in mice**  
+  Soudais C, Schaus R, Bachelet C, Minet N, Mouasni S, Garcin C, Souza CL, David P, et al.  
+  *Nature Communications* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Inactivation%20of%20cytidine%20triphosphate%20synthase%201%20prevents%20fatal%20auto-immunity%20in%20mice)
+
+- **Large B-cell lymphomas with CCND1 rearrangement have different immunoglobulin gene breakpoints and genomic profile than mantle cell lymphoma**  
+  Ozogul E, Montaner A, Pol M, Frigola G, Balague O, Syrykh C, Bousquets-Munoz P, Royo R, et al.  
+  *Blood Cancer Journal* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Large%20B-cell%20lymphomas%20with%20CCND1%20rearrangement%20have%20different%20immunoglobulin%20gene%20breakpoints%20and%20genomic%20profile%20than%20mantle%20cell%20lymphoma)
+
+- **Hematopoietic stem cell transplantation for DLBCL: a report from the European Society for Blood and Marrow Transplantation on more than 40,000 patients over 32 years**  
+  Berning P, Fekom M, Ngoya M, Goldstone AH, Dreger P, Montoto S, Finel H, Shumilov E, et al.  
+  *Blood Cancer Journal* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Hematopoietic%20stem%20cell%20transplantation%20for%20DLBCL%3A%20a%20report%20from%20the%20European%20Society%20for%20Blood%20and%20Marrow%20Transplantation%20on%20more%20than%2040%2C000%20patients%20over%2032%20years)
+
+- **Is CAR T a drug or a therapeutic pathway? Intention to treat versus per protocol analysis of real world studies of CAR-T cell therapy in relapsed refractory diffuse large B cell lymphoma**  
+  Di Staso R, Casadei B, Locke FL, Jain M, Voorhees TJ, Kittai AS, Bastos-Oreiro M, Gutierrez A, et al.  
+  *Blood Cancer Journal* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Is%20CAR%20T%20a%20drug%20or%20a%20therapeutic%20pathway%3F%20Intention%20to%20treat%20versus%20per%20protocol%20analysis%20of%20real%20world%20studies%20of%20CAR-T%20cell%20therapy%20in%20relapsed%20refractory%20diffuse%20large%20B%20cell%20lymphoma)
+
+- **Improved outcome of COVID-19 over time in patients treated with CAR T-cell therapy: Update of the European COVID-19 multicenter study on behalf of the European Society for Blood and Marrow Transplantation (EBMT) Infectious Diseases Working Party (IDWP) and the European Hematology Association (EHA) Lymphoma Group**  
+  Spanjaart AM, Ljungman P, Tridello G, Schwartz J, Martinez-Cibrian N, Barba P, Kwon M, Lopez-Corral L, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Improved%20outcome%20of%20COVID-19%20over%20time%20in%20patients%20treated%20with%20CAR%20T-cell%20therapy%3A%20Update%20of%20the%20European%20COVID-19%20multicenter%20study%20on%20behalf%20of%20the%20European%20Society%20for%20Blood%20and%20Marrow%20Transplantation%20(EBMT)%20Infectious%20Diseases%20Working%20Party%20(IDWP)%20and%20the%20European%20Hematology%20Association%20(EHA)%20Lymphoma%20Group)
+
+- **Functional precision oncology for follicular lymphoma with patient-derived xenograft in avian embryos**  
+  Zala M, Lipinski B, Costechareyre C, Jarrosson L, Teinturier R, Julia E, Lacourrege M, Verney A, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Functional%20precision%20oncology%20for%20follicular%20lymphoma%20with%20patient-derived%20xenograft%20in%20avian%20embryos)
+
+- **Epcoritamab in relapsed/refractory large B-cell lymphoma: 2-year follow-up from the pivotal EPCORE NHL-1 trial**  
+  Thieblemont C, Karimi YH, Ghesquieres H, Cheah CY, Clausen MR, Cunningham D, Jurczak W, Do YR, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Epcoritamab%20in%20relapsed%2Frefractory%20large%20B-cell%20lymphoma%3A%202-year%20follow-up%20from%20the%20pivotal%20EPCORE%20NHL-1%20trial)
+
+- **Real life evaluation of AlphaMissense predictions in hematological malignancies**  
+  Chabane K, Charlot C, Gugenheim D, Simonet T, Armisen D, Viailly PJ, de Boisse GC, Huet S, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Real%20life%20evaluation%20of%20AlphaMissense%20predictions%20in%20hematological%20malignancies)
+
+- **Comprehensive Genetic Profiling Reveals Frequent Alterations of Driver Genes on the X Chromosome in Extranodal NK/T-cell Lymphoma**  
+  Ito Y, Marouf A, Kogure Y, Koya J, Lievin R, Bruneau J, Tabata M, Saito Y, et al.  
+  *Cancer Research* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Comprehensive%20Genetic%20Profiling%20Reveals%20Frequent%20Alterations%20of%20Driver%20Genes%20on%20the%20X%20Chromosome%20in%20Extranodal%20NK%2FT-cell%20Lymphoma)
+
+- **Pathophysiologic implications of elevated prevalence of hereditary alpha-tryptasemia in all mastocytosis subtypes**  
+  Polivka L, Madrange M, Bulai-Livideanu C, Barete S, Ballul T, Neuraz A, Greco C, Agopian J, et al.  
+  *Journal of Allergy and Clinical Immunology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Pathophysiologic%20implications%20of%20elevated%20prevalence%20of%20hereditary%20alpha-tryptasemia%20in%20all%20mastocytosis%20subtypes)
+
+- **In vivo CAR T cell therapy against angioimmunoblastic T cell lymphoma**  
+  Krug A, Saidane A, Martinello C, Fusil F, Michels A, Buchholz CJ, Ricci JE, Verhoeyen E  
+  *Journal of Experimental & Clinical Cancer Research* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=In%20vivo%20CAR%20T%20cell%20therapy%20against%20angioimmunoblastic%20T%20cell%20lymphoma)
+
+- **Comparison of prognostic scores according to WHO classification in 170 patients with advanced mastocytosis and C-finding treated with midostaurin**  
+  Heiblig M, Gourguechon C, Guilpain P, Bulai-Livideanu C, Barete S, Chantran Y, Agopian J, Brenet F, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Comparison%20of%20prognostic%20scores%20according%20to%20WHO%20classification%20in%20170%20patients%20with%20advanced%20mastocytosis%20and%20C-finding%20treated%20with%20midostaurin)
+
+- **Normal B cells express ZAP70 in chronic lymphocytic leukemia: A link between autoimmunity and lymphoproliferation?**  
+  Ghergus D, Martin M, Knapp AM, Delmotte F, Joublin-Delavat A, Jung S, Schickel JN, Mendel I, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Normal%20B%20cells%20express%20ZAP70%20in%20chronic%20lymphocytic%20leukemia%3A%20A%20link%20between%20autoimmunity%20and%20lymphoproliferation%3F)
+
+- **Efficacy and safety of mammalian target of rapamycin inhibitors in systemic mastocytosis: A nationwide French pilot study**  
+  Moraly J, Rossignol J, Rouzaud C, Gabas T, Bouktit H, Lhermitte L, Canioni D, Fraitag S, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Efficacy%20and%20safety%20of%20mammalian%20target%20of%20rapamycin%20inhibitors%20in%20systemic%20mastocytosis%3A%20A%20nationwide%20French%20pilot%20study)
+
+- **Efficacy of CAR T-cell therapy is not impaired by previous bispecific antibody treatment in large B-cell lymphoma**  
+  Crochet G, Iacoboni G, Couturier A, Bachy E, Iraola-Truchuelo J, Gastinne T, Cartron G, Fradon T, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Efficacy%20of%20CAR%20T-cell%20therapy%20is%20not%20impaired%20by%20previous%20bispecific%20antibody%20treatment%20in%20large%20B-cell%20lymphoma)
+
+- **High efficacy of CD19 CAR T cells in patients with transformed Waldenstrom macroglobulinemia**  
+  Durot E, Roos-Weil D, Chauchet A, Decroocq J, Di Blasi R, Gastinne T, Bensaber H, Cheminant M, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=High%20efficacy%20of%20CD19%20CAR%20T%20cells%20in%20patients%20with%20transformed%20Waldenstrom%20macroglobulinemia)
+
+- **The phase 2 LYSA study of prednisone, vinblastine, doxorubicin, and bendamustine for untreated Hodgkin lymphoma in older patients**  
+  Ghesquieres H, Krzisch D, Nicolas-Virelizier E, Kanoun S, Gac AC, Guidez S, Touati M, Laribi K, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=The%20phase%202%20LYSA%20study%20of%20prednisone%2C%20vinblastine%2C%20doxorubicin%2C%20and%20bendamustine%20for%20untreated%20Hodgkin%20lymphoma%20in%20older%20patients)
+
+- **Durable response after tisagenlecleucel in adults with relapsed/refractory follicular lymphoma: ELARA trial update**  
+  Dreyling M, Fowler NH, Dickinson M, Martinez-Lopez J, Kolstad A, Butler J, Ghosh M, Popplewell L, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Durable%20response%20after%20tisagenlecleucel%20in%20adults%20with%20relapsed%2Frefractory%20follicular%20lymphoma%3A%20ELARA%20trial%20update)
+
+- **Follicular lymphoma comprises germinal center-like and memory-like molecular subtypes with prognostic significance**  
+  Laurent C, Trisal P, Tesson B, Seth S, Beyou A, Roulland S, Lesne B, Van Acker N, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Follicular%20lymphoma%20comprises%20germinal%20center-like%20and%20memory-like%20molecular%20subtypes%20with%20prognostic%20significance)
+
+- **Optimizing drug combinations for T-PLL: restoring DNA damage and P53-mediated apoptotic responses**  
+  von Jan J, Timonen S, Braun T, Jiang Q, Ianevski A, Peng YY, McConnell K, Sindaco P, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Optimizing%20drug%20combinations%20for%20T-PLL%3A%20restoring%20DNA%20damage%20and%20P53-mediated%20apoptotic%20responses)
+
+- **Three-year follow-up analysis of axicabtagene ciloleucel in relapsed/refractory indolent non-Hodgkin lymphoma (ZUMA-5)**  
+  Neelapu SS, Chavez JC, Sehgal AR, Epperla N, Ulrickson M, Bachy E, Munshi PN, Casulo C, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Three-year%20follow-up%20analysis%20of%20axicabtagene%20ciloleucel%20in%20relapsed%2Frefractory%20indolent%20non-Hodgkin%20lymphoma%20(ZUMA-5))
+
+## 2023
+
+- **Allogeneic transplantation in advanced cutaneous T-cell lymphomas (CUTALLO): a propensity score matched controlled prospective study**  
+  de Masson A, Beylot-Barry M, Ram-Wolff C, Mear JB, Dalle S, d'Incan M, Ingen-Housz-Oro S, Orvain C, et al.  
+  *Lancet* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Allogeneic%20transplantation%20in%20advanced%20cutaneous%20T-cell%20lymphomas%20(CUTALLO)%3A%20a%20propensity%20score%20matched%20controlled%20prospective%20study)
+
+- **Axicabtagene ciloleucel in large B cell lymphoma ineligible for autologous stem cell transplantation: the phase 2 ALYCANTE trial**  
+  Houot R, Bachy E, Cartron G, Gros FX, Morschhauser F, Oberic L, Gastinne T, Feugier P, et al.  
+  *Nature Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Axicabtagene%20ciloleucel%20in%20large%20B%20cell%20lymphoma%20ineligible%20for%20autologous%20stem%20cell%20transplantation%3A%20the%20phase%202%20ALYCANTE%20trial)
+
+- **Epcoritamab, a Novel, Subcutaneous CD3xCD20 Bispecific T-Cell-Engaging Antibody, in Relapsed or Refractory Large B-Cell Lymphoma: Dose Expansion in a Phase I/II Trial**  
+  Thieblemont C, Phillips T, Ghesquieres H, Cheah CY, Clausen MR, Cunningham D, Do YR, Feldman T, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Epcoritamab%2C%20a%20Novel%2C%20Subcutaneous%20CD3xCD20%20Bispecific%20T-Cell-Engaging%20Antibody%2C%20in%20Relapsed%20or%20Refractory%20Large%20B-Cell%20Lymphoma%3A%20Dose%20Expansion%20in%20a%20Phase%20I%2FII%20Trial)
+
+- **Brentuximab Vedotin Plus AVD for First-Line Treatment of Early-Stage Unfavorable Hodgkin Lymphoma (BREACH): A Multicenter, Open-Label, Randomized, Phase II Trial**  
+  Fornecker LM, Lazarovici J, Aurer I, Casasnovas RO, Gac AC, Bonnet C, Bouabdallah K, Feugier P, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Brentuximab%20Vedotin%20Plus%20AVD%20for%20First-Line%20Treatment%20of%20Early-Stage%20Unfavorable%20Hodgkin%20Lymphoma%20(BREACH)%3A%20A%20Multicenter%2C%20Open-Label%2C%20Randomized%2C%20Phase%20II%20Trial)
+
+- **Randomized Phase III Trial Evaluating Subcutaneous Rituximab for the First-Line Treatment of Low-Tumor Burden Follicular Lymphoma: Results of a LYSA Study**  
+  Cartron G, Bachy E, Tilly H, Daguindau N, Pica GM, Bijou F, Mounier C, Clavert A, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Randomized%20Phase%20III%20Trial%20Evaluating%20Subcutaneous%20Rituximab%20for%20the%20First-Line%20Treatment%20of%20Low-Tumor%20Burden%20Follicular%20Lymphoma%3A%20Results%20of%20a%20LYSA%20Study)
+
+- **C/EBPa Confers Dependence to Fatty Acid Anabolic Pathways and Vulnerability to Lipid Oxidative Stress-Induced Ferroptosis in FLT3-Mutant Leukemia**  
+  Sabatier M, Birsen R, Lauture L, Mouche S, Angelino P, Dehairs J, Goupille L, Boussaid I, et al.  
+  *Cancer Discovery* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=C%2FEBPa%20Confers%20Dependence%20to%20Fatty%20Acid%20Anabolic%20Pathways%20and%20Vulnerability%20to%20Lipid%20Oxidative%20Stress-Induced%20Ferroptosis%20in%20FLT3-Mutant%20Leukemia)
+
+- **The CAR-HEMATOTOX score as a prognostic model of toxicity and response in patients receiving BCMA-directed CAR-T for relapsed/refractory multiple myeloma**  
+  Rejeski K, Hansen DK, Bansal R, Sesques P, Ailawadhi S, Logue JM, Braeunlein E, dos Santos DMC, et al.  
+  *Journal of Hematology & Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=The%20CAR-HEMATOTOX%20score%20as%20a%20prognostic%20model%20of%20toxicity%20and%20response%20in%20patients%20receiving%20BCMA-directed%20CAR-T%20for%20relapsed%2Frefractory%20multiple%20myeloma)
+
+- **Hepatitis D virus interferes with hepatitis B virus RNA production via interferon-dependent and-independent mechanisms**  
+  Lucifora J, Alfaiate D, Pons C, Michelet M, Ramirez R, Fusil F, Amirache F, Rossi A, et al.  
+  *Journal of Hepatology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Hepatitis%20D%20virus%20interferes%20with%20hepatitis%20B%20virus%20RNA%20production%20via%20interferon-dependent%20and-independent%20mechanisms)
+
+- **Germinal center output is sustained by HELLS-dependent DNA-methylation-maintenance in B cells**  
+  Cousu C, Mulot E, De Smet A, Formichetti S, Lecoeuche D, Ren JK, Muegge K, Boulard M, et al.  
+  *Nature Communications* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Germinal%20center%20output%20is%20sustained%20by%20HELLS-dependent%20DNA-methylation-maintenance%20in%20B%20cells)
+
+- **Gilteritinib activity in refractory or relapsed FLT3-mutated acute myeloid leukemia patients previously treated by intensive chemotherapy and midostaurin: a study from the French AML Intergroup ALFA/FILO**  
+  Dumas PY, Raffoux E, Berard E, Bertoli S, Hospital MA, Heiblig M, Desbrosses Y, Bonmati C, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Gilteritinib%20activity%20in%20refractory%20or%20relapsed%20FLT3-mutated%20acute%20myeloid%20leukemia%20patients%20previously%20treated%20by%20intensive%20chemotherapy%20and%20midostaurin%3A%20a%20study%20from%20the%20French%20AML%20Intergroup%20ALFA%2FFILO)
+
+- **Exploring the genetic landscape of HCV-related B-cell lymphomas using whole exome sequencing**  
+  Armand M, Degaud M, Tesson B, Laurent C, Vavasseur M, Parisot M, Hoareau-Coudert B, Canioni D, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Exploring%20the%20genetic%20landscape%20of%20HCV-related%20B-cell%20lymphomas%20using%20whole%20exome%20sequencing)
+
+- **Retrospective analysis of hematopoietic cell transplantation for blastic plasmacytoid dendritic cell neoplasm: conditioning intensity matters**  
+  Bruch PM, Dietrich S, Finel H, Boumendil A, Greinix H, Heinicke T, Bethge W, Beelen D, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Retrospective%20analysis%20of%20hematopoietic%20cell%20transplantation%20for%20blastic%20plasmacytoid%20dendritic%20cell%20neoplasm%3A%20conditioning%20intensity%20matters)
+
+- **The CAR-HEMATOTOX score identifies patients at high risk for hematological toxicity, infectious complications, and poor treatment outcomes following brexucabtagene autoleucel for relapsed or refractory MCL**  
+  Rejeski K, Wang YC, Albanyan O, Munoz J, Sesques P, Iacoboni G, Lopez-Corral L, Ries I, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=The%20CAR-HEMATOTOX%20score%20identifies%20patients%20at%20high%20risk%20for%20hematological%20toxicity%2C%20infectious%20complications%2C%20and%20poor%20treatment%20outcomes%20following%20brexucabtagene%20autoleucel%20for%20relapsed%20or%20refractory%20MCL)
+
+- **Immune effector cell-associated hematotoxicity: EHA/EBMT consensus grading and best practice recommendations**  
+  Rejeski K, Subklewe M, Aljurf M, Bachy E, Balduzzi A, Barba P, Bruno B, Benjamin R, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Immune%20effector%20cell-associated%20hematotoxicity%3A%20EHA%2FEBMT%20consensus%20grading%20and%20best%20practice%20recommendations)
+
+- **BTG1 inactivation drives lymphomagenesis and promotes lymphoma dissemination through activation of BCAR1**  
+  Delage L, Lambert M, Kundlacz C, Chartoire D, Conchon A, Gorka L, Auberger P, Jacquel A, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=BTG1%20inactivation%20drives%20lymphomagenesis%20and%20promotes%20lymphoma%20dissemination%20through%20activation%20of%20BCAR1)
+
+- **Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma**  
+  Thomas N, Dreval K, Gerhard DS, Hilton LK, Abramson JS, Ambinder RF, Barta S, Bartlett NL, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Genetic%20subgroups%20inform%20on%20pathobiology%20in%20adult%20and%20pediatric%20Burkitt%20lymphoma)
+
+- **Pembrolizumab in relapsed or refractory primary mediastinal large B-cell lymphoma: final analysis of KEYNOTE-170**  
+  Zinzani PL, Thieblemont C, Melnichenko V, Bouabdallah K, Walewski J, Majlis A, Fogliatto L, Garcia-Sancho AM, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Pembrolizumab%20in%20relapsed%20or%20refractory%20primary%20mediastinal%20large%20B-cell%20lymphoma%3A%20final%20analysis%20of%20KEYNOTE-170)
+
+## 2022
+
+- **Glofitamab for Relapsed or Refractory Diffuse Large B-Cell Lymphoma**  
+  Dickinson MJ, Carlo-Stella C, Morschhauser F, Bachy E, Corradini P, Iacoboni G, Khan C, Wrobel T, et al.  
+  *New England Journal of Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Glofitamab%20for%20Relapsed%20or%20Refractory%20Diffuse%20Large%20B-Cell%20Lymphoma)
+
+- **Second-Line Tisagenlecleucel or Standard Care in Aggressive B-Cell Lymphoma**  
+  Bishop MR, Dickinson M, Purtill D, Barba P, Santoro A, Hamad N, Kato K, Sureda A, et al.  
+  *New England Journal of Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Second-Line%20Tisagenlecleucel%20or%20Standard%20Care%20in%20Aggressive%20B-Cell%20Lymphoma)
+
+- **Tisagenlecleucel in adult relapsed or refractory follicular lymphoma: the phase 2 ELARA trial**  
+  Fowler NH, Dickinson M, Dreyling M, Martinez-Lopez J, Kolstad A, Butler J, Ghosh M, Popplewell L, et al.  
+  *Nature Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Tisagenlecleucel%20in%20adult%20relapsed%20or%20refractory%20follicular%20lymphoma%3A%20the%20phase%202%20ELARA%20trial)
+
+- **A real-world comparison of tisagenlecleucel and axicabtagene ciloleucel CAR T cells in relapsed or refractory diffuse large B cell lymphoma**  
+  Bachy E, Le Gouill S, Di Blasi R, Sesques P, Manson G, Cartron G, Beauvais D, Roulin L, et al.  
+  *Nature Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=A%20real-world%20comparison%20of%20tisagenlecleucel%20and%20axicabtagene%20ciloleucel%20CAR%20T%20cells%20in%20relapsed%20or%20refractory%20diffuse%20large%20B%20cell%20lymphoma)
+
+- **Immune response to three doses of mRNA SARS-CoV-2 vaccines in CD19-targeted chimeric antigen receptor T cell immunotherapy recipients**  
+  Sesques P, Bachy E, Ferrant E, Safar V, Gossez M, Morfin-Sherpa F, Venet F, Ader F  
+  *Cancer Cell* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Immune%20response%20to%20three%20doses%20of%20mRNA%20SARS-CoV-2%20vaccines%20in%20CD19-targeted%20chimeric%20antigen%20receptor%20T%20cell%20immunotherapy%20recipients)
+
+- **Positron Emission Tomography-Driven Strategy in Advanced Hodgkin Lymphoma: Prolonged Follow-Up of the AHL2011 Phase III Lymphoma Study Association Study**  
+  Casasnovas RO, Bouabdallah R, Brice P, Lazarovici J, Ghesquieres H, Stamatoullas A, Dupuis J, Gac AC, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Positron%20Emission%20Tomography-Driven%20Strategy%20in%20Advanced%20Hodgkin%20Lymphoma%3A%20Prolonged%20Follow-Up%20of%20the%20AHL2011%20Phase%20III%20Lymphoma%20Study%20Association%20Study)
+
+- **Six-Year Results From RELEVANCE: Lenalidomide Plus Rituximab (R2) Versus Rituximab-Chemotherapy Followed by Rituximab Maintenance in Untreated Advanced Follicular Lymphoma**  
+  Morschhauser F, Nastoupil L, Feugier P, De Colella JMS, Tilly H, Palomba ML, Bachy E, Fruchart C, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Six-Year%20Results%20From%20RELEVANCE%3A%20Lenalidomide%20Plus%20Rituximab%20(R2)%20Versus%20Rituximab-Chemotherapy%20Followed%20by%20Rituximab%20Maintenance%20in%20Untreated%20Advanced%20Follicular%20Lymphoma)
+
+- **Romidepsin Plus CHOP Versus CHOP in Patients With Previously Untreated Peripheral T-Cell Lymphoma: Results of the Ro-CHOP Phase III Study (Conducted by LYSA)**  
+  Bachy E, Camus V, Thieblemont C, Sibon D, Casasnovas RO, Ysebaert L, Damaj G, Guidez S, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Romidepsin%20Plus%20CHOP%20Versus%20CHOP%20in%20Patients%20With%20Previously%20Untreated%20Peripheral%20T-Cell%20Lymphoma%3A%20Results%20of%20the%20Ro-CHOP%20Phase%20III%20Study%20(Conducted%20by%20LYSA))
+
+- **Human anti-smallpox long-lived memory B cells are defined by dynamic interactions in the splenic niche and long-lasting germinal center imprinting**  
+  Chappert P, Huetz F, Espinasse MA, Chatonnet F, Pannetier L, Da Silva L, Goetz C, Megret J, et al.  
+  *Immunity* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Human%20anti-smallpox%20long-lived%20memory%20B%20cells%20are%20defined%20by%20dynamic%20interactions%20in%20the%20splenic%20niche%20and%20long-lasting%20germinal%20center%20imprinting)
+
+- **The 5th edition of the World Health Organization Classification of Haematolymphoid Tumours: Lymphoid Neoplasms**  
+  Alaggio R, Amador C, Anagnostopoulos I, Attygalle AD, Araujo IBD, Berti E, Bhagat G, Borges AM, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=The%205th%20edition%20of%20the%20World%20Health%20Organization%20Classification%20of%20Haematolymphoid%20Tumours%3A%20Lymphoid%20Neoplasms)
+
+- **Distinct germline genetic susceptibility profiles identified for common non-Hodgkin lymphoma subtypes**  
+  Berndt SI, Vijai J, Benavente Y, Camp NJ, Nieters A, Wang ZM, Smedby KE, Kleinstern G, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Distinct%20germline%20genetic%20susceptibility%20profiles%20identified%20for%20common%20non-Hodgkin%20lymphoma%20subtypes)
+
+- **Molecular heterogeneity and measurable residual disease of rare NPM1 mutations in acute myeloid leukemia: a nationwide experience from the GBMHM study group**  
+  Fournier E, Heiblig M, Lespinasse C, Flandrin-Gresta P, Geay A, Miguet L, Fenwarth L, Vallat L, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Molecular%20heterogeneity%20and%20measurable%20residual%20disease%20of%20rare%20NPM1%20mutations%20in%20acute%20myeloid%20leukemia%3A%20a%20nationwide%20experience%20from%20the%20GBMHM%20study%20group)
+
+- **Standardization of molecular monitoring of CML: results and recommendations from the European treatment and outcome study**  
+  White HE, Salmon M, Albano F, Andersen CSA, Balabanov S, Balatzenko G, Barbany G, Cayuela JM, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Standardization%20of%20molecular%20monitoring%20of%20CML%3A%20results%20and%20recommendations%20from%20the%20European%20treatment%20and%20outcome%20study)
+
+- **Identification of shared tumor epitopes from endogenous retroviruses inducing high-avidity cytotoxic T cells for cancer immunotherapy**  
+  Bonaventura P*, Alcazer V*, Mutez V, Tonon L, Martin J, Chuvin N, Michel E, Boulos RE, et al.  
+  *Science Advances* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Identification%20of%20shared%20tumor%20epitopes%20from%20endogenous%20retroviruses%20inducing%20high-avidity%20cytotoxic%20T%20cells%20for%20cancer%20immunotherapy)
+
+- **Chimeric antigen receptor T-cells targeting IL-1RAP: a promising new cellular immunotherapy to treat acute myeloid leukemia**  
+  Trad R, Warda W, Alcazer V, da Rocha MN, Berceanu A, Nicod C, Haderbache R, Roussel X, et al.  
+  *Journal for Immunotherapy of Cancer* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Chimeric%20antigen%20receptor%20T-cells%20targeting%20IL-1RAP%3A%20a%20promising%20new%20cellular%20immunotherapy%20to%20treat%20acute%20myeloid%20leukemia)
+
+- **TP53 mutations at codon 234 are associated with chlorambucil treatment in chronic lymphocytic leukemia**  
+  Lazarian G, Theves F, Hormi M, Letestu R, Eclache V, Bidet A, Cornillet-Lefebvre P, Davi F, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=TP53%20mutations%20at%20codon%20234%20are%20associated%20with%20chlorambucil%20treatment%20in%20chronic%20lymphocytic%20leukemia)
+
+- **HERVs characterize normal and leukemia stem cells and represent a source of shared epitopes for cancer immunotherapy**  
+  Alcazer V, Bonaventura P, Tonon L, Michel E, Mutez V, Fabres C, Chuvin N, Boulos R, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=HERVs%20characterize%20normal%20and%20leukemia%20stem%20cells%20and%20represent%20a%20source%20of%20shared%20epitopes%20for%20cancer%20immunotherapy)
+
+- **Lymph node excisions provide more precise lymphoma diagnoses than core biopsies: a French Lymphopath network survey**  
+  Syrykh C, Chaouat C, Poullot E, Amara N, Fataccioli V, Parrens M, Traverse-Glehen A, Molina TJ, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Lymph%20node%20excisions%20provide%20more%20precise%20lymphoma%20diagnoses%20than%20core%20biopsies%3A%20a%20French%20Lymphopath%20network%20survey)
+
+- **Genetic and phenotypic attributes of splenic marginal zone lymphoma**  
+  Bonfiglio F, Bruscaggin A, Guidetti F, di Bergamo LT, Faderl M, Spina V, Condoluci A, Bonomini L, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Genetic%20and%20phenotypic%20attributes%20of%20splenic%20marginal%20zone%20lymphoma)
+
+- **Genome-wide CRISPR screen identifies CDK6 as a therapeutic target in adult T-cell leukemia/lymphoma**  
+  Ishio T, Kumar S, Shimono J, Daenthanasanmak A, Dubois S, Lin YQ, Bryant B, Petrus MN, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Genome-wide%20CRISPR%20screen%20identifies%20CDK6%20as%20a%20therapeutic%20target%20in%20adult%20T-cell%20leukemia%2Flymphoma)
+
+- **KIR3DL2 contributes to the typing of acute adult T-cell leukemia and is a potential therapeutic target**  
+  Cheminant M, Lhermitte L, Bruneau J, Sicard H, Bonnafous C, Touzart A, Bourbon E, Ortonne N, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=KIR3DL2%20contributes%20to%20the%20typing%20of%20acute%20adult%20T-cell%20leukemia%20and%20is%20a%20potential%20therapeutic%20target)
+
+- **Obinutuzumab plus lenalidomide in advanced, previously untreated follicular lymphoma in need of systemic therapy: a LYSA study**  
+  Bachy E, Houot R, Feugier P, Bouabdallah K, Bouabdallah R, Virelizier EN, Maerevoet M, Fruchart C, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Obinutuzumab%20plus%20lenalidomide%20in%20advanced%2C%20previously%20untreated%20follicular%20lymphoma%20in%20need%20of%20systemic%20therapy%3A%20a%20LYSA%20study)
+
+- **Outcomes of patients with aggressive B-cell lymphoma after failure of anti-CD19 CAR T-cell therapy: a DESCAR-T analysis**  
+  Di Blasi R, Le Gouill S, Bachy E, Cartron G, Beauvais D, Le Bras F, Gros FX, Choquet S, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Outcomes%20of%20patients%20with%20aggressive%20B-cell%20lymphoma%20after%20failure%20of%20anti-CD19%20CAR%20T-cell%20therapy%3A%20a%20DESCAR-T%20analysis)
+
+- **Comparative effectiveness of ZUMA-5 (axi-cel) vs SCHOLAR-5 external control in relapsed/refractory follicular lymphoma**  
+  Ghione P, Palomba ML, Patel AR, Bobillo S, Deighton K, Jacobson CA, Nahas M, Hatswell AJ, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Comparative%20effectiveness%20of%20ZUMA-5%20(axi-cel)%20vs%20SCHOLAR-5%20external%20control%20in%20relapsed%2Frefractory%20follicular%20lymphoma)
+
+- **Ruxolitinib is more effective than other JAK inhibitors to treat VEXAS syndrome: a retrospective multicenter study**  
+  Heiblig M, Ferrada MA, Koster MT, Barba T, Gerfaud-Valentin M, Mekinian A, Coelho H, Fossard G, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Ruxolitinib%20is%20more%20effective%20than%20other%20JAK%20inhibitors%20to%20treat%20VEXAS%20syndrome%3A%20a%20retrospective%20multicenter%20study)
+
+- **PIM2 kinase has a pivotal role in plasmablast generation and plasma cell survival, opening up novel treatment options in myeloma**  
+  Haas M, Caron G, Chatonnet F, Manenti S, Alaterre E, Devin J, Delaloy C, Bertolin G, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=PIM2%20kinase%20has%20a%20pivotal%20role%20in%20plasmablast%20generation%20and%20plasma%20cell%20survival%2C%20opening%20up%20novel%20treatment%20options%20in%20myeloma)
+
+- **Transcriptome-based Phylogeny of the Semi-aquatic Bugs (Hemiptera: Heteroptera: Gerromorpha) Reveals Patterns of Lineage Expansion in a Series of New Adaptive Zones**  
+  Armisen D, Viala S, Cordeiro IDS, Crumiere AJJ, Hendaoui E, Le Bouquin A, Duchemin W, Santos E, et al.  
+  *Molecular Biology and Evolution* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Transcriptome-based%20Phylogeny%20of%20the%20Semi-aquatic%20Bugs%20(Hemiptera%3A%20Heteroptera%3A%20Gerromorpha)%20Reveals%20Patterns%20of%20Lineage%20Expansion%20in%20a%20Series%20of%20New%20Adaptive%20Zones)
+
+- **Further characterization of clinical and laboratory features in VEXAS syndrome: large-scale analysis of a multicentre case series of 116 French patients**  
+  Georgin-Lavialle S, Terrier B, Guedon AF, Heiblig M, Comont T, Lazaro E, Lacombe, Terriou L, et al.  
+  *British Journal of Dermatology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Further%20characterization%20of%20clinical%20and%20laboratory%20features%20in%20VEXAS%20syndrome%3A%20large-scale%20analysis%20of%20a%20multicentre%20case%20series%20of%20116%20French%20patients)
+
+## 2021
+
+- **Gonadal Function Recovery in Patients With Advanced Hodgkin Lymphoma Treated With a PET-Adapted Regimen: Prospective Analysis of a Randomized Phase III Trial (AHL2011)**  
+  Demeestere I, Racape J, Dechene J, Dupuis J, Morschhauser F, De Wilde V, Lazarovici J, Ghesquieres H, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Gonadal%20Function%20Recovery%20in%20Patients%20With%20Advanced%20Hodgkin%20Lymphoma%20Treated%20With%20a%20PET-Adapted%20Regimen%3A%20Prospective%20Analysis%20of%20a%20Randomized%20Phase%20III%20Trial%20(AHL2011))
+
+- **Follicular lymphoma triggers phenotypic and functional remodeling of the human lymphoid stromal cell landscape**  
+  Mourcin F, Verdiere L, Roulois D, Amin R, Lamaison C, Sibut V, Thamphya B, Pangault C, et al.  
+  *Immunity* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Follicular%20lymphoma%20triggers%20phenotypic%20and%20functional%20remodeling%20of%20the%20human%20lymphoid%20stromal%20cell%20landscape)
+
+- **Zeb1 represses TCR signaling, promotes the proliferation of T cell progenitors and is essential for NK1.1+ T cell development**  
+  Zhang J, Wencker M, Marliac Q, Berton A, Hasan U, Schneider R, Laubreton D, Cherrier DE, et al.  
+  *Cellular & Molecular Immunology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Zeb1%20represses%20TCR%20signaling%2C%20promotes%20the%20proliferation%20of%20T%20cell%20progenitors%20and%20is%20essential%20for%20NK1.1%2B%20T%20cell%20development)
+
+- **Chronic T cell receptor stimulation unmasks NK receptor signaling in peripheral T cell lymphomas via epigenetic reprogramming**  
+  Carras S, Chartoire D, Mareschal S, Heiblig M, Marcais A, Robinot R, Urb M, Pommier RM, et al.  
+  *Journal of Clinical Investigation* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Chronic%20T%20cell%20receptor%20stimulation%20unmasks%20NK%20receptor%20signaling%20in%20peripheral%20T%20cell%20lymphomas%20via%20epigenetic%20reprogramming)
+
+- **Rituximab-resistant splenic memory B cells and newly engaged naive B cells fuel relapses in patients with immune thrombocytopenia**  
+  Crickx E, Chappert P, Sokal A, Weller S, Azzaoui I, Vandenberghe A, Bonnard G, Rossi G, et al.  
+  *Science Translational Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Rituximab-resistant%20splenic%20memory%20B%20cells%20and%20newly%20engaged%20naive%20B%20cells%20fuel%20relapses%20in%20patients%20with%20immune%20thrombocytopenia)
+
+- **Genetic in vivo engineering of human T lymphocytes in mouse models**  
+  Weidner T, Agarwal S, Perian S, Fusil F, Braun G, Hartmann J, Verhoeyen E, Buchholz CJ  
+  *Nature Protocols* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Genetic%20in%20vivo%20engineering%20of%20human%20T%20lymphocytes%20in%20mouse%20models)
+
+- **Lack of intrafollicular memory CD4+T cells is predictive of early clinical failure in newly diagnosed follicular lymphoma**  
+  Mondello P, Fama A, Larson MC, Feldman AL, Villasboas JC, Yang ZZ, Galkin I, Svelolkin V, et al.  
+  *Blood Cancer Journal* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Lack%20of%20intrafollicular%20memory%20CD4%2BT%20cells%20is%20predictive%20of%20early%20clinical%20failure%20in%20newly%20diagnosed%20follicular%20lymphoma)
+
+- **Poor outcome of patients with COVID-19 after CAR T-cell therapy for B-cell malignancies: results of a multicenter study on behalf of the European Society for Blood and Marrow Transplantation (EBMT) Infectious Diseases Working Party and the European Hematology Association (EHA) Lymphoma Group**  
+  Spanjaart AM, Ljungman P, de La Camara R, Tridello G, Ortiz-Maldonado V, Urbano-Ispizua A, Barba P, Kwon M, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Poor%20outcome%20of%20patients%20with%20COVID-19%20after%20CAR%20T-cell%20therapy%20for%20B-cell%20malignancies%3A%20results%20of%20a%20multicenter%20study%20on%20behalf%20of%20the%20European%20Society%20for%20Blood%20and%20Marrow%20Transplantation%20(EBMT)%20Infectious%20Diseases%20Working%20Party%20and%20the%20European%20Hematology%20Association%20(EHA)%20Lymphoma%20Group)
+
+- **Clonal dominance is an adverse prognostic factor in acute myeloid leukemia treated with intensive chemotherapy**  
+  Cerrano M, Duchmann M, Kim R, Vasseur L, Hirsch P, Thomas X, Quentin S, Pasanisi J, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Clonal%20dominance%20is%20an%20adverse%20prognostic%20factor%20in%20acute%20myeloid%20leukemia%20treated%20with%20intensive%20chemotherapy)
+
+- **Prognostic value of high-sensitivity measurable residual disease assessment after front-line chemoimmunotherapy in chronic lymphocytic leukemia**  
+  Letestu R, Dahmani A, Boubaya M, Baseggio L, Campos L, Chatelain B, Debliquis A, Drenou B, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Prognostic%20value%20of%20high-sensitivity%20measurable%20residual%20disease%20assessment%20after%20front-line%20chemoimmunotherapy%20in%20chronic%20lymphocytic%20leukemia)
+
+- **Massive clonal expansion of polycytotoxic skin and blood CD8+ T cells in patients with toxic epidermal necrolysis**  
+  Villani AP, Rozieres A, Bensaid B, Eriksson KK, Mosnier A, Albert F, Mutez V, Brassard O, et al.  
+  *Science Advances* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Massive%20clonal%20expansion%20of%20polycytotoxic%20skin%20and%20blood%20CD8%2B%20T%20cells%20in%20patients%20with%20toxic%20epidermal%20necrolysis)
+
+- **Integrative genomic analysis reveals a conserved role for prolactin signalling in the regulation of adrenal function**  
+  Ruggiero C, Altieri B, Arnold E, Siqueiros-Marquez L, Doghman-Bouguerra M, Detomas M, Durand N, Jarjat M, et al.  
+  *Clinical and Translational Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Integrative%20genomic%20analysis%20reveals%20a%20conserved%20role%20for%20prolactin%20signalling%20in%20the%20regulation%20of%20adrenal%20function)
+
+- **Outcome after hematopoietic stem cell transplantation in patients with extranodal natural killer/T-Cell lymphoma, nasal type: A French study from the Societe Francophone de Greffe de Moelle et de Therapie Cellulaire (SFGM-TC)**  
+  Walter LP, Couronne L, Jais JP, Nguyen PD, Blaise D, Pigneux A, Socie G, Thieblemont C, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Outcome%20after%20hematopoietic%20stem%20cell%20transplantation%20in%20patients%20with%20extranodal%20natural%20killer%2FT-Cell%20lymphoma%2C%20nasal%20type%3A%20A%20French%20study%20from%20the%20Societe%20Francophone%20de%20Greffe%20de%20Moelle%20et%20de%20Therapie%20Cellulaire%20(SFGM-TC))
+
+- **First-line treatment of double-hit and triple-hit lymphomas: Survival and tolerance data from a retrospective multicenter French study**  
+  Laude MC, Lebras L, Sesques P, Ghesquieres H, Favre S, Bouabdallah K, Croizier C, Guieze R, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=First-line%20treatment%20of%20double-hit%20and%20triple-hit%20lymphomas%3A%20Survival%20and%20tolerance%20data%20from%20a%20retrospective%20multicenter%20French%20study)
+
+- **Intravenous high-dose methotrexate based systemic therapy in the treatment of isolated primary vitreoretinal lymphoma: An LOC network study**  
+  Lam M, Touitou V, Choquet S, Cassoux N, Ghesquieres H, Kodjikian L, Schmitt A, Gattoussi S, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Intravenous%20high-dose%20methotrexate%20based%20systemic%20therapy%20in%20the%20treatment%20of%20isolated%20primary%20vitreoretinal%20lymphoma%3A%20An%20LOC%20network%20study)
+
+- **Relapsed / Refractory International Prognostic Index (R/R-IPI): An international prognostic calculator for relapsed/refractory diffuse large B-cell lymphoma**  
+  Maurer MJ, Jakobsen LH, Mwangi R, Schmitz N, Farooq U, Flowers CR, Brown PD, Thompson CA, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Relapsed%20%2F%20Refractory%20International%20Prognostic%20Index%20(R%2FR-IPI)%3A%20An%20international%20prognostic%20calculator%20for%20relapsed%2Frefractory%20diffuse%20large%20B-cell%20lymphoma)
+
+- **Mutational landscape of gray zone lymphoma**  
+  Sarkozy C, Hung SS, Chavez EA, Duns G, Takata K, Chong LC, Aoki T, Jiang AX, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Mutational%20landscape%20of%20gray%20zone%20lymphoma)
+
+- **Obinutuzumab vs rituximab for advanced DLBCL: a PET-guided and randomized phase 3 study by LYSA**  
+  Le Gouill S, Ghesquieres H, Oberic L, Morschhauser F, Tilly H, Ribrag V, Lamy T, Thieblemont C, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Obinutuzumab%20vs%20rituximab%20for%20advanced%20DLBCL%3A%20a%20PET-guided%20and%20randomized%20phase%203%20study%20by%20LYSA)
+
+- **Plasmablasts derive from CD23- activated B cells after the extinction of IL-4/STAT6 signaling and IRF4 induction**  
+  Pignarre A, Chatonnet F, Caron G, Haas M, Desmots F, Fest T  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Plasmablasts%20derive%20from%20CD23-%20activated%20B%20cells%20after%20the%20extinction%20of%20IL-4%2FSTAT6%20signaling%20and%20IRF4%20induction)
+
+- **CAR-HEMATOTOX: a model for CAR T-cell-related hematologic toxicity in relapsed/refractory large B-cell lymphoma**  
+  Rejeski K, Perez A, Sesques P, Hoster E, Berger C, Jentzsch L, Mougiakakos D, Frolich L, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=CAR-HEMATOTOX%3A%20a%20model%20for%20CAR%20T-cell-related%20hematologic%20toxicity%20in%20relapsed%2Frefractory%20large%20B-cell%20lymphoma)
+
+- **Therapeutic options in VEXAS syndrome: insights from a retrospective series**  
+  Bourbon E, Heiblig M, Valentin MG, Barba T, Durel CA, Lega JC, Barraco F, Seve P, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Therapeutic%20options%20in%20VEXAS%20syndrome%3A%20insights%20from%20a%20retrospective%20series)
+
+- **A personalized approach to guide allogeneic stem cell transplantation in younger adults with acute myeloid leukemia**  
+  Fenwarth L, Thomas X, de Botton S, Duployez N, Bourhis JH, Lesieur A, Fortin G, Meslin PA, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=A%20personalized%20approach%20to%20guide%20allogeneic%20stem%20cell%20transplantation%20in%20younger%20adults%20with%20acute%20myeloid%20leukemia)
+
+- **Treatment dependence of prognostic gene expression signatures in de novo follicular lymphoma**  
+  Bolen CR, Mattiello F, Herold M, Hiddemann W, Huet S, Klapper W, Marcus R, Mir F, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Treatment%20dependence%20of%20prognostic%20gene%20expression%20signatures%20in%20de%20novo%20follicular%20lymphoma)
+
+## 2020
+
+- **Bright PD-1 expression by flow cytometry is a powerful tool for diagnosis and monitoring of angioimmunoblastic T-cell lymphoma**  
+  Yabe M, Gao Q, Ozkaya N, Huet S, Lewis N, Pichardo JD, Moskowitz AJ, Horwitz SM, et al.  
+  *Blood Cancer Journal* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Bright%20PD-1%20expression%20by%20flow%20cytometry%20is%20a%20powerful%20tool%20for%20diagnosis%20and%20monitoring%20of%20angioimmunoblastic%20T-cell%20lymphoma)
+
+- **Impact of using leader primers for IGHV mutational status assessment in chronic lymphocytic leukemia**  
+  Huet S, Bouvard A, Ferrant E, Mosnier I, Chabane K, Salles G, Michallet AS, Hayette S, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Impact%20of%20using%20leader%20primers%20for%20IGHV%20mutational%20status%20assessment%20in%20chronic%20lymphocytic%20leukemia)
+
+- **Blueprint of human thymopoiesis reveals molecular mechanisms of stage-specific TCR enhancer activation**  
+  Cieslak A, Charbonnier G, Tesio M, Mathieu EL, Belhocine M, Touzart A, Smith C, Hypolite G, et al.  
+  *Journal of Experimental Medicine* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Blueprint%20of%20human%20thymopoiesis%20reveals%20molecular%20mechanisms%20of%20stage-specific%20TCR%20enhancer%20activation)
+
+- **Performance of CT Compared with 18F-FDG PET in Predicting the Efficacy of Nivolumab in Relapsed of Refractory Hodgkin Lymphoma**  
+  Mokrane FZ, Chen AP, Schwartz LH, Morschhauser F, Stamatoullas A, de Colella JMS, Vercellino L, Casasnovas O, et al.  
+  *Radiology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Performance%20of%20CT%20Compared%20with%2018F-FDG%20PET%20in%20Predicting%20the%20Efficacy%20of%20Nivolumab%20in%20Relapsed%20of%20Refractory%20Hodgkin%20Lymphoma)
+
+- **Association Between Microscopic Lesions at Ileal Resection Margin and Recurrence After Surgery in Patients With Crohn's Disease**  
+  Hammoudi N, Cazals-Hatem D, Auzolle C, Gardair C, Ngollo M, Bottois H, Nancey S, Pariente B, et al.  
+  *Clinical Gastroenterology and Hepatology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Association%20Between%20Microscopic%20Lesions%20at%20Ileal%20Resection%20Margin%20and%20Recurrence%20After%20Surgery%20in%20Patients%20With%20Crohn's%20Disease)
+
+- **Commercialanti-CD19 CART cell therapy for patients with relapsed/refractory aggressive B cell lymphoma in a European center**  
+  Sesques P, Ferrant E, Safar V, Wallet F, Tordo J, Dhomps A, Karlin L, Brisou G, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Commercialanti-CD19%20CART%20cell%20therapy%20for%20patients%20with%20relapsed%2Frefractory%20aggressive%20B%20cell%20lymphoma%20in%20a%20European%20center)
+
+- **Gene alterations in epigenetic modifiers and JAK-STAT signaling are frequent in breast implant-associated ALCL**  
+  Laurent C, Nicolae A, Laurent C, Le Bras F, Haioun C, Fataccioli V, Amara N, Adelaide J, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Gene%20alterations%20in%20epigenetic%20modifiers%20and%20JAK-STAT%20signaling%20are%20frequent%20in%20breast%20implant-associated%20ALCL)
+
+- **International prognostic indices in diffuse large B-cell lymphoma: a comparison of IPI, R-IPI, and NCCN-IPI**  
+  Ruppert AS, Dixon JG, Salles G, Wall A, Cunningham D, Poeschel V, Haioun C, Tilly H, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=International%20prognostic%20indices%20in%20diffuse%20large%20B-cell%20lymphoma%3A%20a%20comparison%20of%20IPI%2C%20R-IPI%2C%20and%20NCCN-IPI)
+
+## 2019
+
+- **Lenalidomide in combination with intravenous rituximab (REVRI) in relapsed/refractory primary CNS lymphoma or primary intraocular lymphoma: a multicenter prospective 'proof of concept' phase II study of the French Oculo-Cerebral lymphoma (LOC) Network and the Lymphoma Study Association (LYSA)**  
+  Ghesquieres H, Chevrier M, Laadhari M, Chinot O, Choquet S, Molucon-Chabrot C, Beauchesne P, Gressin R, et al.  
+  *Annals of Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Lenalidomide%20in%20combination%20with%20intravenous%20rituximab%20(REVRI)%20in%20relapsed%2Frefractory%20primary%20CNS%20lymphoma%20or%20primary%20intraocular%20lymphoma%3A%20a%20multicenter%20prospective%20'proof%20of%20concept'%20phase%20II%20study%20of%20the%20French%20Oculo-Cerebral%20lymphoma%20(LOC)%20Network%20and%20the%20Lymphoma%20Study%20Association%20(LYSA))
+
+- **GAPDH Overexpression in the T Cell Lineage Promotes Angioimmunoblastic T Cell Lymphoma through an NF-?B-Dependent Mechanism**  
+  Mondragon L, Mhaidly R, De Donatis GM, Tosolini M, Dao P, Martin AR, Pons C, Chiche J, et al.  
+  *Cancer Cell* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=GAPDH%20Overexpression%20in%20the%20T%20Cell%20Lineage%20Promotes%20Angioimmunoblastic%20T%20Cell%20Lymphoma%20through%20an%20NF-%3FB-Dependent%20Mechanism)
+
+- **Sustained Progression-Free Survival Benefit of Rituximab Maintenance in Patients With Follicular Lymphoma: Long-Term Results of the PRIMA Study**  
+  Bachy E, Seymour JF, Feugier P, Offner F, Lopez-Guillermo A, Belada D, Xerri L, Catalano JV, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Sustained%20Progression-Free%20Survival%20Benefit%20of%20Rituximab%20Maintenance%20in%20Patients%20With%20Follicular%20Lymphoma%3A%20Long-Term%20Results%20of%20the%20PRIMA%20Study)
+
+- **Cause of Death in Follicular Lymphoma in the First Decade of the Rituximab Era: A Pooled Analysis of French and US Cohorts**  
+  Sarkozy C, Maurer MJ, Link BK, Ghesquieres H, Nicolas E, Thompson CA, Traverse-Glehen A, Feldman AL, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Cause%20of%20Death%20in%20Follicular%20Lymphoma%20in%20the%20First%20Decade%20of%20the%20Rituximab%20Era%3A%20A%20Pooled%20Analysis%20of%20French%20and%20US%20Cohorts)
+
+- **PET-adapted treatment for newly diagnosed advanced Hodgkin lymphoma (AHL2011): a randomised, multicentre, non-inferiority, phase 3 study**  
+  Casasnovas RO, Bouabdallah R, Brice P, Lazarovici J, Ghesquieres H, Stamatoullas A, Dupuis J, Gac AC, et al.  
+  *Lancet Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=PET-adapted%20treatment%20for%20newly%20diagnosed%20advanced%20Hodgkin%20lymphoma%20(AHL2011)%3A%20a%20randomised%2C%20multicentre%2C%20non-inferiority%2C%20phase%203%20study)
+
+- **PET-guided, BEACOPPescalated therapy in advanced Hodgkin lymphoma reply**  
+  Casasnovas RO, Bouabdallah R, Brice P, Lazarovici J, Ghesquieres H, Stamatoullas A, Berriolo-Riedinger A, Fornecker LM, et al.  
+  *Lancet Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=PET-guided%2C%20BEACOPPescalated%20therapy%20in%20advanced%20Hodgkin%20lymphoma%20reply)
+
+- **Tracing the ancestry of modern bread wheats**  
+  Pont C, Leroy T, Seidel M, Tondelli A, Duchemin W, Armisen D, Lang D, Bustos-Korts D, et al.  
+  *Nature Genetics* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Tracing%20the%20ancestry%20of%20modern%20bread%20wheats)
+
+- **A genome-wide association study identifies susceptibility loci for primary central nervous system lymphoma at 6p25.3 and 3p22.1: a LOC Network study**  
+  Labreche K, Daniau M, Sud A, Law PJ, Royer-Perron L, Holroyd A, Broderick P, Went M, et al.  
+  *Neuro-Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=A%20genome-wide%20association%20study%20identifies%20susceptibility%20loci%20for%20primary%20central%20nervous%20system%20lymphoma%20at%206p25.3%20and%203p22.1%3A%20a%20LOC%20Network%20study)
+
+- **Genome editing in primary cells and in vivo using viral-derived Nanoblades loaded with Cas9-sgRNA ribonucleoproteins**  
+  Mangeot PE, Risson V, Fusil F, Marnef A, Laurent E, Blin J, Mournetas V, Massourides E, et al.  
+  *Nature Communications* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Genome%20editing%20in%20primary%20cells%20and%20in%20vivo%20using%20viral-derived%20Nanoblades%20loaded%20with%20Cas9-sgRNA%20ribonucleoproteins)
+
+- **Enveloped viruses distinct from HBV induce dissemination of hepatitis D virus in vivo**  
+  Perez-Vargas J, Amirache F, Boson B, Mialon C, Freitas N, Sureau C, Fusil F, Cosset FL  
+  *Nature Communications* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Enveloped%20viruses%20distinct%20from%20HBV%20induce%20dissemination%20of%20hepatitis%20D%20virus%20in%20vivo)
+
+- **Standardisation and consensus guidelines for minimal residual disease assessment in Philadelphia-positive acute lymphoblastic leukemia (Ph plus ALL) by real-time quantitative reverse transcriptase PCR of e1a2 BCR-ABL1**  
+  Pfeifer H, Cazzaniga G, van der Velden VHJ, Cayuele JM, Schafer B, Spinelli O, Akiki S, Avigad S, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Standardisation%20and%20consensus%20guidelines%20for%20minimal%20residual%20disease%20assessment%20in%20Philadelphia-positive%20acute%20lymphoblastic%20leukemia%20(Ph%20plus%20ALL)%20by%20real-time%20quantitative%20reverse%20transcriptase%20PCR%20of%20e1a2%20BCR-ABL1)
+
+- **Early-onset severe infections in allogeneic hematopoietic stem cell transplantation recipients with graft failure**  
+  Alcazer V, Conrad A, Valour F, Bachy E, Salles G, Huynh A, de Latour RP, Labussiere-Wallet H, et al.  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Early-onset%20severe%20infections%20in%20allogeneic%20hematopoietic%20stem%20cell%20transplantation%20recipients%20with%20graft%20failure)
+
+- **Molecular evolutionary trends and feeding ecology diversification in the Hemiptera, anchored by the milkweed bug genome**  
+  Panfilio KA, Jentzsch IMV, Benoit JB, Erezyilmaz D, Suzuki Y, Colella S, Robertson HM, Poelchau MF, et al.  
+  *Genome Biology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Molecular%20evolutionary%20trends%20and%20feeding%20ecology%20diversification%20in%20the%20Hemiptera%2C%20anchored%20by%20the%20milkweed%20bug%20genome)
+
+- **Consensus criteria for diagnosis, staging, and treatment response assessment of T-cell prolymphocytic leukemia**  
+  Staber PB, Herling M, Bellido M, Jacobsen ED, Davids MS, Kadia TM, Shustov A, Tournilhac O, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Consensus%20criteria%20for%20diagnosis%2C%20staging%2C%20and%20treatment%20response%20assessment%20of%20T-cell%20prolymphocytic%20leukemia)
+
+- **Genetic characterization of B-cell prolymphocytic leukemia: a prognostic model involving MYC and TP53**  
+  Chapiro E, Pramil E, Diop M, Roos-Weil D, Dillard C, Gabillaud C, Maloum K, Settegrana C, et al.  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Genetic%20characterization%20of%20B-cell%20prolymphocytic%20leukemia%3A%20a%20prognostic%20model%20involving%20MYC%20and%20TP53)
+
+- **Pharmacological Induction of a Progenitor State for the Efficient Expansion of Primary Human Hepatocytes**  
+  Unzu C, Planet E, Brandenberg N, Fusil F, Cassano M, Perez-Vargas J, Friedli M, Cosset FL, et al.  
+  *Hepatology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Pharmacological%20Induction%20of%20a%20Progenitor%20State%20for%20the%20Efficient%20Expansion%20of%20Primary%20Human%20Hepatocytes)
+

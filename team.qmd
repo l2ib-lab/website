@@ -1,12 +1,17 @@
 ---
 title: "Team"
-subtitle: "The people behind L2IB"
+subtitle: "43 people, 25 full-time equivalents"
 ---
 
+L2IB brings together basic researchers, clinician-scientists and engineers
+across Inserm, CNRS, Université Claude Bernard Lyon 1, the ENS de Lyon and the
+Hospices Civils de Lyon. Women represent **63 % of the team** and 43 % of its
+permanent staff.
+
 ::: {.todo}
-**À éditer** — remplacez les membres ci-dessous. Déposez les photos dans
-`images/team/` (carré, ~400×400 px, format `.jpg`). Si vous n'avez pas encore
-de photo, laissez `images/team/placeholder.svg`, le cercle restera gris.
+**À compléter** — les photos sont à déposer dans `images/team/` (carré, ~400×400 px).
+Vérifiez aussi les grades et les rattachements, qui datent du dossier HCERES
+arrêté au 31/12/2024.
 :::
 
 ## Team leaders
@@ -16,61 +21,319 @@ de photo, laissez `images/team/placeholder.svg`, le cercle restera gris.
 ::: {.team-member}
 ![](images/team/placeholder.svg)
 [Laurent Genestier]{.name}
-[Team co-leader · DR]{.role}
+[Co-leader · DR2 Inserm]{.role}
 :::
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
 [Emmanuel Bachy]{.name}
-[Team co-leader · PU-PH]{.role}
+[Co-leader · PU-PH]{.role}
 :::
 
 :::
 
-## Permanent staff
+## Researchers and clinician-scientists
 
 ::: {.team-grid}
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Vincent Alcazer]{.name}
+[David Armisen]{.name}
+[CR IRCCS]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Lucille Baseggio]{.name}
+[PH, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Estelle Bourbon]{.name}
+[CCA]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Evelyne Callet-Bauchu]{.name}
 [MCU-PH]{.role}
 :::
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Prénom Nom]{.name}
-[CR / IR / IE / TE]{.role}
+[Hervé Ghesquières]{.name}
+[PU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Carine Halfon-Domenech]{.name}
+[PU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sandrine Hayette]{.name}
+[CR, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Maël Heiblig]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sarah Huet]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Edith Julia]{.name}
+[CCA]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Lionel Karlin]{.name}
+[PH, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Ludovic Lhermitte]{.name}
+[MCU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Jean-Pierre Rouault]{.name}
+[CRHC CNRS]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Pierre Sujobert]{.name}
+[PU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Melania Tesio]{.name}
+[CRCN Inserm]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Alexandra Traverse-Glehen]{.name}
+[PU-PH]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Vincent Alcazer]{.name}
+[CCA]{.role}
 :::
 
 :::
 
-## PhD students & post-docs
+## Post-doctoral fellows
 
 ::: {.team-grid}
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Prénom Nom]{.name}
+[Fabrice Chatonnet]{.name}
+[Post-doc]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Laetitia Largeaud]{.name}
+[Post-doc]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Thomas Schott]{.name}
+[Post-doc]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Alexandra Schrader]{.name}
+[Post-doc]{.role}
+:::
+
+:::
+
+## Engineers and technical staff
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Emilie Bardel]{.name}
+[IE Inserm]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Nathalie Bissay]{.name}
+[AI IRCCS]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sarah Blanc]{.name}
+[TR, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Amel Chebel]{.name}
+[IE UCBL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Jonathan Lefebvre]{.name}
+[TR IRCCS]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Magali Perret]{.name}
+[IE, HCL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Sarah Sebai]{.name}
+[AI UCBL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Marie Teixeira]{.name}
+[IR Inserm]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Chrystelle Touller]{.name}
+[IE UCBL]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Aurélie Verney]{.name}
+[IE UCBL]{.role}
+:::
+
+:::
+
+## PhD students
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Axel Conchon]{.name}
 [PhD student]{.role}
 :::
 
 ::: {.team-member}
 ![](images/team/placeholder.svg)
-[Prénom Nom]{.name}
-[Post-doctoral fellow]{.role}
+[Erivan Demanou]{.name}
+[PhD student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Marie Donzel]{.name}
+[PhD student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Xinyue Fang]{.name}
+[PhD student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Aurore Martin]{.name}
+[PhD student]{.role}
 :::
 
 :::
 
-## Alumni
+## Master students
 
-::: {.todo}
-Une simple liste suffit : *Nom (années) — poste actuel*. Les alumni sont le
-meilleur argument d'une page « Join us ».
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Mohamed Chour]{.name}
+[M2 student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Svetlana Le Ralle]{.name}
+[M2 student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Leelou Picard]{.name}
+[M2 student]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Hedi Somai]{.name}
+[M2 student]{.role}
+:::
+
+:::
+
+## Administration
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Stéphanie Ollier]{.name}
+[Administrative and financial management · AJT UCBL]{.role}
+:::
+
 :::
 
 ---
 
-The official team roster is also maintained on the
+## Composition
+
+| Category | Headcount |
+|---|---|
+| Professors and equivalent | 5 |
+| Associate professors and equivalent | 3 |
+| Research directors and equivalent | 1 |
+| Research scientists and equivalent | 4 |
+| Research support staff | 9 |
+| Hospital practitioners | 3 |
+| **Permanent staff** | **25** |
+| Non-permanent researchers and lecturers | 8 |
+| Non-permanent support staff | 7 |
+| PhD students | 3 |
+| **Non-permanent staff** | **18** |
+| **Total** | **43** |
+
+*Headcount as of 31 December 2024 (HCERES evaluation record).*
+
+The official roster is also maintained on the
 [CIRI website](https://ciri.ens-lyon.fr/teams/lib).
