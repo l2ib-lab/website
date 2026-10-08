@@ -32,7 +32,7 @@ particular for fellowship-funded post-doctoral projects
 
 ## How to apply
 
-Send a single PDF to [contact@l2ib.fr](mailto:contact@l2ib.fr) containing:
+Send a single PDF to [contact@l2ib-lab.fr](mailto:contact@l2ib-lab.fr) containing:
 
 1. A **one-page motivation letter** stating which of our
    [research axes](research.qmd) interests you and why.

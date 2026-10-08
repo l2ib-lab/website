@@ -22,7 +22,7 @@ Faculté de Médecine Lyon Sud Charles Mérieux
 165 Chemin du Grand Revoyet
 69310 Pierre-Bénite, France
 
-Courriel : [contact@l2ib.fr](mailto:contact@l2ib.fr)
+Courriel : [contact@l2ib-lab.fr](mailto:contact@l2ib-lab.fr)
 
 ## Directeur de la publication
 
@@ -113,7 +113,7 @@ conservation et la localisation des serveurs.
 
 Ce site vise une conformité au Référentiel général d'amélioration de
 l'accessibilité (RGAA). Pour signaler une difficulté d'accès à un contenu,
-écrivez à [contact@l2ib.fr](mailto:contact@l2ib.fr).
+écrivez à [contact@l2ib-lab.fr](mailto:contact@l2ib-lab.fr).
 
 ## Liens hypertextes
 

@@ -9,7 +9,7 @@ Source code lives on [github.com/l2ib-lab](https://github.com/l2ib-lab).
 ::: {.callout-note}
 ## Stable links
 Each app has a permanent L2IB address of the form
-`https://www.l2ib.fr/tools/<app-name>/`.
+`https://www.l2ib-lab.fr/tools/<app-name>/`.
 **Cite that address in papers**, never the hosting provider's URL — it lets us
 change host without breaking published links.
 :::
@@ -58,7 +58,7 @@ practitioner. No data entered in the application is stored by the L2IB team.
   journal = {TODO},
   year    = {TODO},
   doi     = {TODO},
-  url     = {https://www.l2ib.fr/tools/fibom-ai/}
+  url     = {https://www.l2ib-lab.fr/tools/fibom-ai/}
 }
 ```
 :::

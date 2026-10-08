@@ -106,4 +106,4 @@ A transversal computational programme feeding every axis — and the source of o
 Faculté de Médecine Lyon Sud Charles Mérieux\
 165 Chemin du Grand Revoyet, 69310 Pierre-Bénite, France
 
-[contact@l2ib.fr](mailto:contact@l2ib.fr) · [Team page at CIRI](https://ciri.ens-lyon.fr/teams/lib) · [GitHub](https://github.com/l2ib-lab)
+[contact@l2ib-lab.fr](mailto:contact@l2ib-lab.fr) · [Team page at CIRI](https://ciri.ens-lyon.fr/teams/lib) · [GitHub](https://github.com/l2ib-lab)

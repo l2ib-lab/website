@@ -1,4 +1,4 @@
-# www.l2ib.fr — site de l'équipe L2IB
+# www.l2ib-lab.fr — site de l'équipe L2IB
 
 Site vitrine de l'équipe **L2IB (Leukemia and Lymphoma Immune Biology)**, CIRI, Lyon.
 Construit avec [Quarto](https://quarto.org), publié automatiquement sur GitHub Pages.
@@ -41,7 +41,7 @@ Le résultat est dans `_site/` (ignoré par git — c'est GitHub qui le construi
    > Le nom `l2ib` seul était déjà pris sur GitHub. Sans conséquence :
    > le nom de l'organisation n'apparaît que dans l'URL des dépôts et dans la
    > ligne DNS ci-dessous — jamais pour les visiteurs, qui arrivent sur
-   > `www.l2ib.fr`.
+   > `www.l2ib-lab.fr`.
    >
    > Le dépôt peut porter **n'importe quel nom** dès lors qu'on lui attache un
    > domaine personnalisé (étape 4) : il est alors servi à la racine de ce
@@ -66,10 +66,10 @@ Le résultat est dans `_site/` (ignoré par git — c'est GitHub qui le construi
 3. Sur GitHub : **Settings → Pages → Build and deployment → Source =
    `GitHub Actions`**.
    Le workflow `.github/workflows/publish.yml` fait le reste.
-4. **Settings → Pages → Custom domain** : saisissez `www.l2ib.fr`,
+4. **Settings → Pages → Custom domain** : saisissez `www.l2ib-lab.fr`,
    puis cochez **Enforce HTTPS** (attendez que le certificat soit émis,
    quelques minutes à quelques heures).
-5. Chez votre registrar (OVH…), dans la zone DNS de `l2ib.fr` :
+5. Chez votre registrar (OVH…), dans la zone DNS de `l2ib-lab.fr` :
 
    ```text
    www    CNAME   l2ib-lab.github.io.
@@ -80,8 +80,17 @@ Le résultat est dans `_site/` (ignoré par git — c'est GitHub qui le construi
    @      A       185.199.111.153
    ```
 
-   Les quatre enregistrements `A` font pointer `l2ib.fr` (sans www) vers
-   GitHub, qui redirige alors vers `www.l2ib.fr`.
+   Les quatre enregistrements `A` font pointer `l2ib-lab.fr` (sans www) vers
+   GitHub, qui redirige alors vers `www.l2ib-lab.fr`.
+
+   > **À l'achat, OVH préconfigure la zone vers ses propres serveurs** :
+   > `@ A 213.186.33.5` et `www A 213.186.33.5`. Ces deux enregistrements
+   > doivent être **supprimés ou modifiés**, sinon le domaine continue de
+   > pointer vers une page de parking OVH.
+   >
+   > En revanche, **ne touchez pas aux enregistrements MX**
+   > (`mx1/mx2/mx3.mail.ovh.net`) : ils gèrent la messagerie et n'entrent pas
+   > en conflit avec le web, qui passe par les types `A` et `CNAME`.
 
 Ensuite, **chaque `git push` sur `main` republie le site** (1 à 2 minutes).
 
@@ -101,7 +110,7 @@ legal.qmd                Mentions légales (obligatoire)
 references.bib           Export Zotero
 images/                  Logo, favicon, photos, figures
 .github/workflows/       Build + déploiement automatiques
-CNAME                    Nom de domaine (www.l2ib.fr)
+CNAME                    Nom de domaine (www.l2ib-lab.fr)
 ```
 
 ## 5. Tâches courantes
@@ -131,7 +140,7 @@ CNAME                    Nom de domaine (www.l2ib.fr)
 4. `git push`.
 
 L'app est alors citable de façon permanente à l'adresse
-`https://www.l2ib.fr/tools/mon-app/`, quel que soit l'hébergeur réel.
+`https://www.l2ib-lab.fr/tools/mon-app/`, quel que soit l'hébergeur réel.
 
 ## 6. À faire avant la mise en ligne publique
 
@@ -140,9 +149,9 @@ L'app est alors citable de façon permanente à l'adresse
 - [ ] Remplacer tous les blocs `::: {.todo}` (encadrés rouges) puis les supprimer
 - [ ] Remplacer `images/logo.svg` et `images/favicon.svg`
 - [ ] Remplacer `references.bib` par l'export Zotero réel
-- [ ] Créer l'adresse `contact@l2ib.fr` (ou remplacer partout par une adresse existante)
+- [ ] Créer l'adresse `contact@l2ib-lab.fr` (ou remplacer partout par une adresse existante)
 - [ ] Vérifier l'adresse postale exacte dans `index.qmd` et `legal.qmd`
-- [ ] Demander au CIRI d'ajouter le lien vers `www.l2ib.fr` sur
+- [ ] Demander au CIRI d'ajouter le lien vers `www.l2ib-lab.fr` sur
       [la page de l'équipe](https://ciri.ens-lyon.fr/teams/lib)
 - [ ] Migrer FIBOM-AI de shinyapps.io vers Posit Connect Cloud
       (shinyapps.io ferme aux nouvelles apps fin 2026)

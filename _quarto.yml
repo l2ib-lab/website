@@ -7,7 +7,7 @@ project:
 website:
   title: "L2IB"
   description: "Leukemia and Lymphoma Immune Biology — CIRI, Lyon"
-  site-url: "https://www.l2ib.fr"
+  site-url: "https://www.l2ib-lab.fr"
   repo-url: https://github.com/l2ib-lab/website
   favicon: images/favicon.svg
   open-graph: true
@@ -34,7 +34,7 @@ website:
         href: https://github.com/l2ib-lab
         aria-label: GitHub
       - icon: envelope
-        href: mailto:contact@l2ib.fr
+        href: mailto:contact@l2ib-lab.fr
         aria-label: Contact
 
   page-footer:
