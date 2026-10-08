@@ -102,6 +102,7 @@ axis and produces our [open apps](app/index.qmd).
 |---|---|
 | People | **43** |
 | Publications, 2019–2026 | **577** |
+| — with an L2IB first, second, second-to-last or last author | **257** |
 | Grants raised, 2019–2023 | **5.1 M€** across 68 grants, coordinator in 61 |
 | Secured for 2024–2028 | **1.47 M€** |
 | Licensed patents | **1** |
