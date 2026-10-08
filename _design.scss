@@ -13,7 +13,7 @@
 body {
   font-family: var(--l2ib-font-sans);
   font-size: 1.0625rem;
-  line-height: 1.65;
+  line-height: 1.72;
   color: var(--l2ib-ink);
   background: var(--l2ib-surface);
   -webkit-font-smoothing: antialiased;
@@ -41,7 +41,11 @@ h2 { font-size: clamp(1.45rem, 1.15rem + 1vw, 1.85rem); margin-top: 3rem; margin
 h3 { font-size: 1.22rem; margin-top: 2rem; }
 h4 { font-size: 1.05rem; }
 
-p { max-width: 70ch; }
+// Les paragraphes occupent toute la colonne de contenu. Un plafond de 70ch
+// laissait 368px de vide a droite des titres, qui eux prennent la largeur
+// entiere. La mesure devient longue, d ou la hauteur de ligne relevee
+// ci-dessous pour garder la lecture confortable.
+p { max-width: none; }
 
 a {
   color: var(--l2ib-brand);
