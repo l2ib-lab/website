@@ -13,8 +13,7 @@ contribute to two axes and therefore appear twice; **axis leads are marked**.
 
 ::: {.todo}
 **À compléter** — déposez les photos dans `images/team/` (carré, ~400×400 px, `.jpg`),
-puis remplacez `placeholder.svg` par le nom du fichier. Grades et rattachements
-proviennent de l'organigramme HCERES arrêté au 31/12/2024.
+puis remplacez `placeholder.svg` par le nom du fichier.
 :::
 
 ## Team leaders

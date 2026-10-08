@@ -8,12 +8,6 @@ interface of immunology, hematology and computational biology.
 
 ## Current openings
 
-::: {.todo}
-**À éditer** — listez ici les postes ouverts. Si rien n'est ouvert, dites-le
-explicitement (voir la section suivante) : une page vide fait croire que le site
-est abandonné.
-:::
-
 ::: {.callout-note}
 ## No formal opening at the moment
 We nevertheless consider strong spontaneous applications year-round, in
