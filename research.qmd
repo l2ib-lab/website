@@ -1,27 +1,34 @@
 ---
 title: "Research"
-subtitle: "Five research axes and one transversal programme"
+subtitle: "Six research groups and one transversal programme"
+toc: true
+toc-depth: 2
 ---
 
 L2IB studies how lymphoid and myeloid malignancies arise, how they interact with
 the immune system and their microenvironment, and how that biology can be turned
 into better diagnosis and treatment. Our work spans epigenetics, genomics,
-environmental exposure, inflammation and cell therapy, with a transversal
-computational programme supporting every axis.
+environmental exposure, inflammation, cell therapy and non-canonical
+transcription, with a transversal computational programme supporting every axis.
+
+Each group is listed with its members; the full roster is on the
+[team page](team.qmd).
 
 ---
 
-## Axis 1 — Epigenetics and T-cell lymphoma
+## Axis 1 — Epigenetics and T-cell lymphoma {#axis-1}
+
+**Group.** Laurent Genestier and Emmanuel Bachy (leads) · David Armisen ·
+Alexandra Schrader · Fabrice Chatonnet · Edith Julia · Amel Chebel ·
+Emilie Bardel · Magali Perret · Sarah Sebai · Jonathan Lefebvre ·
+Marie Donzel · Leelou Picard
 
 **The question.** Alterations of epigenetic modifiers are recurrent in T-cell
 lymphomas, but their causal role in lymphomagenesis remains unclear.
 
 **Our approach.** We study mutations and expression changes affecting three
 chromatin complexes, in patient samples and in dedicated mouse models:
-
-- **BCL11B** — SWI/SNF complex
-- **JARID2** — PRC2 and SETDB1 complexes
-- **NCOR1** — NCOR complex
+**BCL11B** (SWI/SNF), **JARID2** (PRC2 and SETDB1) and **NCOR1** (NCOR).
 
 We have developed a panel of ATAC-seq protocols adapted to the material actually
 available in pathology departments: **FAST ATAC-seq** on cryopreserved cell
@@ -32,7 +39,12 @@ sections**.
 diagnostic material. The goal is an **epigenetic classifier for lymphomas** that
 improves diagnostic accuracy, and the identification of new therapeutic targets.
 
-## Axis 2 — Environment and genomic alterations in B-cell lymphoma
+## Axis 2 — Environment and genomic alterations in B-cell lymphoma {#axis-2}
+
+**Group.** Pierre Sujobert and Jean-Pierre Rouault (leads) ·
+Alexandra Traverse-Glehen · Sarah Huet · Evelyne Callet-Bauchu ·
+Lucille Baseggio · Lionel Karlin · Sandrine Hayette · Aurélie Verney ·
+Axel Conchon · Hedi Somai
 
 **The question.** How do acquired mutations and environmental exposures combine
 to drive B-cell lymphomagenesis and treatment resistance?
@@ -40,8 +52,8 @@ to drive B-cell lymphomagenesis and treatment resistance?
 **BTG1 mutations.** We showed that *BTG1* mutations are prevalent in extranodal
 DLBCL and associated with *MYD88* mutations. Mutant lymphomas display
 accelerated lymphomagenesis, increased migration and increased mitochondrial
-mass — and, importantly, **increased sensitivity to MCL1 inhibitors**, a finding
-protected by patent WO2023057484A1 (Delage et al., *Blood*, 2023).
+mass — and **increased sensitivity to MCL1 inhibitors**, a finding protected by
+patent WO2023057484A1 (Delage et al., *Blood*, 2023).
 
 **Glyphosate.** Starting from epidemiological signals, we test in *VavP-BCL2*
 mice whether glyphosate exposure increases lymphoma risk and chemoresistance,
@@ -49,11 +61,10 @@ then dissect the mechanism by WGS, ATAC-seq and RNA-seq in ABC (TMD8) and GC
 (SUDHL4) DLBCL cell lines, with pharmacological screening and systematic
 comparison to human primary samples.
 
-**Why it matters.** Both strands run from epidemiology to experimental models
-and back to the clinic, which is how an exposure signal becomes an actionable
-therapeutic hypothesis.
+## Axis 3 — Metabolism and microenvironment in B-cell leukaemia {#axis-3}
 
-## Axis 3 — Metabolism and microenvironment in B-cell leukaemia
+**Group.** Carine Halfon-Domenech and Melania Tesio (leads) ·
+Ludovic Lhermitte · Thomas Schott · Sarah Blanc · Erivan Demanou
 
 **The question.** Paediatric B-ALL often originates in pre-leukaemic clones
 arising during fetal life. What turns them into overt leukaemia, and what keeps
@@ -64,17 +75,16 @@ osteoblasts and osteoclasts, arterioles, sinusoids and nerve fibres — and the
 pro-inflammatory cytokine signalling that links environmental exposure and
 repeated infections to leukaemogenesis.
 
-Two preliminary results drive the current work:
+Two preliminary results drive the current work: **MSCs from relapsed patients
+enhance blast survival**, pointing to an active role of the microenvironment in
+disease maintenance; and **ACLY knock-out produces a block in B-cell
+differentiation**, placing metabolism upstream of the differentiation arrest.
 
-- **MSCs from relapsed patients enhance blast survival**, pointing to an active
-  role of the microenvironment in disease maintenance.
-- **ACLY knock-out produces a block in B-cell differentiation**, placing
-  metabolism upstream of the differentiation arrest.
+## Axis 4 — Inflammation in myeloid malignancies and VEXAS syndrome {#axis-4}
 
-**Perspectives.** An infection-inducible mouse model, multiplex
-cytokine-chemokine profiling, and RNA-seq of the niche.
-
-## Axis 4 — Inflammation in myeloid malignancies and VEXAS syndrome
+**Group.** Melania Tesio and Pierre Sujobert (leads) · Maël Heiblig ·
+Vincent Alcazer · Laetitia Largeaud · Marie Teixeira · Chrystelle Touller ·
+Xinyue Fang · Mohamed Chour · Svetlana Le Ralle
 
 **The question.** Myeloid malignancies and VEXAS syndrome sit at the junction of
 clonal haematopoiesis and chronic inflammation. Which inflammatory circuits are
@@ -92,7 +102,10 @@ pathophysiology of infection in VEXAS, including a legionellosis programme with
 the Lyon National Reference Centre and the Legiopath team at CIRI, and the
 characterisation of EBV-driven T-cell lymphoproliferation with Matthieu Mahevas.
 
-## Axis 5 — Immunotherapeutic intervention
+## Axis 5 — Immunotherapeutic intervention and CAR-T cells {#axis-5}
+
+**Group.** Emmanuel Bachy and Hervé Ghesquières (leads) · Estelle Bourbon ·
+Nathalie Bissay · Aurore Martin
 
 **The question.** CAR-T cells work, but efficacy and toxicity vary widely
 between patients. What determines the difference, and can new targets widen the
@@ -106,12 +119,38 @@ In parallel we generate **anti-CD4 CAR-T cells** for T-cell malignancies.
 **Collaborations.** M. Sadelain (MSKCC, New York) and O. Hermine (Institut
 Imagine, Paris).
 
+## Axis 6 — Non-canonical transcriptomics {#axis-6}
+
+**Group.** Vincent Alcazer (lead) · Yahya En-Naciri (PhD student)
+
+**The question.** Most of the human genome does not code for annotated
+proteins, yet much of it is transcribed. What does that non-coding transcription
+produce, and what does the immune system make of it?
+
+**Our approach.** We develop computational approaches to measure transcription
+occurring outside the annotated proteome in blood disorders, and ask whether
+those transcripts contribute to how immune cells recognise — or fail to
+recognise — diseased cells.
+
+**Where this comes from.** The group builds on earlier work showing that
+endogenous retroelements are a source of **shared tumour antigens capable of
+inducing high-avidity cytotoxic T cells**
+([*Science Advances*, 2022](https://doi.org/10.1126/sciadv.abj3671)), that
+**human endogenous retroviruses characterise normal and leukaemic stem cells**
+([*American Journal of Hematology*, 2022](https://pubmed.ncbi.nlm.nih.gov/35759575/)),
+and on a review of their place in haematological malignancies, from epigenetic
+dysregulation to therapeutic targeting
+([*American Journal of Hematology*, 2024](https://doi.org/10.1002/ajh.27501)).
+
 ---
 
-## Transversal axis — Omics, bioinformatics and AI
+## Transversal axis — Omics, bioinformatics and AI {#transversal}
+
+**Group.** David Armisen (lead) · Fabrice Chatonnet · Vincent Alcazer ·
+Edith Julia · Mohamed Chour · Svetlana Le Ralle · Hedi Somai
 
 Every axis above feeds into a shared computational programme, and this is also
-where our [open tools](app/index.qmd) come from.
+where our [open apps](app/index.qmd) come from.
 
 **Technologies.** RNA-seq, ATAC-seq, scRNA-seq, scATAC-seq, Cut&Tag and flow
 cytometry.
@@ -157,5 +196,5 @@ Laurence de Leval, Marco Herling.
 
 **Within CIRI.** Teams VIRIMI, NOPAB, Legiopath, I2AB, EIA and LYACTS.
 
-**Networks and consortia.** LYSA, LISA, GBMHM, Société Française
-d'Hématologie, AssHIB, OncNGS consortium, French VEXAS network.
+**Networks and consortia.** LYSA, LISA, GBMHM, AssHIB, OncNGS consortium,
+French VEXAS network, and the French Society of Haematology.

@@ -1,6 +1,6 @@
 ---
 title: "Team"
-subtitle: "43 people, 25 full-time equivalents, across five research axes"
+subtitle: "43 people across six research groups"
 ---
 
 L2IB brings together basic researchers, clinician-scientists and engineers from
@@ -260,7 +260,7 @@ proviennent de l'organigramme HCERES arrêté au 31/12/2024.
 ::: {.team-member}
 ![](images/team/placeholder.svg)
 [Vincent Alcazer]{.name}
-[CCA]{.role}
+[MCU-PH]{.role}
 :::
 
 ::: {.team-member}
@@ -337,6 +337,24 @@ proviennent de l'organigramme HCERES arrêté au 31/12/2024.
 
 :::
 
+
+## Axis 6 — Non-canonical transcriptomics
+
+::: {.team-grid}
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Vincent Alcazer]{.name}
+[MCU-PH · Axis lead]{.role}
+:::
+
+::: {.team-member}
+![](images/team/placeholder.svg)
+[Yahya En-Naciri]{.name}
+[PhD student]{.role}
+:::
+
+:::
 ## Transversal axis — Omics, bioinformatics and AI
 
 ::: {.team-grid}
@@ -356,7 +374,7 @@ proviennent de l'organigramme HCERES arrêté au 31/12/2024.
 ::: {.team-member}
 ![](images/team/placeholder.svg)
 [Vincent Alcazer]{.name}
-[CCA]{.role}
+[MCU-PH]{.role}
 :::
 
 ::: {.team-member}
@@ -401,7 +419,7 @@ proviennent de l'organigramme HCERES arrêté au 31/12/2024.
 
 ## Composition
 
-**43 people, 25 full-time equivalents.**
+**43 people.**
 
 | Statutory position | Count |
 |---|---|

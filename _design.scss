@@ -403,3 +403,49 @@ div.sourceCode {
   border-radius: 4px;
   padding: 0.1rem 0.45rem;
 }
+
+// ---- Rangee de logos institutionnels dans le bandeau ------------------------
+//  Chaque logo est pose sur une pastille blanche : cela garantit la lisibilite
+//  quel que soit le logo fourni (fond transparent, texte sombre, etc.).
+
+.hero-logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+
+  p { margin: 0; max-width: none; }
+
+  img {
+    height: 46px;
+    width: auto;
+    background: #fff;
+    border-radius: 6px;
+    padding: 5px 9px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero-logos img { height: 34px; }
+}
+
+// ---- Cartes cliquables (page d'accueil) ------------------------------------
+
+.feature-card {
+  h3 a {
+    color: var(--l2ib-heading);
+    text-decoration: none;
+
+    &:hover { color: var(--l2ib-brand); text-decoration: underline; }
+
+    // La fleche signale que la carte mene quelque part
+    &::after {
+      content: " \2192";
+      opacity: 0.45;
+      font-weight: 400;
+    }
+  }
+
+  &:hover h3 a::after { opacity: 1; }
+}

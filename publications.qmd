@@ -5,39 +5,75 @@ toc: true
 toc-depth: 2
 ---
 
-Papers from **2019–2024** that meet two conditions at once:
+Papers from **2019–2026** that meet two conditions at once:
 
 - published in a journal with an **impact factor above 10**, and
 - with an L2IB member as **first, second, second-to-last or last author**.
 
 That second condition is what separates the team's own work from the large
-multicentre trials it also contributes to. Across the same period the team
-produced more than **480 references** in all journals.
+multicentre trials it also contributes to.
 
-Each entry links to **PubMed** and to the publisher via its **DOI**.
+[Show all publications](publications-all.qmd){.btn-app .btn-launch}
 
 ::: {.callout-note collapse="true"}
 ## How this list is built
 
-Starting point is the team's HCERES bibliographic record: 19 per-member sheets,
-648 rows, **480 distinct publications** after deduplication.
+For **2019–2024**, the starting point is the team's HCERES bibliographic
+record: 19 per-member sheets, 648 rows, 480 distinct publications after
+deduplication. **Author position** is computed by locating each member in the
+author string of their own record, accounting for co-first and co-last author
+markers.
 
-**Author position** is computed by locating each team member in the author
-string of their own record, accounting for co-first and co-last author markers.
-269 rows place a member in a signing position.
+For **2025–2026**, references come from a PubMed search across team members
+with a Lyon affiliation, filtered the same way.
 
-**Impact factor** is not a column in that record, so the filter is applied to
-the journal name through a lookup table based on recent JCR values. Journals
-just below the cut, and therefore absent: *Haematologica* (8.2), *HemaSphere*
-(7.6), *Blood Advances* (7.4), *eClinicalMedicine* (9.6), *PNAS* (9.4).
+**Impact factor** is not a column in the HCERES record, so the filter is
+applied to the journal name through a lookup table based on recent JCR values.
+Journals just below the cut, and therefore absent from this page but present in
+the full list: *Haematologica* (8.2), *HemaSphere* (7.6), *Blood Advances*
+(7.4), *eClinicalMedicine* (9.6), *PNAS* (9.4).
 
-Titles, author lists and DOIs come from **PubMed**, not from the source
+Titles, author lists, PMIDs and DOIs come from **PubMed**, not from the source
 spreadsheet, so they carry the publisher's canonical wording.
 
-One publication meeting both criteria was left out as being outside the team's
-research scope: a 2022 *Molecular Biology and Evolution* phylogeny of
-semi-aquatic bugs, from a team member's earlier career in evolutionary biology.
+One qualifying publication was left out as outside the team's research scope: a
+*Molecular Biology and Evolution* phylogeny of semi-aquatic bugs, from a team
+member's earlier career in evolutionary biology.
 :::
+
+## 2026
+
+- **Development and External Validation of a Transcriptome-Based Multivariable Prediction Model for Treatment-Free Remission in Chronic Myeloid Leukemia**  
+  Alcazer V, Dulucq S, Mosnier I, Chabane K, Bertin-Mourot P, Derruau S, Balsat M, Labussiere-Wallet H, et al.  
+  *Journal of Clinical Oncology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42454992/) · [doi:10.1200/JCO-25-02948](https://doi.org/10.1200/JCO-25-02948)  
+  [L2IB · first author]{.pub-pos}
+
+- **Prediction of bone marrow fibrosis from complete blood count in myeloproliferative neoplasms (FIBOM-AI): a multicentre machine learning model development and validation study**  
+  Donzel M, Khedimallah S, Barriere S, Gouband A, Aubert C, Bosselut N, Poullot E, Bezsera SM, et al.  
+  *Lancet Haematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42242261/) · [doi:10.1016/S2352-3026(26)00099-2](https://doi.org/10.1016/S2352-3026(26)00099-2)  
+  [L2IB · first author]{.pub-pos}
+
+- **Shrouded in a starry sky: a case of AML-MRC with KMT2A amplification mimicking Burkitt-like morphology**  
+  Chiriac R, Alcazer V  
+  *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42241038/) · [doi:10.1182/blood.2026033109](https://doi.org/10.1182/blood.2026033109)  
+  [L2IB · second author]{.pub-pos}
+
+- **Genome-wide association study of event-free survival in follicular lymphoma patients treated with front-line immunochemotherapy**  
+  Ghesquières H, Drouet Y, Slager SL, Morschhauser F, Julia E, Galimberti S, Robinson D, Larson MC, et al.  
+  *Blood Cancer Journal* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41513626/) · [doi:10.1038/s41408-025-01435-1](https://doi.org/10.1038/s41408-025-01435-1)  
+  [L2IB · first author]{.pub-pos}
+
+- **Prognostic impact of measurable residual disease in AML patients treated frontline with azacitidine and venetoclax: results from the French VENAURA registry**  
+  Heiblig M, Gross Z, Belhabri A, Tauveron-Jalenques U, Tavernier E, Requena Aspas G, Carré M, Contejean A, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42469476/) · [doi:10.1038/s41375-026-03024-y](https://doi.org/10.1038/s41375-026-03024-y)  
+  [L2IB · first author]{.pub-pos}
+
+## 2025
+
+- **Pseudo-Chédiak-Higashi Inclusions in an Anaplastic Large Cell Lymphoma**  
+  Chiriac R, Baseggio L  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40704487/) · [doi:10.1002/ajh.70016](https://doi.org/10.1002/ajh.70016)  
+  [L2IB · second author]{.pub-pos}
 
 ## 2024
 
@@ -66,15 +102,15 @@ semi-aquatic bugs, from a team member's earlier career in evolutionary biology.
   *Lancet Digital Health* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38670741/) · [doi:10.1016/S2589-7500(24)00044-X](https://doi.org/10.1016/S2589-7500(24)00044-X)  
   [L2IB · first author]{.pub-pos}
 
-- **Real life evaluation of AlphaMissense predictions in hematological malignancies**  
-  Chabane K, Charlot C, Gugenheim D, Simonet T, Armisen D, Viailly PJ, Codet de Boisse G, Huet S, et al.  
-  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38135759/) · [doi:10.1038/s41375-023-02116-3](https://doi.org/10.1038/s41375-023-02116-3)  
-  [L2IB · second-to-last author]{.pub-pos}
-
 - **Functional precision oncology for follicular lymphoma with patient-derived xenograft in avian embryos**  
   Zala M, Lipinski B, Costechareyre C, Jarrosson L, Teinturier R, Julia E, Lacourrège M, Verney A, et al.  
   *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38225454/) · [doi:10.1038/s41375-024-02150-9](https://doi.org/10.1038/s41375-024-02150-9)  
   [L2IB · last author]{.pub-pos}
+
+- **Real life evaluation of AlphaMissense predictions in hematological malignancies**  
+  Chabane K, Charlot C, Gugenheim D, Simonet T, Armisen D, Viailly PJ, Codet de Boisse G, Huet S, et al.  
+  *Leukemia* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38135759/) · [doi:10.1038/s41375-023-02116-3](https://doi.org/10.1038/s41375-023-02116-3)  
+  [L2IB · second-to-last author]{.pub-pos}
 
 - **Comparison of prognostic scores according to WHO classification in 170 patients with advanced mastocytosis and C-finding treated with midostaurin**  
   Heiblig M, Gourguechon C, Guilpain P, Bulai-Livideanu C, Barete S, Chantran Y, Agopian J, Brenet F, et al.  
@@ -85,6 +121,11 @@ semi-aquatic bugs, from a team member's earlier career in evolutionary biology.
   Ghesquières H, Krzisch D, Nicolas-Virelizier E, Kanoun S, Gac AC, Guidez S, Touati M, Laribi K, et al.  
   *Blood* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37979133/) · [doi:10.1182/blood.2023021564](https://doi.org/10.1182/blood.2023021564)  
   [L2IB · first author]{.pub-pos}
+
+- **Endogenous retroelements in hematological malignancies: From epigenetic dysregulation to therapeutic targeting**  
+  Chour M, Porteu F, Depil S, Alcazer V  
+  *American Journal of Hematology* · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39387681/) · [doi:10.1002/ajh.27501](https://doi.org/10.1002/ajh.27501)  
+  [L2IB · last author]{.pub-pos}
 
 ## 2023
 

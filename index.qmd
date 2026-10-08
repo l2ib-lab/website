@@ -5,6 +5,13 @@ toc: false
 ---
 
 ::: {.hero}
+::: {.hero-logos}
+![CIRI](images/logos/ciri.svg)
+![Inserm](images/logos/inserm.svg)
+![Université Claude Bernard Lyon 1](images/logos/ucbl.svg)
+![Hospices Civils de Lyon](images/logos/hcl.svg)
+:::
+
 ::: {.eyebrow}
 CIRI · Inserm U1111 · Lyon
 :::
@@ -21,6 +28,12 @@ turn that biology into tools clinicians can actually use.
 [Join us](join.qmd){.btn-app}
 :::
 
+::: {.todo}
+**Logos à remplacer** — les quatre fichiers de `images/logos/` sont des
+placeholders. Récupérez les versions officielles auprès de la communication de
+chaque tutelle et écrasez-les en gardant les mêmes noms de fichier.
+:::
+
 ## About the team
 
 L2IB is a research team of the [CIRI — Centre International de Recherche en
@@ -28,11 +41,11 @@ Infectiologie](https://ciri.ens-lyon.fr/teams/lib) in Lyon, France
 (Inserm U1111 · CNRS UMR5308 · ENS de Lyon · Université Claude Bernard Lyon 1),
 co-led by **Laurent Genestier** and **Emmanuel Bachy**.
 
-Forty-three people — **25 full-time equivalents** — work at the interface of
-fundamental immunology, haematology and computational biology. We combine
-primary patient samples, functional immunology, mouse models and machine
-learning on large clinical cohorts to understand lymphomagenesis and to improve
-how patients are diagnosed, stratified and treated.
+Forty-three people work at the interface of fundamental immunology,
+haematology and computational biology. We combine primary patient samples,
+functional immunology, mouse models and machine learning on large clinical
+cohorts to understand lymphomagenesis and to improve how patients are
+diagnosed, stratified and treated.
 
 The team is based on the Lyon Sud campus and works in close collaboration with
 the clinical haematology and pathology departments of the Hospices Civils de
@@ -40,68 +53,85 @@ Lyon.
 
 ## What we do
 
+The team is organised into six groups. Each one is described below — follow a
+card to its research axis and the people who work on it.
+
 ::: {.feature-grid}
 
 ::: {.feature-card}
-### Epigenetics
+### [Epigenetics and T-cell lymphoma](research.qmd#axis-1)
 Chromatin alterations in T-cell lymphoma, and ATAC-seq protocols that work on
 routine FFPE material.
 :::
 
 ::: {.feature-card}
-### Environment & genomics
+### [Environment and genomics](research.qmd#axis-2)
 BTG1 mutations, MCL1 sensitivity, and how glyphosate exposure shapes lymphoma
 risk and chemoresistance.
 :::
 
 ::: {.feature-card}
-### Microenvironment
-Metabolism and the bone marrow niche in paediatric B-ALL, from pre-leukaemic
+### [Metabolism and microenvironment](research.qmd#axis-3)
+Metabolism and the bone marrow niche in B-cell leukaemia, from pre-leukaemic
 clones to relapse.
 :::
 
 ::: {.feature-card}
-### Inflammation
+### [Inflammation and VEXAS](research.qmd#axis-4)
 The IL-1 axis in myeloid malignancies, and the first PDX model of VEXAS
 syndrome.
 :::
 
 ::: {.feature-card}
-### Cell therapy
-Determinants of CAR-T efficacy and toxicity, and anti-CD4 CAR-T cells for T-cell
-malignancies.
+### [Immunotherapy and CAR-T](research.qmd#axis-5)
+Determinants of CAR-T efficacy and toxicity, and anti-CD4 CAR-T cells for
+T-cell malignancies.
 :::
 
 ::: {.feature-card}
-### Omics & AI
-A transversal computational programme feeding every axis — and the source of our
-[open tools](app/index.qmd).
+### [Non-canonical transcriptomics](research.qmd#axis-6)
+What the non-coding genome transcribes, and how it shapes immune recognition in
+blood disorders.
 :::
 
 :::
+
+Running across all six, a transversal
+[omics, bioinformatics and AI programme](research.qmd#transversal) supports every
+axis and produces our [open apps](app/index.qmd).
 
 ## In numbers
 
 | | |
 |---|---|
-| People · full-time equivalents | **43** · **25** |
-| Publications, 2019–2024 | **480+**, of which **127** in journals with IF > 10 |
+| People | **43** |
+| Publications, 2019–2026 | **577** |
 | Grants raised, 2019–2023 | **5.1 M€** across 68 grants, coordinator in 61 |
 | Secured for 2024–2028 | **1.47 M€** |
 | Licensed patents | **1** |
 
 ## Highlights
 
-- **[AIPAL](app/aipal/index.qmd)** — predicts the subtype of acute leukaemia from
-  ten routine laboratory parameters, validated on 1,410 patients across six
-  French university hospitals (*Lancet Digital Health*, 2024).
-- **[FIBOM-AI](app/fibom-ai/index.qmd)** — a machine-learning tool predicting
-  grade 2–3 bone marrow fibrosis from a routine complete blood count, trained on
-  nearly 2,000 patients across French university hospitals.
-- ***BTG1* mutations sensitise lymphomas to MCL1 inhibitors** — Delage et al.,
-  *Blood*, 2023, protected by patent WO2023057484A1.
-- **First PDX model of VEXAS syndrome**, with and without associated MDS.
-- Member of the **CALYM Carnot Institute**.
+- **Transcriptomic prediction of treatment-free remission in chronic myeloid
+  leukaemia** — a 50-gene signature measured at TKI discontinuation, externally
+  validated. Alcazer V, et al. *Journal of Clinical Oncology* 2026.
+  [doi:10.1200/JCO-25-02948](https://doi.org/10.1200/JCO-25-02948)
+- **[FIBOM-AI](app/fibom-ai/index.qmd) — predicting bone marrow fibrosis from a
+  complete blood count** in myeloproliferative neoplasms, a multicentre model
+  development and validation study. Donzel M, et al. *Lancet Haematology* 2026.
+  [doi:10.1016/S2352-3026(26)00099-2](https://doi.org/10.1016/S2352-3026(26)00099-2)
+- **[AIPAL](app/aipal/index.qmd) — machine-learning prediction of acute
+  leukaemia subtype** from ten routine laboratory parameters, validated on 1,410
+  patients. Alcazer V, et al. *Lancet Digital Health* 2024.
+  [doi:10.1016/S2589-7500(24)00044-X](https://doi.org/10.1016/S2589-7500(24)00044-X)
+- **Real-world comparison of tisagenlecleucel and axicabtagene ciloleucel**
+  CAR T cells in relapsed or refractory large B-cell lymphoma. Bachy E, et al.
+  *Nature Medicine* 2022.
+  [doi:10.1038/s41591-022-01969-y](https://doi.org/10.1038/s41591-022-01969-y)
+- ***BTG1* inactivation drives lymphomagenesis** and sensitises lymphomas to
+  MCL1 inhibitors — protected by patent WO2023057484A1. Delage L, et al.
+  *Blood* 2023.
+  [doi:10.1182/blood.2022016943](https://doi.org/10.1182/blood.2022016943)
 
 ## Contact
 
