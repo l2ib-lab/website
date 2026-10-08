@@ -25,7 +25,7 @@ turn that biology into tools clinicians can actually use.
 
 ::: {.partner-logos}
 ![CIRI](images/logos/ciri.png)
-![Inserm](images/logos/inserm.svg)
+![Inserm](images/logos/inserm.png)
 ![Université Claude Bernard Lyon 1](images/logos/ucbl.png)
 ![Hospices Civils de Lyon](images/logos/hcl.png)
 :::

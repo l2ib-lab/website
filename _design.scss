@@ -477,9 +477,8 @@ main.content:has(.hero) {
 
 // ---- Bandeau des tutelles, sous le bandeau de titre ------------------------
 //  Les logos sont poses directement sur le fond de page, sans pastille : ils
-//  sont dessines pour un fond clair. C'est aussi pourquoi ils ne peuvent pas
-//  vivre dans le bandeau navy, ou le logo Inserm (noir sur transparent)
-//  disparaitrait.
+//  sont dessines pour un fond clair. C est aussi pourquoi ils ne vivent pas
+//  dans le bandeau navy, ou leurs parties sombres disparaitraient.
 //
 //  En theme sombre, --l2ib-logo-band fournit une bande claire unique : sans
 //  elle, les memes logos deviendraient illisibles sur le fond quasi noir.
@@ -487,7 +486,7 @@ main.content:has(.hero) {
 .partner-logos,
 .partner-logos p {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
   gap: 1rem 2.5rem;
@@ -501,16 +500,27 @@ main.content:has(.hero) {
   background: var(--l2ib-logo-band);
   border-radius: 10px;
 
+  // Hauteur imposee, largeur libre : avec max-height et width:auto, un SVG
+  // conserve sa largeur intrinseque (540px pour Inserm) et renvoie les autres
+  // logos a la ligne.
   img {
-    max-height: 46px;
+    height: 42px;
     width: auto;
-    height: auto;
+    max-width: 100%;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .partner-logos,
-  .partner-logos p { gap: 1rem 1.5rem; }
+  .partner-logos p { gap: 1.25rem; }
 
-  .partner-logos img { max-height: 34px; }
+  .partner-logos img { height: 32px; }
+}
+
+@media (max-width: 420px) {
+  .partner-logos,
+  .partner-logos p { gap: 0.85rem; }
+
+  .partner-logos { padding: 0.9rem 0.5rem; }
+  .partner-logos img { height: 25px; }
 }
