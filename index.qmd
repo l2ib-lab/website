@@ -5,12 +5,16 @@ toc: false
 ---
 
 ::: {.hero}
+::: {.hero-inner}
+
 ::: {.hero-logos}
 ![CIRI](images/logos/ciri.svg)
 ![Inserm](images/logos/inserm.svg)
 ![Université Claude Bernard Lyon 1](images/logos/ucbl.svg)
 ![Hospices Civils de Lyon](images/logos/hcl.svg)
 :::
+
+::: {.hero-body}
 
 ::: {.eyebrow}
 CIRI · Inserm U1111 · Lyon
@@ -26,6 +30,9 @@ turn that biology into tools clinicians can actually use.
 [Our research](research.qmd){.btn-app .btn-launch}
 [Our apps](app/index.qmd){.btn-app}
 [Join us](join.qmd){.btn-app}
+
+:::
+:::
 :::
 
 ::: {.todo}

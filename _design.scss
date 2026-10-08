@@ -449,3 +449,67 @@ div.sourceCode {
 
   &:hover h3 a::after { opacity: 1; }
 }
+
+// ---- Accueil : bandeau colle a la navbar ------------------------------------
+//  La page d'accueil a un titre vide, donc Quarto emet un bloc de titre vide et
+//  le conteneur conserve son rembourrage haut. Les deux cumules creaient une
+//  bande blanche entre la navbar et le bandeau navy.
+
+#title-block-header.quarto-title-block:empty { display: none; }
+
+// !important : une regle Quarto plus specifique impose sinon 14px de
+// rembourrage haut, qui rouvrent la bande blanche.
+main.content:has(.hero) {
+  padding-top: 0 !important;
+  margin-top: 0;
+}
+
+// ---- Accueil : logos en colonne a gauche du titre --------------------------
+
+.hero-inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.75rem;
+}
+
+.hero-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.hero .hero-logos {
+  flex: 0 0 auto;
+  padding-top: 0.4rem;
+  margin-bottom: 0;
+}
+
+// Pandoc enveloppe les images consecutives dans un seul <p> : la colonne doit
+// donc etre posee sur le conteneur ET sur ce paragraphe.
+.hero .hero-logos,
+.hero .hero-logos p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 0.8rem;
+  margin: 0;
+  max-width: none;
+
+  img { height: 52px; }
+}
+
+// En dessous de 860px, les logos repassent en rangee au-dessus du titre :
+// une colonne laterale y mangerait toute la largeur utile.
+@media (max-width: 860px) {
+  .hero-inner { flex-direction: column; gap: 1.75rem; }
+
+  .hero .hero-logos,
+  .hero .hero-logos p {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 0;
+
+    img { height: 38px; }
+  }
+}
