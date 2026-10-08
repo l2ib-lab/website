@@ -389,3 +389,17 @@ div.sourceCode {
   .quarto-title-banner { padding-top: 1.85rem; padding-bottom: 1.85rem; }
   .app-card { padding: 1.4rem 1.2rem; }
 }
+
+// ---- Marqueur de position d'auteur, page Publications -----------------------
+
+.pub-pos {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--l2ib-brand);
+  background: rgba(var(--l2ib-brand-rgb), 0.1);
+  border-radius: 4px;
+  padding: 0.1rem 0.45rem;
+}

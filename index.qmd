@@ -17,7 +17,7 @@ turn that biology into tools clinicians can actually use.
 :::
 
 [Our research](research.qmd){.btn-app .btn-launch}
-[Open tools](tools/index.qmd){.btn-app}
+[Our apps](app/index.qmd){.btn-app}
 [Join us](join.qmd){.btn-app}
 :::
 
@@ -75,7 +75,7 @@ malignancies.
 ::: {.feature-card}
 ### Omics & AI
 A transversal computational programme feeding every axis — and the source of our
-[open tools](tools/index.qmd).
+[open tools](app/index.qmd).
 :::
 
 :::
@@ -92,7 +92,10 @@ A transversal computational programme feeding every axis — and the source of o
 
 ## Highlights
 
-- **[FIBOM-AI](tools/fibom-ai/index.qmd)** — a machine-learning tool predicting
+- **[AIPAL](app/aipal/index.qmd)** — predicts the subtype of acute leukaemia from
+  ten routine laboratory parameters, validated on 1,410 patients across six
+  French university hospitals (*Lancet Digital Health*, 2024).
+- **[FIBOM-AI](app/fibom-ai/index.qmd)** — a machine-learning tool predicting
   grade 2–3 bone marrow fibrosis from a routine complete blood count, trained on
   nearly 2,000 patients across French university hospitals.
 - ***BTG1* mutations sensitise lymphomas to MCL1 inhibitors** — Delage et al.,

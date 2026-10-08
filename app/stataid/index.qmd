@@ -1,0 +1,29 @@
+---
+pagetitle: "StatAid — redirecting"
+description: "A graphical interface for statistical analysis, for clinicians and researchers."
+toc: false
+search: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://vincentalcazer.shinyapps.io/StatAid/">
+        <link rel="canonical" href="https://www.l2ib-lab.fr/app/stataid/">
+---
+
+<!--
+  ####################  SEUL FICHIER A MODIFIER POUR CHANGER D HEBERGEUR  ####################
+  URL stable et citable de StatAid :
+      https://www.l2ib-lab.fr/app/stataid/
+  Cette page ne fait que rediriger vers l app reellement hebergee.
+  Remplacez l URL aux DEUX endroits ci-dessous lors d une migration.
+  ###########################################################################################
+-->
+
+# Redirecting to StatAid…
+
+If you are not redirected automatically, open the application here:
+
+[▶ Launch StatAid](https://vincentalcazer.shinyapps.io/StatAid/){.btn-app .btn-launch}
+
+[Back to Tools & Apps](../index.qmd)

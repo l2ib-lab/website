@@ -111,7 +111,7 @@ Imagine, Paris).
 ## Transversal axis — Omics, bioinformatics and AI
 
 Every axis above feeds into a shared computational programme, and this is also
-where our [open tools](tools/index.qmd) come from.
+where our [open tools](app/index.qmd) come from.
 
 **Technologies.** RNA-seq, ATAC-seq, scRNA-seq, scATAC-seq, Cut&Tag and flow
 cytometry.

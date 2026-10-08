@@ -21,8 +21,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
-      - href: tools/index.qmd
-        text: Tools & Apps
+      - href: app/index.qmd
+        text: Apps
       - href: publications.qmd
         text: Publications
       - href: team.qmd

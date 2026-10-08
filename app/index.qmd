@@ -1,0 +1,173 @@
+---
+title: "Apps"
+subtitle: "Open web applications from the L2IB team"
+toc: true
+toc-depth: 2
+---
+
+All our applications are **free, open-source and require no registration**.
+Each runs in the browser as a [Shiny](https://shiny.posit.co) app, and each can
+also be installed and run locally in R.
+
+::: {.callout-note}
+## Stable links
+Every app has a permanent L2IB address of the form
+`https://www.l2ib-lab.fr/app/<app-name>/`.
+
+**Cite that address in papers**, never the hosting provider's URL — it lets us
+change host without breaking published links.
+:::
+
+---
+
+## Clinical prediction
+
+::: {.app-card}
+### AIPAL
+
+::: {.app-tagline}
+Predicts the subtype of acute leukaemia — APL, ALL or AML — from ten routine
+laboratory parameters.
+:::
+
+::: {.app-meta}
+**Model** XGBoost · **Cohort** 1,410 patients across six French university
+hospitals (training 679, external validation 731, prospective 66) ·
+**AUC** 0.97 APL, 0.90 ALL, 0.89 AML · **Accuracy on confident predictions**
+99.7 %, 99.5 %, 98.8 % · **Requires** `R >= 4.1.0` locally
+:::
+
+Distinguishing acute promyelocytic leukaemia from other subtypes is a
+therapeutic emergency, and the tests that settle it are not available
+everywhere within the hour. AIPAL uses only parameters produced by any routine
+laboratory, so it can triage immediately and flag the cases where confidence is
+high enough to act on.
+
+[▶ Launch the app](aipal/index.qmd){.btn-app .btn-launch}
+[Source code](https://github.com/VincentAlcazer/AIPAL){.btn-app}
+[Publication](https://doi.org/10.1016/S2589-7500(24)00044-X){.btn-app}
+
+::: {.disclaimer}
+**Research tool.** AIPAL is intended for research and educational purposes. It
+does not constitute a medical device and must not replace clinical judgement or
+confirmatory diagnostic testing. No data entered in the application is stored by
+the L2IB team.
+:::
+
+Alcazer V, et al. *Lancet Digital Health* 2024;6(5):e323–e333.
+[doi:10.1016/S2589-7500(24)00044-X](https://doi.org/10.1016/S2589-7500(24)00044-X) ·
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38670741/)
+:::
+
+::: {.app-card}
+### FIBOM-AI
+
+::: {.app-tagline}
+Predicts grade 2–3 bone marrow fibrosis from a routine complete blood count.
+:::
+
+::: {.app-meta}
+**Model** XGBoost · **Cohort** ~2,000 patients, French university hospitals ·
+**AUC** 0.96 (training) · **Inputs** 27 CBC variables + age ·
+**Requires** `R >= 4.1.0` locally
+:::
+
+Assessing marrow fibrosis normally requires a bone marrow biopsy. FIBOM-AI
+estimates the probability of significant fibrosis from data already available
+for every patient, and reports both a general prediction and a stricter
+"confident" prediction based on clinical cutoffs.
+
+[▶ Launch the app](fibom-ai/index.qmd){.btn-app .btn-launch}
+[Source code](https://github.com/VincentAlcazer/FIBOM-AI){.btn-app}
+
+::: {.disclaimer}
+**Research tool.** FIBOM-AI is intended for research and educational purposes.
+It does not constitute a medical device and must not be used as a substitute for
+clinical judgement, a bone marrow biopsy, or the advice of a qualified
+practitioner. No data entered in the application is stored by the L2IB team.
+:::
+:::
+
+## Research software
+
+::: {.app-card}
+### PIO — Panel Informativity Optimizer
+
+::: {.app-tagline}
+Designs and benchmarks cancer NGS panels: the smallest set of genes or exons
+that still covers the most patients.
+:::
+
+::: {.app-meta}
+**Preloaded data** 91 cohorts across 31 cancer types · **Modes** optimal panel,
+custom panel completion, panel benchmarking · **Granularity** gene or exon ·
+**Metrics** UP and UPKB
+:::
+
+Choosing the genes for a sequencing panel trades informativity — the share of
+patients carrying at least one mutation in the panel — against panel length,
+which drives both cost and sensitivity. PIO optimises that trade-off from
+patient-level mutational data, and can also assess or complete a panel you
+already use. The published evaluation reports panel size reductions of up to
+1,000 kb at equal informativity.
+
+[▶ Launch the app](pio/index.qmd){.btn-app .btn-launch}
+[Source code](https://github.com/VincentAlcazer/PIO){.btn-app}
+[Publication](https://doi.org/10.1016/j.jmoldx.2022.03.005){.btn-app}
+
+Alcazer V, Sujobert P. *The Journal of Molecular Diagnostics* 2022;24(6):697–709.
+[doi:10.1016/j.jmoldx.2022.03.005](https://doi.org/10.1016/j.jmoldx.2022.03.005) ·
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/35427780/)
+:::
+
+::: {.app-card}
+### StatAid
+
+::: {.app-tagline}
+A graphical interface for statistical analysis, for clinicians and researchers
+who would rather not write code.
+:::
+
+::: {.app-meta}
+**Covers** exploratory analysis · descriptive and comparative statistics with
+publication-ready Table 1 · paired data · linear and logistic regression ·
+survival analysis (Kaplan-Meier, Cox) · ROC curves · publication-ready figures
+:::
+
+StatAid walks through the steps of a sound analysis rather than exposing a bare
+toolbox, which makes it usable for teaching as well as for day-to-day clinical
+research. A quick-start guide is available in English and French in the
+repository.
+
+[▶ Launch the app](stataid/index.qmd){.btn-app .btn-launch}
+[Source code](https://github.com/VincentAlcazer/StatAid){.btn-app}
+[Publication](https://doi.org/10.21105/joss.02630){.btn-app}
+
+Alcazer V. *Journal of Open Source Software* 2020;5(55):2630.
+[doi:10.21105/joss.02630](https://doi.org/10.21105/joss.02630)
+:::
+
+---
+
+## Running them locally
+
+All four are R packages. In R:
+
+```r
+install.packages("remotes")
+
+remotes::install_github("VincentAlcazer/AIPAL");     AIPAL::run_app()
+remotes::install_github("VincentAlcazer/FIBOM-AI");  FIBOMAI::run_app()
+remotes::install_github("VincentAlcazer/StatAid");   StatAid::run_app()
+remotes::install_github("VincentAlcazer/PIO")        # see the repository vignette
+```
+
+All are released under the **MIT licence**.
+
+## Adding a new app
+
+::: {.todo}
+**Gabarit** — déployez l'app, créez `app/<nom>/index.qmd` en copiant celui de
+FIBOM-AI et en changeant l'URL cible, puis copiez un bloc `.app-card` ci-dessus.
+L'app est alors citable de façon permanente à `https://www.l2ib-lab.fr/app/<nom>/`.
+:::

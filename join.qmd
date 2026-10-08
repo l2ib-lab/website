@@ -28,7 +28,7 @@ particular for fellowship-funded post-doctoral projects
 - Training in both wet-lab immunology and computational methods — many of our
   projects are genuinely hybrid.
 - An open-science policy: code and tools are released publicly
-  (see [Tools & Apps](tools/index.qmd)).
+  (see [Tools & Apps](app/index.qmd)).
 
 ## How to apply
 

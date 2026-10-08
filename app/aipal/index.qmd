@@ -1,0 +1,29 @@
+---
+pagetitle: "AIPAL — redirecting"
+description: "Machine-learning prediction of acute leukaemia subtype from ten routine laboratory parameters."
+toc: false
+search: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta http-equiv="refresh" content="0; url=https://alcazerv.shinyapps.io/AIPAL/">
+        <link rel="canonical" href="https://www.l2ib-lab.fr/app/aipal/">
+---
+
+<!--
+  ####################  SEUL FICHIER A MODIFIER POUR CHANGER D HEBERGEUR  ####################
+  URL stable et citable de AIPAL :
+      https://www.l2ib-lab.fr/app/aipal/
+  Cette page ne fait que rediriger vers l app reellement hebergee.
+  Remplacez l URL aux DEUX endroits ci-dessous lors d une migration.
+  ###########################################################################################
+-->
+
+# Redirecting to AIPAL…
+
+If you are not redirected automatically, open the application here:
+
+[▶ Launch AIPAL](https://alcazerv.shinyapps.io/AIPAL/){.btn-app .btn-launch}
+
+[Back to Tools & Apps](../index.qmd)

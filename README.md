@@ -101,8 +101,8 @@ _quarto.yml              Configuration : navbar, footer, thème, métadonnées
 styles.scss              Couleurs et styles (3 variables en haut du fichier)
 index.qmd                Accueil
 research.qmd             Axes de recherche
-tools/index.qmd          Liste des applications Shiny
-tools/fibom-ai/index.qmd URL stable + redirection vers l'app FIBOM-AI
+app/index.qmd          Liste des applications Shiny
+app/fibom-ai/index.qmd URL stable + redirection vers l'app FIBOM-AI
 publications.qmd         Généré depuis references.bib
 team.qmd                 Membres
 join.qmd                 Offres M2 / thèse / post-doc
@@ -122,7 +122,7 @@ CNAME                    Nom de domaine (www.l2ib-lab.fr)
 | Mettre à jour les publications | écraser `references.bib` (export Zotero) |
 | Ajouter un membre | `team.qmd` + photo dans `images/team/` |
 | **Ajouter une app Shiny** | voir ci-dessous |
-| **Changer l'hébergeur d'une app** | uniquement `tools/<app>/index.qmd` |
+| **Changer l'hébergeur d'une app** | uniquement `app/<app>/index.qmd` |
 
 ### Ajouter une application Shiny
 
@@ -131,16 +131,16 @@ CNAME                    Nom de domaine (www.l2ib-lab.fr)
 2. Créez l'URL stable :
 
    ```bash
-   mkdir -p tools/mon-app
-   cp tools/fibom-ai/index.qmd tools/mon-app/index.qmd
+   mkdir -p app/mon-app
+   cp app/fibom-ai/index.qmd app/mon-app/index.qmd
    ```
 
    Éditez ce fichier et remplacez l'URL cible aux deux endroits indiqués.
-3. Dans `tools/index.qmd`, copiez le gabarit `.app-card` et remplissez-le.
+3. Dans `app/index.qmd`, copiez le gabarit `.app-card` et remplissez-le.
 4. `git push`.
 
 L'app est alors citable de façon permanente à l'adresse
-`https://www.l2ib-lab.fr/tools/mon-app/`, quel que soit l'hébergeur réel.
+`https://www.l2ib-lab.fr/app/mon-app/`, quel que soit l'hébergeur réel.
 
 ## 6. À faire avant la mise en ligne publique
 

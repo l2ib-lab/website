@@ -44,7 +44,7 @@ San Francisco, CA 94107
 [https://github.com](https://github.com)
 
 Les applications interactives mises à disposition depuis la rubrique
-[Tools & Apps](tools/index.qmd) sont hébergées par **Posit, PBC**
+[Tools & Apps](app/index.qmd) sont hébergées par **Posit, PBC**
 (Boston, MA, États-Unis) via le service Posit Connect Cloud.
 
 ## Propriété intellectuelle
@@ -93,7 +93,7 @@ Vous pouvez également introduire une réclamation auprès de la
 
 ## Applications interactives et données de santé
 
-Les applications accessibles depuis la rubrique [Tools & Apps](tools/index.qmd)
+Les applications accessibles depuis la rubrique [Tools & Apps](app/index.qmd)
 sont des **outils de recherche**. Elles :
 
 - ne constituent pas des dispositifs médicaux au sens du règlement (UE) 2017/745 ;
