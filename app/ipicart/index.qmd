@@ -8,13 +8,13 @@ format:
     include-in-header:
       text: |
         <meta http-equiv="refresh" content="0; url=https://l2ib-lab-ipicart.share.connect.posit.cloud/">
-        <link rel="canonical" href="https://www.l2ib-lab.fr/app/IPICART/">
+        <link rel="canonical" href="https://www.l2ib-lab.fr/app/ipicart/">
 ---
 
 <!--
   ####################  SEUL FICHIER A MODIFIER POUR CHANGER D HEBERGEUR  ####################
   URL stable et citable de IPICART :
-      https://www.l2ib-lab.fr/app/IPICART/
+      https://www.l2ib-lab.fr/app/ipicart/
   Cette page ne fait que rediriger vers l app reellement hebergee.
   Remplacez l URL aux DEUX endroits ci-dessous lors d une migration.
 
