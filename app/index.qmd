@@ -9,15 +9,6 @@ All our applications are **free, open-source and require no registration**.
 Each runs in the browser as a [Shiny](https://shiny.posit.co) app, and each can
 also be installed and run locally in R.
 
-::: {.callout-note}
-## Stable links
-Every app has a permanent L2IB address of the form
-`https://www.l2ib-lab.fr/app/<app-name>/`.
-
-**Cite that address in papers**, never the hosting provider's URL — it lets us
-change host without breaking published links.
-:::
-
 ---
 
 ## Clinical prediction
@@ -163,11 +154,3 @@ remotes::install_github("VincentAlcazer/PIO")        # see the repository vignet
 ```
 
 All are released under the **MIT licence**.
-
-## Adding a new app
-
-::: {.todo}
-**Gabarit** — déployez l'app, créez `app/<nom>/index.qmd` en copiant celui de
-FIBOM-AI et en changeant l'URL cible, puis copiez un bloc `.app-card` ci-dessus.
-L'app est alors citable de façon permanente à `https://www.l2ib-lab.fr/app/<nom>/`.
-:::
