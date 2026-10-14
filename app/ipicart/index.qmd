@@ -1,5 +1,5 @@
 ---
-pagetitle: "IPICART — redirecting"
+pagetitle: "CAR-IPI — redirecting"
 description: "CAR-IPI and simplified sCAR-IPI scores: risk of progression after CAR-T cell infusion in large B-cell lymphoma."
 toc: false
 search: false
@@ -7,23 +7,19 @@ format:
   html:
     include-in-header:
       text: |
-        <meta http-equiv="refresh" content="0; url=https://l2ib-lab-ipicart.share.connect.posit.cloud/">
-        <link rel="canonical" href="https://www.l2ib-lab.fr/app/ipicart/">
+        <meta http-equiv="refresh" content="0; url=/app/car-ipi/">
+        <link rel="canonical" href="https://www.l2ib-lab.fr/app/car-ipi/">
 ---
 
 <!--
-  ####################  SEUL FICHIER A MODIFIER POUR CHANGER D HEBERGEUR  ####################
-  URL stable et citable de IPICART :
-      https://www.l2ib-lab.fr/app/ipicart/
-  Cette page ne fait que rediriger vers l app reellement hebergee.
-  Remplacez l URL aux DEUX endroits ci-dessous lors d une migration.
-
-  L app n est volontairement pas encore presentee dans app/index.qmd.
-  ###########################################################################################
+  Ancienne adresse de CAR-IPI (ex-IPICART), conservee pour ne pas casser les liens deja
+  diffuses. Elle redirige vers l adresse principale :
+      https://www.l2ib-lab.fr/app/car-ipi/
+  Ne pas modifier : l hebergeur se change uniquement dans app/car-ipi/index.qmd.
 -->
 
-# Redirecting to IPICART…
+# Redirecting to CAR-IPI…
 
-If you are not redirected automatically, open the application here:
+This address has moved to <https://www.l2ib-lab.fr/app/car-ipi/>.
 
-[▶ Launch IPICART](https://l2ib-lab-ipicart.share.connect.posit.cloud/){.btn-app .btn-launch}
+[▶ Launch CAR-IPI](../car-ipi/index.qmd){.btn-app .btn-launch}
