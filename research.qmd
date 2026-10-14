@@ -162,8 +162,6 @@ markers.
 **Aims.** Cell classification, phenotypic prediction and functional prediction,
 through workflows built on NMF, random forests, AlphaFold and neural networks.
 
-Part of this work is also published at [deepia.org](https://deepia.org).
-
 ---
 
 ## Funding
